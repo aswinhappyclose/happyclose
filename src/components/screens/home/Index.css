@@ -1,0 +1,847 @@
+.MainContainer{
+  width: 100%;
+}.homePageFirstContent {
+  padding-top: 45%;
+  top: 30%;
+  padding-bottom: 1rem;
+  background-color: #5fa7a7;
+  display: flex;
+  background-image: url("../../images/BannerBackgroundImg.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.homePageFirstContentTextFeild {
+  width: 50%;
+  top: 20%;
+  padding: 1rem 3rem;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+.homePageFirstContentTextFeildHeader {
+  margin: 0rem;
+  font-size: 4rem;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #eed184;
+}
+.homePageFirstContentText {
+  margin: 2rem 0rem;
+  font-size: 1.7rem;
+  line-height: 1.2;
+}
+.homePageFirstContentTextFeildInputFeild {
+  border: none;
+  background-color: #5fa7a7;
+  color: #eed184;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 50px;
+  padding-left: 1rem;
+}
+.homePageFirstContentTextFeildInputFeild:active,
+.homePageFirstContentTextFeildInputFeild:hover,
+.homePageFirstContentTextFeildInputFeild:focus {
+  outline: none;
+}
+.homePageFirstContentInputFeild {
+  margin-top: 3rem;
+  border: 1px solid #ffebb1;
+  background-color: #5fa7a7;
+  display: flex;
+  width: 75%;
+  text-align: center;
+  padding: 0.5rem;
+  justify-content: space-between;
+  border-radius: 50px;
+}
+.homePageFirstContentButton {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #5fa7a7;
+  background-color: #eed184;
+  border-radius: 50px;
+  border: none;
+}
+.homePageFirstContentButton:hover,
+.homePageFirstContentButton:active,
+.homePageFirstContentButton:focus {
+  background-color: #fff;
+  outline: none;
+}
+.homePageFirstContentDesktopImage {
+  width: 50%;
+  overflow-x: hidden !important;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+}
+.homePageFirstContentsubFeild {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-top: 4rem;
+  padding: 2rem;
+}
+.homePageFirstContentsubFeildText {
+  color: rgb(149, 148, 148);
+  font-size: 1.2rem;
+  display: flex;
+}
+.homePageFirstContentsubFeildImages {
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
+}
+.homePageFirstContentsubContainer {
+  width: 100%;
+}
+.homePageFirstContentsubRatingContent {
+  display: flex;
+  width: 15%;
+  justify-content: space-evenly;
+  margin: 0rem 3rem;
+  align-items: center;
+}
+.homePageFirstContentsubRatingContentText {
+  color: rgb(149, 148, 148);
+  font-size: 1.2rem;
+  margin: 0rem;
+}
+.homePageAccountingWorkFlowsContainer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3rem 0rem;
+}
+.homePageAccountingWorkFlowsContainerText {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: center;
+}
+.homePageAccountingWorkFlowsHeading {
+  font-size: 4.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0rem;
+  color: #1f0045;
+}
+.homePageAccountingWorkFlowsSubHeading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1f0045;
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+}
+.homePageAccountingWorkFlowsContent {
+  font-size: 1.35rem;
+  color: #383838;
+  line-height: 1.5;
+  margin: 1rem 0rem;
+}
+.homePageFirstCartContainer {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 0rem;
+  padding: 2rem;
+}
+.homePageFirstCartContentTextFeilds{
+  font-size: 1.2rem;
+  /* color: #eed184; */
+  color:#000000;
+}
+.homePageFirstCartContent {
+  width: 25%;
+  background-color: #5fa7a7;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+.homePageFirstCartContentTwo{
+  width: 40%;
+  background-color: #5fa7a7;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+.homePageFirstCartContentTwoImage{
+  width: 98%;
+}
+.homePageFirstCartContentTwoImageTextFeild{
+  display: flex;
+  padding-left: 1rem;
+}
+.homePageFirstCartContentHeader {
+  font-size: 1.5rem;
+  color: #eed184;
+  font-weight: 600;
+}
+.happyCloseProblumSolutions{
+  padding: 6rem;
+  background-color: #5fa7a7;
+}
+.happyCloseProblumSolutionsHeader{
+  color: #eed184;
+  font-size: 3rem;
+  font-weight: 500;
+}
+.happyCloseProblumSolutionsCartContainer{
+  display: flex;
+  justify-content: space-between;
+}
+.happyCloseProblumSolutionsCart{
+  width: 46%;
+  padding: 2rem;
+}
+.happyCloseProblumSolutionsCartText{
+  background-color: #000000;
+  color: #fff;
+  padding: 2rem 2.5rem;
+  width: 90%;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+}
+.happyCloseProblumSolutionsCartTwoText{
+  background-color: #fff;
+  color: #000000;
+  padding: 2rem 3.8rem;
+  font-size: 1rem;
+  width: 90%;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+}
+.happyCloseProblumSolutionsCartImageOne{
+  position: absolute;
+    width: 8%;
+    margin-left: 27.7rem;
+    margin-top: -0.5%;
+}
+.happyCloseProblumSolutionsCartImageTwo{
+  position: absolute;
+  width: 8%;
+  margin-left: -3.7rem;
+  margin-top: -0.5%;
+}
+.homePageTransformYouWork {
+  background-color: #1f0045;
+  color: #fff;
+  padding: 4rem;
+  padding-bottom: 12rem;
+  margin: 2rem 0rem;
+}
+.homePageTransformYouWorkFirstCart {
+  border-radius: 1.25rem;
+  background-color: #eeebe4;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  position: sticky;
+  top: 9rem;
+  z-index: 1;
+  overflow: hidden;
+  min-height: 31rem;
+}
+.homePageTransformYouWorkFirstCartcontent {
+  margin: 2rem;
+  width: 50%;
+}
+.homePageTransformYouWorkFirstCartcontentHeading {
+  color: #ff5300;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.homePageTransformYouWorkFirstCartcontentContent {
+  color: #1f0045;
+  font-size: 3rem;
+  font-weight: 500;
+  margin-top: 15rem;
+}
+.homePageTransformYouWorkFirstCartcontentLearnMore {
+  color: #1f0045;
+  font-weight: 700;
+  margin-top: 3rem;
+  font-size: 1.2rem;
+}
+.homePageTransformYouWorkFirstCartImage {
+  width: 50%;
+}
+.homePageTransformYouWorkSecondCart {
+  border-radius: 1.25rem;
+  background-color: #ff5300;
+  color: #fff;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  position: sticky;
+  top: 16rem;
+  z-index: 2;
+  min-height: 31rem;
+  margin-bottom: -14rem;
+}
+.homePageTransformYouWorkSecondCartcontent {
+  margin: 2rem;
+  width: 50%;
+}
+.homePageTransformYouWorkSecondCartcontentHeading {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.homePageTransformYouWorkSecondCartcontentContent {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-top: 15rem;
+}
+.homePageTransformYouWorkSecondCartcontentLearnMore {
+  font-weight: 700;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+.homePageTransformYouWorkThirdCart {
+  border-radius: 1.25rem;
+  background-color: #875cff;
+  color: #fff;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  position: sticky;
+  overflow: hidden;
+  z-index: 3;
+  min-height: 31rem;
+  margin-top: 7rem;
+  margin-bottom: -14rem;
+}
+.homePageTransformYouWorkcartContainer {
+  position: relative;
+  display: flex;
+  width: 100%;
+  margin-bottom: 7rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  grid-row-gap: 1.5rem;
+}
+.homePageTransformYouWorkText {
+  font-size: 4rem;
+  font-weight: 500;
+  margin-top: 6rem;
+}
+.homePageTransformYouWorkContent {
+  font-size: 1.4rem;
+  margin: 5rem 0rem;
+}
+.homePageGetStartedMinutes {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 3rem;
+}
+.homePageGetStartedMinutesCartContainer {
+  display: flex;
+  width: 100%;
+  text-align: start;
+  justify-content: space-evenly;
+}
+.homePageGetStartedMinutesCart {
+  width: 20%;
+  border-radius: 1.25rem;
+  background-color: #f8f3e8;
+  padding: 1rem;
+}
+.homePageGetStartedMinutesCartImageContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.homePageGetStartedMinutesCartStep {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #ff5300;
+}
+.homePageGetStartedMinutesCartContent {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin: 0rem;
+}
+.homePageGetStartedMinutesHeader {
+  font-size: 3.5rem;
+  font-weight: 500;
+  color: #1f0045;
+}
+.homePageGetStartedMinutesText {
+  font-size: 1.2rem;
+  margin-bottom: 4rem;
+}
+.homePageGetStartedMinutesCartButton {
+  margin: 3rem 0rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  width: 20%;
+  padding: 1rem 1.5rem;
+  border-radius: 50px;
+  border: none;
+  background-color: #ff5300;
+  color: #fff;
+}
+.homePageGetStartedMinutesCartButton:hover {
+  background-color: #1f0045;
+}
+.homePageIntagrstionsSofwares {
+  background-color: #1f0045;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+  height: 95vh;
+}
+.homePageIntagrstionsSofwaresHeading {
+  font-size: 3.5rem;
+  font-weight: 500;
+  margin: 0rem;
+  margin-top: 3rem;
+  line-height: 1.2;
+}
+.homePageIntagrstionsSofwaresBackgroundFirstImage {
+  width: 60%;
+  opacity: 0.3;
+  position: relative;
+}
+.homePageIntagrstionsSofwaresBackgroundSecondImage {
+  position: absolute;
+  z-index: 2;
+  top: 10;
+  right: 28%;
+  margin-top: 6rem;
+  width: 45%;
+}
+.homePageIntagrstionsSofwaresBackgroundThirdImage {
+  position: absolute;
+  z-index: 3;
+  top: 10;
+  right: 35%;
+  margin-top: 11rem;
+  width: 30%;
+}
+.homePageIntagrstionsSofwaresBackgroundLogo {
+  position: absolute;
+  z-index: 4;
+  right: 44%;
+  width: 12%;
+  margin-top: 19rem;
+}
+.homePageAccountantsLoveNumeric {
+  background-color: #fefbf3;
+  padding: 4rem;
+}
+.homePageAccountantsLoveNumericHeading {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #1f0045;
+  margin: 4rem 0rem;
+}
+.homePageAccountantsLoveNumericSwiperContent {
+  background-color: #fff;
+  min-width: 30%;
+  padding: 2rem;
+  border-radius: 1.875rem;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+.homePageAccountantsLoveNumericSwiperQuote {
+  height: 7vh;
+  width: 15%;
+}
+.homePageAccountantsLoveNumericSwiperText {
+  font-size: 1.2rem;
+  margin: 2rem 0rem;
+  height: 40vh;
+}
+.homePageAccountantsLoveNumericSwiperFooterContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.homePageAccountantsLoveNumericSwiperNameContent {
+  width: 75%;
+}
+.homePageAccountantsLoveNumericSwiperPersonName {
+  color: #ff5300;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.homePageAccountantsLoveNumericSwiperPersonDescription {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #aaaaa9;
+}
+.homePageAccountantsLoveNumericSwiperPersonImage {
+  height: 7vh;
+  width: 15%;
+  border-radius: 10px;
+}
+.homePageAccountingWorkFlowsContentImage{
+  width: 50%;
+}
+.homePagePoweringHighGrowthCompanies {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 4rem;
+}
+.homePagePoweringHighGrowthCompaniesHeading {
+  font-size: 3.75rem;
+  font-weight: 700;
+  color: #1f0045;
+  line-height: 1.1;
+}
+.homePagePoweringHighGrowthCompaniesCartContent {
+  margin: 4rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  text-align: start;
+}
+.homePagePoweringHighGrowthCompaniesCart {
+  width: 30%;
+  padding: 2rem;
+  background-color: #fefbf3;
+  border-radius: 1.25rem;
+}
+.homePagePoweringHighGrowthCompaniesTitle {
+  color: #ff5300;
+  font-size: 1.3rem;
+  margin: 2rem 0rem;
+  font-weight: 700;
+}
+.homePagePoweringHighGrowthCompaniesText {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.homePagePoweringHighGrowthCompaniesImage {
+  margin-right: 1rem;
+  height: 4vh;
+}
+.homePagePoweringHighGrowthCompaniesContent {
+  font-size: 1.2rem;
+  color: rgba(33, 1, 72, 0.85);
+}
+.HomePageFooterContentCart {
+  width: 100%;
+  padding: 4rem;
+  display: flex;
+  text-align: start;
+  justify-content: space-between;
+}
+.HomePageFooterContentCartOne {
+  width: 30%;
+}
+.HomePageFooterContentCartHeaderImage {
+  height: 30vh;
+  border-radius: 1rem;
+  width: 100%;
+  position: relative;
+}
+.HomePageFooterContentCartHeaderImageOne {
+  background-color: #fff;
+  padding: 1rem 1.5rem;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  position: absolute;
+  margin-top: -4%;
+  margin-left: 1%;
+}
+.HomePageFooterContentCartHeaderImageTwo {
+  background-color: #fff;
+  padding: 0.19rem;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  opacity: 0.5;
+  position: absolute;
+  margin-top: -4%;
+  margin-left: 8%;
+}
+.HomePageFooterContentCartThreeHeaderImageTwo{
+  background-color: rgb(186, 186, 186);
+  width: 7.5%;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  position: absolute;
+  margin-top: -4%;
+  margin-left: 8%;
+}
+.homePageCustomerHeader{
+  margin-top: 4rem;
+  font-size: 4rem;
+  font-weight: 700;
+}
+.homePageCustomerStoriesText{
+  margin: 3rem;
+  font-size: 1.3rem;
+  color: hsla(0,0%,100%,.75);
+}
+.HomePageFooterContentCartOneHeading{
+  font-size: 2rem;
+  font-weight: 500;
+}
+.HomePageFooterContentCartOneText{
+  font-size: 1.2rem;
+  color: hsla(0,0%,100%,.75);
+}
+.homePageCustomerStories{
+  background-color: #1f0045;
+  padding: 4rem;
+  color: #fff;
+  text-align: center;
+
+}
+.resiponsiveSwiper{
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .homePageFirstContentText {
+    margin: 2rem 0rem;
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+  .resiponsiveSwiper{
+    display: block;
+  }
+  .homePageFirstContentTextFeild {
+    width: 100%;
+}
+.homePageFirstContentDesktopImage{
+  display: none;
+}
+.homePageFirstContentTextFeildHeader {
+  margin: 0rem;
+  font-size: 1.7rem;
+  line-height: 1.2;
+  font-weight: 500;
+}
+.homePageAccountingWorkFlowsContentImage {
+  width: 100%;
+  padding: 2rem;
+}
+.homePageFirstContentInputFeild {
+  width: 100%;
+}
+.homePageFirstContentButton {
+  position: absolute;
+  padding: 0.5rem 2rem;
+  margin-top: 3rem;
+}
+.homePageFirstContentsubFeildImages{
+  display: none;
+}
+.homePageFirstContentsubFeild {
+  margin-top: 21rem;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.homePageFirstContentsubRatingContent {
+
+  width: 100%;
+  justify-content: center;
+  margin: 0rem 1rem;
+
+}
+.swiper.swiper-initialized.swiper-horizontal.resiponsiveSwiper.swiper-backface-hidden {
+  width: 100%;
+}
+.homePageAccountingWorkFlowsHeading {
+  font-size: 2rem;}
+  .homePageAccountingWorkFlowsContainerText {
+    width: 100%;
+    padding: 2rem;
+}
+.homePageAccountingWorkFlowsContainer {
+  display: flex;
+  flex-direction: column;
+}
+.homePageFirstCartContainer {
+  display: flex;
+  flex-direction: column;
+}
+.homePageFirstCartContent {
+  width: 100%;
+  background-color: #f3eee1;
+    margin: 1rem 0rem !important;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+.homePageTransformYouWorkText {
+  font-size: 2rem !important;
+  margin-top: 2rem !important;
+}
+.homePageAccountingWorkFlowsContent {
+  font-size: 1rem;
+}
+.homePageTransformYouWork {
+  padding: 1rem;
+  padding-bottom: 12rem !important;}
+  .homePageTransformYouWorkFirstCart {
+    
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 9rem;
+    z-index: 1;
+    overflow: hidden;
+    min-height: 31rem;
+}
+.homePageTransformYouWorkFirstCartcontentContent {
+  font-size: 1.7rem !important;
+ line-height: 1.2 !important;
+ margin-top: 2rem !important;
+ 
+}
+.homePageTransformYouWorkFirstCartImage {
+  width: 100% !important;
+}
+.homePageTransformYouWorkSecondCart {
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  position: sticky;
+    top: 16rem;
+    z-index: 2;
+    min-height: 31rem;
+    margin-bottom: -7rem;
+}
+.homePageTransformYouWorkSecondCartcontentContent {
+  font-size: 1.5rem !important;
+  font-weight: 500;
+  margin-top: 2rem !important;
+}
+.homePageTransformYouWorkThirdCart {
+  
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  position: sticky;
+  overflow: hidden;
+  z-index: 3;
+  min-height: 31rem;
+  margin-top: 7rem;
+  margin-bottom: -14rem;
+}
+.homePageGetStartedMinutesHeader {
+  font-size: 2rem;
+}
+.homePageGetStartedMinutesText {
+  font-size: 1.1rem;
+  margin-bottom: 4rem;
+}
+.homePageGetStartedMinutesCartContainer {
+  display: flex;
+  flex-direction: column;
+}
+.homePageGetStartedMinutesCart {
+  width: 100%;
+margin: 1rem 0rem !important;
+}
+.homePageGetStartedMinutesCartButton {width: 100%;}
+.homePageAccountantsLoveNumericHeading {
+  font-size: 1.5rem;
+}
+.swiper-slide.homePageAccountantsLoveNumericSwiperContent {
+  width: 100% !important;
+}
+.homePageAccountantsLoveNumeric {
+  padding: 2rem;
+}
+.homePageAccountantsLoveNumericSwiperContent {
+ 
+  min-height: 118vh;
+}
+.homePageAccountantsLoveNumericSwiperFooterContent {
+  margin-top: 17rem;
+}
+.homePageIntagrstionsSofwaresBackgroundSecondImage {
+  display: none;
+}
+.homePageIntagrstionsSofwaresBackgroundFirstImage {
+  display: none;}
+  .homePageIntagrstionsSofwaresBackgroundThirdImage {
+   display: none;
+  }
+  .homePageIntagrstionsSofwaresBackgroundLogo {
+    display: none;}
+    .homePageIntagrstionsSofwaresHeading {
+      font-size: 2rem;
+  }
+  .homePagePoweringHighGrowthCompanies {
+    margin: 2rem;
+}
+.homePagePoweringHighGrowthCompaniesHeading {
+  font-size: 1.5rem;
+}
+.homePagePoweringHighGrowthCompaniesCartContent {
+  margin: 2rem 0rem;
+  display: flex;
+  flex-direction: column;
+}
+.homePagePoweringHighGrowthCompaniesCart {
+  width: 100%;
+  margin: 1rem 0rem !important;
+   padding: 1rem;
+    background-color: #f0ebdf;
+}
+.homePageCustomerStories {
+  padding: 2rem;
+}
+.homePageCustomerHeader {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.homePageCustomerStoriesText {
+  font-size: 1.3rem;
+  color: hsla(0,0%,100%,.75);
+  margin: 0rem;
+}
+.HomePageFooterContentCart {
+  padding: 0rem !important;
+  display: flex;
+  flex-direction: column;
+}
+.homePagePoweringHighGrowthCompaniesText {
+    font-size: 1rem;
+}
+.homePagePoweringHighGrowthCompaniesContent {
+    font-size: 1rem;
+}
+.HomePageFooterContentCartOne {
+    width: 100% !important;
+}
+.HomePageFooterContentCartHeaderImageOne {
+    margin-top: -17% !important;
+}
+.HomePageFooterContentCartHeaderImageTwo {
+    background-color: rgb(186, 186, 186) !important;
+    margin-top: -17% !important;
+    margin-left: 37% !important;
+}
+.HomePageFooterContentCartThreeHeaderImageTwo {
+    background-color: rgb(186, 186, 186);
+    width: 36% !important;
+    margin-top: -17% !important;
+    margin-left: 37% !important;
+}
+.HomePageFooterContentCartOneHeading {
+    font-size: 1.5rem !important;
+}
+.HomePageFooterContentCartOneText {
+    font-size: 0.8rem !important;
+    color: hsla(0,0%,100%,.75);
+}
+
+  }

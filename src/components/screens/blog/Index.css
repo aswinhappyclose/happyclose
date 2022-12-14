@@ -1,0 +1,43 @@
+.blogPageContent{
+    background-color: #fefbf3;
+    padding: 13rem 6rem;
+    display: flex;
+    
+}
+.blogPageContentTextFeild{
+    margin-top: 2rem;
+    width: 50%;
+}
+.blogPageContentImage{
+    width: 50%;
+    border-radius: 1.5rem;
+}
+.blogPageContentTextFeildDate{
+    color: #ff5300;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.blogPageContentTextFeildHeading{
+    font-size: 3.5rem;
+    color: #1f0045;
+    font-weight: 500;
+}
+.blogPageContentFeildText{
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    color: #240648;
+}
+.blogPageParkerContent{
+    display: flex;
+    align-items: center;
+}
+.blogPageParkerImage{
+    width: 10%;
+    border-radius: 1rem;
+}
+.blogPageParkerName{
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}

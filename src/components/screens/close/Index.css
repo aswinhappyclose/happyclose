@@ -1,0 +1,430 @@
+.closePageFirstContent {
+  background-image: url("../../images/homePageBanner.png");
+  padding-top: 45%;
+  top: 30%;
+  padding-bottom: 15%;
+  background-position: 100% 100%;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-color: #fefbf3;
+  display: flex;
+}
+.closePageFirstContentTextFeild {
+  width: 50%;
+  top: 30%;
+  padding: 1rem 3rem;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+.closePageFirstContentTextFeildHeader {
+  margin: 0rem;
+  font-size: 5rem;
+  line-height: 1.2;
+  font-weight: 500;
+}
+.closePageFirstContentText {
+  margin: 2rem 0rem;
+  font-size: 1.7rem;
+  line-height: 1.2;
+}
+.closePageFirstContentButton {
+  padding: 1.5rem 2rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  background-color: #ff5300;
+  color: #fff;
+  border-radius: 50px;
+  border: none;
+  width: 30%;
+  margin-top: 5rem;
+}
+.closePageFirstContentButton:hover {
+  background-color: #1f0045;
+}
+.closePageFirstContentDesktopImage {
+  width: 50%;
+  overflow-x: hidden !important;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+}
+.closePageFirstContentDesktopImageContainer {
+  width: 50%;
+}
+.ClosePageConsolidate {
+  background-color: #1f0045;
+  padding: 7rem 6rem;
+}
+.ClosePageConsolidateHeader {
+  font-size: 4rem;
+  color: #fff;
+  margin: 4rem 0rem;
+}
+.ClosePageConsolidateSubHader {
+  font-size: 1.5rem;
+  color: #c1c1be;
+  margin: 4rem 0rem;
+}
+.ClosePageConsolidateCartContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.ClosePageConsolidateFirstCartContent {
+  background-color: #fefbf3;
+  display: flex;
+  align-items: center;
+  width: 66%;
+  border-radius: 1.5rem;
+}
+.ClosePageConsolidateFirstCartHeader {
+  font-size: 2.7rem;
+  color: #1f0045;
+  margin-left: 3rem;
+  margin-top: 6rem;
+  font-weight: 500;
+}
+.ClosePageConsolidateFirstCartText {
+  font-size: 1.1rem;
+  color: #696967;
+  margin-top: 2rem;
+  margin-left: 3rem;
+  font-weight: 500;
+}
+.ClosePageConsolidateSecondCartContent {
+  width: 32%;
+  background-color: #ff5300;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0rem 3rem;
+  border-radius: 1.5rem;
+}
+.ClosePageConsolidateSecondCartContentImage {
+  width: 440px;
+}
+.ClosePageConsolidateSecondCartContentHeading {
+  font-size: 2rem;
+  text-align: start;
+  font-weight: 500;
+  margin-right: 3.7rem;
+  line-height: 1.2;
+  margin-top: 3rem;
+}
+.ClosePageConsolidateSecondCartContentText {
+  font-size: 1.2rem;
+}
+.ClosePageConsolidateThirdCartContent {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.ClosePageConsolidateThirdCart {
+  width: 32%;
+  background-color: #875cff;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0rem 3rem;
+  border-radius: 1.5rem;
+}
+.ClosePageConsolidateThirdCartHeading {
+  font-size: 2rem;
+  text-align: start;
+  font-weight: 500;
+  margin-right: 3.7rem;
+  line-height: 1.2;
+  margin-top: 3rem;
+}
+.ClosePageConsolidateThirdCartText {
+  font-size: 1.2rem;
+}
+.ClosePageConsolidateThirdCartImage {
+  width: 440px;
+}
+.ClosePageConsolidateThirdCartHeadingcontent {
+  height: 35vh;
+}
+.closePageTotalVisibility {
+  padding: 7rem 6rem;
+}
+.ClosePageTotalVisibilityHeader {
+  font-size: 4rem;
+  margin: 4rem 0rem;
+  color: #1f0045;
+}
+.ClosePageTotalVisibilitySubHeader {
+  font-size: 1.5rem;
+  color: #1f0045;
+  margin: 4rem 0rem;
+}
+.ClosePageTotalVisibilityCartContainer{
+  display: flex;
+  justify-content: space-between;
+}
+.ClosePageTotalVisibilitySecondCartContent{
+  width: 32%;
+  background-color: #ff5300;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0rem 3rem;
+  border-radius: 1.5rem;
+}
+.ClosePageTotalVisibilitySecondCartContentHeading{
+  font-size: 2rem;
+  text-align: start;
+  font-weight: 500;
+  margin-right: 3.7rem;
+  line-height: 1.2;
+  margin-top: 3rem;
+}
+.ClosePageTotalVisibilitySecondCartContentText{
+  font-size: 1.2rem;
+}
+.ClosePageTotalVisibilitySecondCartContentImage{
+  width: 440px;
+}
+.ClosePageTotalVisibilityFirstCartContent{
+  background-color: #fefbf3;
+  display: flex;
+  align-items: center;
+  width: 66%;
+  border-radius: 1.5rem;
+}
+.ClosePageTotalVisibilityFirstCartHeader{
+  font-size: 2.7rem;
+  color: #1f0045;
+  margin-left: 3rem;
+  margin-top: 6rem;
+  font-weight: 500;
+}
+.ClosePageTotalVisibilityFirstCartText{
+  font-size: 1.1rem;
+  color: #696967;
+  margin-top: 2rem;
+  margin-left: 3rem;
+  font-weight: 500;
+}
+.ClosePageTotalVisibilityThirdCartContent{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.ClosePageTotalVisibilityThirdCart{
+  width: 32%;
+  background-color: #875cff;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0rem 3rem;
+  border-radius: 1.5rem;
+}
+.ClosePageTotalVisibilityThirdCartHeadingcontent{
+  height: 35vh;
+}
+.ClosePageTotalVisibilityThirdCartHeading{
+  font-size: 2rem;
+  text-align: start;
+  font-weight: 500;
+  margin-right: 3.7rem;
+  line-height: 1.2;
+  margin-top: 3rem;
+}
+.ClosePageTotalVisibilityThirdCartText{
+  font-size: 1.2rem;
+}
+.ClosePageTotalVisibilityThirdCartImage{
+  width: 444px;
+}
+.ClosePageAduitReadyThirdCart {
+  width: 49%;
+  background-color: #875cff;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding-left: 3rem;
+  border-radius: 1.5rem;
+}
+.ClosePageAduitReadyThirdCartImage {
+  width: 350px;
+  border-radius: 1.5rem;
+}
+.ClosePageAduitReadyThirdCartHeading {
+  font-size: 2rem;
+  text-align: start;
+  font-weight: 500;
+  margin-right: 3.7rem;
+  line-height: 1.2;
+}
+.ClosePageAuditReadyThirdCartHeadingcontent {
+  height: 35vh;
+  width: 60%;
+}
+.ClosePageAduitReadyThirdCartButton{
+  background-color: #ff5300;
+  color: #fff;
+  padding: 1.5rem 3.5rem;
+  border: none;
+  border-radius: 50px;
+  margin-left: 41%;
+  margin-top: 8%;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.ClosePageAduitReadyThirdCartButton:hover,
+.ClosePageAduitReadyThirdCartButton:active,
+.ClosePageAduitReadyThirdCartButton:focus{
+  background-color: #fff;
+  color: #1f0045;
+  outline: none;
+}
+.ClosePageAuditReady {
+  background-color: #1f0045;
+  padding: 7rem 6rem;
+}
+.closePageBuiltTeamWork{
+  padding: 7rem 6rem;
+}
+.ClosePageBuildTeamWorkHeader{
+  font-size: 4rem;
+  color: #1f0045;
+  margin: 4rem 0rem;
+}
+.ClosePageBuildTeamWorkSubHader{
+  font-size: 1.5rem;
+  color: #1f0045;
+  margin: 4rem 0rem;
+}
+.ClosePageBuildTeamWorkSecondCartContentHeading{
+  font-size: 2rem;
+  text-align: start;
+  font-weight: 500;
+  margin-right: 6.5rem;
+  line-height: 1.2;
+  margin-top: 3rem;
+}
+.ClosePageWorkFastCloseFaster{
+  background-color: #1f0045;
+  padding: 7rem 6rem;
+}
+.ClosePageWorkFastCloseFasterSecondCartContentHeading{
+  font-size: 2rem;
+  text-align: start;
+  font-weight: 500;
+  margin-right: 4.5rem;
+  line-height: 1.2;
+  margin-top: 3rem;
+}
+.ClosePageWorkFastCloseFasterThirdCartImage{
+  width: 440px;
+  border-radius: 1.5rem;
+}
+.closePageSecurity{
+  display: flex;
+  flex-direction: column;
+  padding: 7rem 6rem;
+  align-items: center;
+}
+.closePageSecurityContainer{
+  display: flex;
+  justify-content: space-between;
+}
+.closePageSecurityContent{
+  width: 32%;
+  background-color: #fefbf3;
+  padding: 2rem;
+  border-radius: 1.3rem;
+}
+.closePageSecurityHeading{
+  font-size: 4.5rem;
+  font-weight: 500;
+  color: #1f0045;
+}
+.closePageSecurityText{
+  font-size: 1.5rem;
+  color: #1f0045;
+  margin: 2rem 0rem;
+}
+.closePageSecurityContentHeading{
+  font-size: 1.8rem;
+  color: #1f0045;
+  font-weight: 700;
+  margin: 1rem 0rem;
+}
+.closePageSecurityContentText{
+ font-size: 1.2rem;
+}
+.closePageTransformYouWorkFirstCartImage {
+  width: 50%;
+}
+.closePageTransformYouWorkSecondCart {
+  border-radius: 1.25rem;
+  background-color: #ff5300;
+  color: #fff;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  position: sticky;
+  top: 16rem;
+  z-index: 2;
+  min-height: 31rem;
+  margin-bottom: -7rem;
+}
+.closePageTransformYouWorkSecondCartcontent {
+  margin: 2rem;
+  width: 50%;
+}
+.closePageTransformYouWorkSecondCartcontentHeading {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.closePageTransformYouWorkSecondCartcontentContent {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-top: 15rem;
+}
+.closePageTransformYouWorkSecondCartcontentLearnMore {
+  font-weight: 700;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+.closePageTransformYouWorkThirdCart {
+  border-radius: 1.25rem;
+  background-color: #875cff;
+  color: #fff;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  position: sticky;
+  overflow: hidden;
+  z-index: 3;
+  min-height: 31rem;
+  margin-top: 7rem;
+  margin-bottom: -14rem;
+}
+.closePageTransformYouWorkcartContainer {
+  position: relative;
+  display: flex;
+  width: 100%;
+  margin-bottom: 7rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  grid-row-gap: 1.5rem;
+}
+.closePageTransformYouWork {
+  background-color: #1f0045;
+  color: #fff;
+  padding: 4rem;
+  padding-bottom: 12rem;
+  margin-top: 4rem;
+
+}

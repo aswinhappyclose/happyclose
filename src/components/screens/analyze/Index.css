@@ -1,0 +1,282 @@
+.analyzePageBannerContainer {
+  background-image: url("../../images/homePageBanner.png");
+  padding-top: 12rem;
+  padding-bottom: 12%;
+  background-position: 100% 100%;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-color: #fefbf3;
+  display: flex;
+}
+.analyzePageBannerImage {
+  width: 50%;
+}
+.analyzePageBannerContent {
+  width: 50%;
+}
+.analyzePageBannerContentHeading {
+  font-size: 5rem;
+  margin-left: 6rem;
+  margin-top: 11rem;
+  color: #1f0045;
+}
+.analyzePageBannerContentText {
+  font-size: 1.7rem;
+  margin-left: 6rem;
+  margin-top: 3rem;
+  color: rgba(31, 0, 69, 0.85);
+}
+.analyzePageBannerButton {
+  padding: 1.5rem 3rem;
+  border: none;
+  border-radius: 50px;
+  background-color: #ff5300;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-left: 6rem;
+  margin-top: 4rem;
+}
+.analyzePageBannerButton:active,
+.analyzePageBannerButton:hover,
+.analyzePageBannerButton:focus{
+    outline: none;
+    background-color: #1f0045;
+}
+.analyticsPageAutoPilot{
+    background-color: #1f0045;
+    padding: 6rem;
+}
+.analyticsPageAutoPilotHeading{
+    font-size: 4rem;
+    font-weight: 500;
+    color: #fff;
+}
+.analyticsPageAutoPilotText{
+    color: hsla(0,0%,100%,.75);
+    font-size: 1.5rem;
+    margin: 4rem 0rem;
+}
+.analyticsPageAutoPilotCartContainer{
+    border-radius: 1.25rem;
+    background-color: #fefbf3;
+    display: flex;
+}
+.analyticsPageAutoPilotCartTextContainer{
+    width: 50%;
+}
+.analyticsPageAutoPilotCartOneImage{
+    width: 50%;
+}
+.analyticsPageAutoPilotCartHeading{
+    font-size: 3.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 12rem;
+    margin-left: 4rem;
+}
+.analyticsPageAutoPilotCartText{
+    font-size: 1.3rem;
+    margin-left: 4rem;
+    color: rgba(31,0,69,.85);
+}
+.analyticsPageAutoPilotCantainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+.analyticsPageAutoPilotCantainerCartOne{
+    background-color: #875cff;
+    width: 49%;
+    display: flex;
+    padding: 2rem;
+    border-radius: 1.5rem;
+}
+.analyticsPageAutoPilotCantainerCartOneText{
+    width: 50%;
+}
+.analyticsPageAutoPilotCantainerCartOneHeading{
+    font-size: 2rem;
+    line-height: 1.2;
+    color: #fff;
+    font-weight: 500;
+}
+.analyticsPageAutoPilotCantainerCartOneImage{
+    width: 50%;
+}
+.analyticsPageAutoPilotCartOneText{
+    font-size: 1.2rem;
+    color: #fff;
+}
+.analyticsPageAutoPilotCantainerCartTwo{
+    background-color: #ff5300;
+    width: 49%;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    border-radius: 1.5rem;
+}
+.analyzeContextFingertips{
+    padding: 6rem;
+}
+.analyzeContextFingertipsHeading{
+    font-size: 4.5rem;
+    color: #1f0045;
+    font-weight: 500;
+}
+.analyzeContextFingertipsText{
+    font-size: 1.5rem;
+    margin: 4rem 0rem;
+    color: rgba(31,0,69,.85);
+}
+.analyzeContextFingertipsTextCart{
+    background-color: #fefbf3;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+}
+.analyzeContextFingertipsTextCartImage{
+    width: 70%;
+}
+.analyzeContextFingertipsTextCartHeading{
+    font-size: 3rem;
+    margin-left: 3rem;
+    font-weight: 500;
+}
+.analyzeContextFingertipsTextCartText{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    color: rgba(31,0,69,.85);
+}
+.analyzeContextFingertipsTextCartTwo{
+    background-color: #875cff;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+.analyzeContextFingertipsTextCartTwoHeading{
+    font-size: 3rem;
+    margin-left: 3rem;
+    font-weight: 500;
+    color: #fff;
+}
+.analyzeContextFingertipsTextCartTwoText{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    color: #fff;
+}
+.analyzPAgeCollaborAtiveDesign{
+    background-color: #1f0045;
+    padding: 6rem;
+}
+.analyzPAgeCollaborAtiveDesignHeading{
+    font-size: 4rem;
+    font-weight: 500;
+    color: #fff;
+}
+.analyzPAgeCollaborAtiveDesignText{
+    color: hsla(0,0%,100%,.75);
+    font-size: 1.5rem;
+    margin: 4rem 0rem;
+}
+.homePageTransformYouWorkFirstCartcontent {
+    margin: 2rem;
+    width: 50%;
+  }
+  .homePageTransformYouWorkFirstCartcontentHeading {
+    color: #ff5300;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  .homePageTransformYouWorkFirstCartcontentContent {
+    color: #1f0045;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-top: 15rem;
+  }
+  .homePageTransformYouWorkFirstCartcontentLearnMore {
+    color: #1f0045;
+    font-weight: 700;
+    margin-top: 3rem;
+    font-size: 1.2rem;
+  }
+  .homePageTransformYouWorkText {
+    font-size: 4rem;
+    font-weight: 500;
+    margin-top: 6rem;
+  }
+  .homePageTransformYouWorkContent {
+    font-size: 1.4rem;
+    margin: 5rem 0rem;
+  }
+  .analyzeTransformYouWork {
+    background-color: #1f0045;
+    color: #fff;
+    padding: 4rem;
+    padding-bottom: 12rem;
+  }
+  .homePageTransformYouWorkFirstCart {
+    border-radius: 1.25rem;
+    background-color: #eeebe4;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    position: sticky;
+    top: 9rem;
+    z-index: 1;
+    overflow: hidden;
+    min-height: 31rem;
+  }
+  .homePageTransformYouWorkFirstCartcontent {
+    margin: 2rem;
+    width: 50%;
+  }
+  .homePageTransformYouWorkFirstCartcontentHeading {
+    color: #ff5300;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  .homePageTransformYouWorkFirstCartcontentContent {
+    color: #1f0045;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-top: 15rem;
+  }
+  .homePageTransformYouWorkFirstCartcontentLearnMore {
+    color: #1f0045;
+    font-weight: 700;
+    margin-top: 3rem;
+    font-size: 1.2rem;
+  }
+  .homePageTransformYouWorkFirstCartImage {
+    width: 50%;
+  }
+  .homePageTransformYouWorkSecondCart {
+    border-radius: 1.25rem;
+    background-color: #ff5300;
+    color: #fff;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    position: sticky;
+    top: 16rem;
+    z-index: 2;
+    min-height: 31rem;
+    margin-bottom: -7rem;
+  }
+  .homePageTransformYouWorkcartContainer {
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin-bottom: 7rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    grid-row-gap: 1.5rem;
+  }

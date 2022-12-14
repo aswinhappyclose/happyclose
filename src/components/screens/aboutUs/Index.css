@@ -1,0 +1,150 @@
+.aboutUsBannerCantainer {
+  padding-top: 15%;
+  padding-bottom: 10%;
+  background-position: 100% 100%;
+  background-size: 50%;
+  background-color: #fefbf3;
+}
+.aboutUsBannerCantainerHeading{
+    font-size: 5rem;
+    margin-left: 7rem;
+    color: #1f0045;
+}
+.aboutUsBannerCantainerText{
+    font-size: 1.7rem;
+    margin-left: 7rem;
+    margin-top: 2rem;
+    color: rgba(31,0,69,.85);
+}
+.aboutUsBannerCantainerButton{
+    background-color: #ff5300;
+    color: #fff;
+    padding: 1.5rem 4rem;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-left: 7rem;
+}
+.aboutUsBannerCantainerButton:active,
+.aboutUsBannerCantainerButton:hover,
+.aboutUsBannerCantainerButton:focus{
+    background-color: #1f0045;
+    outline: none;
+}
+.aboutPageMissionAndVision{
+    background-image: url("../../images/footerBackgroungImage.png");
+    padding-bottom: 1rem;
+    background-position: 95% 95%;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-color: #1f0045;
+}
+.aboutPageMission{
+    width: 50%;
+    padding-left: 6rem;
+}
+.aboutPageMissionHeader{
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 500;
+    padding-top: 6rem;
+   
+}
+.aboutPageMissionTextOne{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-top: 2rem;
+}
+.aboutPageMissionTextTwo{
+    color: hsla(0,0%,100%,.75);
+    font-size: 1.3rem;
+    line-height: 1.3;
+    margin-top: 1.5rem;
+}
+.aboutPageVision{
+    margin-left: 50%;
+    width: 50%;
+}
+.aboutPageOurValues{
+    padding: 6rem;
+}
+.aboutPageOurValuesSwiperContent{
+    width: 30%;
+    background-color: #fefbf3;
+    border-radius: 3rem;
+    padding: 2rem;
+    height: 60vh;
+}.aboutPageOurValuesSwiperHeading{
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+.aboutPageOurValuesSwiperText{
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+.aboutPageOurValuesHeading{
+    color: #1f0045;
+    font-size: 5rem;
+    margin: 3rem 0rem;
+}
+.aboutUsInvestors{
+    background-color: #1f0045;
+    padding: 7rem;
+    text-align: center;
+}
+.aboutUsInvestorsHeading{
+    color: #fff;
+    font-size: 4.5rem;
+    font-weight: 500;
+}
+.aboutUsInvestorsText{
+    color: hsla(0,0%,100%,.75);
+    font-size: 1.4rem;
+    margin-top: 2rem;
+}
+.aboutPageImageCartOne{
+    width: 100%;
+    display: flex;
+    margin: 3rem 0rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.aboutPageInvesterImageOne{
+    width: 48%;
+
+}
+.aboutPageInvesterImageTwo{
+    width: 24%;
+}
+.aboutPageInvester{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 4rem 0rem;
+    justify-content: space-evenly;
+}
+.aboutPageInvesterImageThree{
+    width: 24%;
+}
+.aboutPageInvesterImageFour{
+    width: 24%;
+    margin-top: 2rem;
+}
+.aboutPageInvesterImageFive{
+    width: 48%;
+    margin-top: 2rem;
+}
+.aboutPageInvesterImageSix{
+    width: 24%;
+    margin-top: 2rem;
+}
+.aboutPageInvisiter{
+    color: hsla(0,0%,100%,.75);
+    font-size: 1.5rem;
+    margin-top:5rem;
+}
