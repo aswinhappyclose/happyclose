@@ -1,64 +1,80 @@
 import React from "react";
 import Header from "../header/Index.js";
 import "./Index.css";
-import { Swiper, SwiperSlide } from "swiper/react";
-import OurValueOne from "../../images/OurValueOne.png";
-import OurValueTwo from "../../images/OurValueTwo.png";
-import OurValueThree from "../../images/OurValueThree.png";
-import OurValueFour from "../../images/OurValueFour.png";
-import Palantir from "../../images/Palantir.png";
-import BlackRock from "../../images/BlackRock.png";
-import Asana from "../../images/Asana.png";
-import Segment from "../../images/Segment.png";
-import ImageOne from "../../images/ImageOne.png";
-import ImageTwo from "../../images/ImageTwo.png";
-import ImageThree from "../../images/ImageThree.png";
-import ImageFour from "../../images/ImageFour.png";
-import ImageFive from "../../images/ImageFive.png";
-import ImageSix from "../../images/ImageSix.png";
-import FoundresFund from "../../images/FoundresFund.png";
-import LongJourneyVentures from "../../images/LongJourneyVentures.png";
-import FifthDown from "../../images/FifthDown.png";
-import FriendsAndFamily from "../../images/FriendsAndFamily.png";
+// import { Swiper, SwiperSlide } from "swiper/react";
+// import OurValueOne from "../../images/OurValueOne.png";
+// import OurValueTwo from "../../images/OurValueTwo.png";
+// import OurValueThree from "../../images/OurValueThree.png";
+// import OurValueFour from "../../images/OurValueFour.png";
+// import Palantir from "../../images/Palantir.png";
+// import BlackRock from "../../images/BlackRock.png";
+// import Asana from "../../images/Asana.png";
+// import Segment from "../../images/Segment.png";
+// import ImageOne from "../../images/ImageOne.png";
+// import ImageTwo from "../../images/ImageTwo.png";
+// import ImageThree from "../../images/ImageThree.png";
+// import ImageFour from "../../images/ImageFour.png";
+// import ImageFive from "../../images/ImageFive.png";
+// import ImageSix from "../../images/ImageSix.png";
+// import FoundresFund from "../../images/FoundresFund.png";
+// import LongJourneyVentures from "../../images/LongJourneyVentures.png";
+// import FifthDown from "../../images/FifthDown.png";
+// import FriendsAndFamily from "../../images/FriendsAndFamily.png";
 import Footer from "../footer/Footer.js";
 
 
 
 const AboutUs = () => {
-  const OurValues = [
-    {
-      img: OurValueOne,
-      tittle: "Make It Easy",
-      text: "Make it simple. Make it easy. We are constantly looking for new ways to make it easier for our customers to do their jobs. By reducing complexity and allowing our customers to work faster, we give them more time to focus on achieving their key objectives.",
-    },
-    {
-      img: OurValueTwo,
-      tittle: "Inspire Confidence",
-      text: "Confidence is key. As a team, we inspire confidence in one another. As a partner to our customers, we inspire confidence by giving them greater visibility and control.",
-    },
-    {
-      img: OurValueThree,
-      tittle: "Enable Discovery",
-      text: "Discovery is at the heart of everything we do, whether we are exploring ways of solving problems for customers or enabling them to make empowering discoveries.",
-    },
-    {
-      img: OurValueFour,
-      tittle: "Bring People Together",
-      text: "We are dedicated to making it easier for co-workers to come together and work together. By designing for better collaboration, we ensure teams at companies everywhere profit from smoother and more rewarding experiences.",
-    },
-  ];
+  // const OurValues = [
+  //   {
+  //     img: OurValueOne,
+  //     tittle: "Make It Easy",
+  //     text: "Make it simple. Make it easy. We are constantly looking for new ways to make it easier for our customers to do their jobs. By reducing complexity and allowing our customers to work faster, we give them more time to focus on achieving their key objectives.",
+  //   },
+  //   {
+  //     img: OurValueTwo,
+  //     tittle: "Inspire Confidence",
+  //     text: "Confidence is key. As a team, we inspire confidence in one another. As a partner to our customers, we inspire confidence by giving them greater visibility and control.",
+  //   },
+  //   {
+  //     img: OurValueThree,
+  //     tittle: "Enable Discovery",
+  //     text: "Discovery is at the heart of everything we do, whether we are exploring ways of solving problems for customers or enabling them to make empowering discoveries.",
+  //   },
+  //   {
+  //     img: OurValueFour,
+  //     tittle: "Bring People Together",
+  //     text: "We are dedicated to making it easier for co-workers to come together and work together. By designing for better collaboration, we ensure teams at companies everywhere profit from smoother and more rewarding experiences.",
+  //   },
+  // ];
   return (
     <>
       <Header />
+      <div className="aboutUsMainContainer">
       <div className="aboutUsBannerCantainer">
-        <h1 className="aboutUsBannerCantainerHeading">About Numeric</h1>
+        <h1 className="aboutUsBannerCantainerHeading">Arjun Parthasarathy</h1>
         <p className="aboutUsBannerCantainerText">
-          Learn about the mission, vision, values, and <br />
-          people behind Numeric.
+        CO-FOUNDER
         </p>
-        <button className="aboutUsBannerCantainerButton">Schedule Demo</button>
+        <p className="aboutUsBannerCantainerText">
+        CHARTERED ACCOUNTANT | DATA SCIENTIST ‍EX-EY
+        </p><p className="aboutUsBannerCantainerText">
+        Jay is a thinker and problem-solver. He enjoys reading & learning across a wide span of topics. His current interests are Scrabble, visual design, and video games.
+        </p>
+        <div className="aboutUsPageSocialMediaContent"><i class="bi bi-envelope-at-fill Message"></i><i class="bi bi-linkedin LinkedIn"></i></div>
       </div>
-      <div className="aboutPageMissionAndVision">
+      <div className="aboutUsBannerCantainer">
+        <h1 className="aboutUsBannerCantainerHeading">RJ Narayanan</h1>
+        <p className="aboutUsBannerCantainerText">
+        CO-FOUNDER
+        </p>
+        <p className="aboutUsBannerCantainerText">
+        CHARTERED ACCOUNTANT | DATA SCIENTIST ‍EX-EY</p>
+        <p className="aboutUsBannerCantainerText">Sri is heart-led and instinctive. A sports enthusiast and a die-hard Liverpool FC fan. He likes to live a full life – playing badminton, long drives, moonlight treks, or wildlife safaris – he loves it all.</p>
+      <div className="aboutUsPageSocialMediaContent"><i class="bi bi-envelope-at-fill Message"></i><i class="bi bi-linkedin LinkedIn"></i></div>
+      </div>
+      </div>
+      {/* <div className="aboutPageMissionAndVision">
         <div className="aboutPageMission">
           <h1 className="aboutPageMissionHeader"> Our mission </h1>
           <p className="aboutPageMissionTextOne">
@@ -88,8 +104,8 @@ const AboutUs = () => {
             actionable and transformative insights.
           </p>
         </div>
-      </div>
-      <div className="aboutPageOurValues">
+      </div> */}
+      {/* <div className="aboutPageOurValues">
         <h1 className="aboutPageOurValuesHeading">Our values</h1>
         <Swiper
           spaceBetween={50}
@@ -109,8 +125,8 @@ const AboutUs = () => {
             );
           })}
         </Swiper>
-      </div>
-      <div className="aboutUsInvestors">
+      </div> */}
+      {/* <div className="aboutUsInvestors">
         <h1 className="aboutUsInvestorsHeading">
           Built by startup veterans
           <br /> and backed by top-tier
@@ -142,7 +158,7 @@ const AboutUs = () => {
             <img src={FifthDown} alt=""/>
             <img src={FriendsAndFamily} alt=""/>
         </div>
-      </div>
+      </div> */}
       <Footer/>
     </>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Index.css";
-import FooterGirlImage from "../../images/footerGirlImage.png";
+// import FooterGirlImage from "../../images/footerGirlImage.png";
 import FooterLogo from "../../images/footerLogo.png";
 import Twitter from "../../images/twitter.jpg"
 import LinkedIn from "../../images/linkedIn.png"
@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <>
       <div className="HomePageFooterContent">
-        <div>
+        {/* <div>
           <img src={FooterGirlImage} alt="" className="homePageFooterImage" />
           <div className="homePageFooterImageTextContent">
             <p className="homePageFooterImageTextHeading">
@@ -26,7 +26,7 @@ const Footer = () => {
               className="homePageFooterImageTextInput"
             />
           </div>
-        </div>
+        </div> */}
         <div className="homePageFooter">
           <div className="homePageFooterTextContainer">
             <img src={FooterLogo} alt="" />

@@ -1,129 +1,58 @@
-.headerMainContainer{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 1rem 0rem;
-    background-color: #5fa7a7;
-    position: fixed;
-    width: 100%;
-    z-index: 99;
+.headerMainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+.headerMainContainerContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #001a4d;
+  width: 100%;
 }
 .headerLinkItems {
-    
-    color: #eed184;
-    text-decoration: none;
-    cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
 }
-.headerLogoImage{
-    width: 15%;
+.headerLogoImage {
+  width: 15%;
 }
 .headerLinkItems:active,
 .headerLinkItems:focus,
-.headerLinkItems:hover{
-    color: #fff;
-    text-decoration: none;
+.headerLinkItems:hover {
+  color: #fff;
+  text-decoration: none;
 }
-.headerTextContainer{
-    display: flex;
-    width: 30%;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 1.5rem;
+.headerTextContainer {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5rem;
 }
-.headerTexContainerSelectContent{
-    border: none;
-    font-size: 1.2rem;
-    font-weight: 700;
-    color: #eed184;
-    background-color: #5fa7a7;
+.headerTexContainertagsContnents {
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding-top: 0.2rem;
+  color: #fff;
 }
-
-.headerTexContainerSelectContent:focus,
-.headerTexContainerSelectContent:hover{
-    outline: none;
-    color: #fff;
+.headerTexContainertagsContnents:hover {
+  color: #f86739;
 }
-.headerTexContainertagsContnents{
-    font-size: 1.2rem;
-    font-weight: 700;
-    padding-top: 0.2rem;
-    color: #eed184;
-
+.headerTreadingHeadilines {
+  padding: 0.5rem;
+  text-align: center;
+  background-color: #fff;
+  color: #001a4d;
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
-.headerTexContainertagsContnents:hover{
-    color: #fff;
+.HeaderLogo {
+  width: 7%;
 }
-.headerSignInContainer{
-    display: flex;
-    width: 20%;
-    align-items: baseline;
-    padding-top: 0.8rem;
-    justify-content: space-evenly;
-}
-.headerSignIn{
-    color: #eed184;
-    font-size: 1.2rem;
-    font-weight: 700;
-}
-.headerSignIn:hover{
-    
-    color: #fff;
-}
-.headerSignInScheduleButton{
-    padding: 1rem 1.5rem;
-    font-size: 1.2rem;
-    font-weight: 700;
-    background-color: #eed184;
-    border-radius: 50px;
-    border: none;
-    color: #5fa7a7;
-    
-}
-.headerSignInScheduleButton:hover,
-.headerSignInScheduleButton:active,
-.headerSignInScheduleButton:focus{
-    background-color: #fff;
-    color: #5fa7a7;
-    outline: none;
-}
-.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiPaper-root.MuiMenu-paper.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8.MuiPopover-paper.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper{
-    opacity: 1;
-    transform: none;
-    min-width: 200px;
-    transition: opacity 280ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, transform 186ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-    top: 96px !important;
-    left: 267px;
-    border-bottom-left-radius: 1rem;
-    font-size: 1.5rem;
-    border-bottom-right-radius: 1rem;
-    transform-origin: 100px 0px;
-    background-color: #5fa7a7;
-}
-svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.MuiSelect-icon.MuiSelect-iconOutlined.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon {
-    color: #eed184;
-}
-.ResponsiveView{
-    background-color: #1f0045;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    display: none;
-}
-/* @media only screen and (max-width: 600px) {
-    .ResponsiveView{
-        background-color: #1f0045;
-        color: #fff;
-        display: flex;
-        flex-direction: column;
-        display: block;
-    }
-    .headerTextContainer{
-        display: none;
-    }
-    .headerSignInContainer{
-        display: none;
-    }
-    .headerLogoImage{
-        display: none;
-    }
-  } */

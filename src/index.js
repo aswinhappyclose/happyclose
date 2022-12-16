@@ -5,11 +5,10 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './components/screens/home/Home';
-import Close from './components/screens/close/Close';
+import Close from './components/screens/product/Product.js';
 import Blog from './components/screens/blog/Blog';
-import Reconcile from './components/screens/reconcile/Reconsile';
-import Analyze from './components/screens/analyze/Analyze';
 import AboutUs from './components/screens/aboutUs/AboutUs';
+import ScheduleDemo from './components/screens/scheduleDemo/ScheduleDemo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,11 +16,11 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>} />
-        <Route path="/product/close" element={<Close/>}/>
-        <Route path="/product/reconcile" element={<Reconcile/>}/>
-        <Route path="/product/analyze" element={<Analyze/>}/>
+        <Route path="/product" element={<Close/>}/>
         <Route path="/blog" element={<Blog/>}/>
         <Route path="/about" element={<AboutUs/>}/>
+        <Route path="/scheduledemo" element={<ScheduleDemo/>}/>
+
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

@@ -1,37 +1,51 @@
+.aboutUsMainContainer{
+    padding-top: 15%;
+    padding-bottom: 10%;
+    background-position: 100% 100%;
+    background-size: 50%;
+    background-color: #fefbf3;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
 .aboutUsBannerCantainer {
-  padding-top: 15%;
-  padding-bottom: 10%;
-  background-position: 100% 100%;
-  background-size: 50%;
-  background-color: #fefbf3;
+ width: 40%;
+ text-align: center;
+ align-items: center;
+ justify-content: center;
+ display: flex;
+ flex-direction: column;
+ padding: 1.5rem 1rem;
+ border: 2px solid #1f0045;
+ border-radius: 2rem;
+ transition: transform 1.5s;
+}
+.aboutUsBannerCantainer:hover,
+.aboutUsBannerCantainer:active,
+.aboutUsBannerCantainer:focus{
+    transform: scale(0.9);
 }
 .aboutUsBannerCantainerHeading{
-    font-size: 5rem;
-    margin-left: 7rem;
+    font-size: 2rem;
     color: #1f0045;
 }
 .aboutUsBannerCantainerText{
-    font-size: 1.7rem;
-    margin-left: 7rem;
-    margin-top: 2rem;
+    width: 75%;
+    font-size: 1.2rem;
+    margin-top: 1rem;
     color: rgba(31,0,69,.85);
 }
-.aboutUsBannerCantainerButton{
-    background-color: #ff5300;
-    color: #fff;
-    padding: 1.5rem 4rem;
-    border: none;
-    border-radius: 50px;
-    font-size: 1.2rem;
-    font-weight: 500;
-    margin-top: 2rem;
-    margin-left: 7rem;
+.aboutUsPageSocialMediaContent{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
 }
-.aboutUsBannerCantainerButton:active,
-.aboutUsBannerCantainerButton:hover,
-.aboutUsBannerCantainerButton:focus{
-    background-color: #1f0045;
-    outline: none;
+i.bi.bi-envelope-at-fill.Message {
+    font-size: 2rem;
+}
+
+i.bi.bi-linkedin.LinkedIn {
+    font-size: 2rem;
 }
 .aboutPageMissionAndVision{
     background-image: url("../../images/footerBackgroungImage.png");
