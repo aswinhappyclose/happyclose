@@ -1,177 +1,176 @@
 .HomePageFooterContent {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #1f0045;
-    color: #fff;
-    padding-top: 2rem;
-  }
-  .HomePageFooterContentCart {
-    width: 100%;
-    padding: 4rem;
-    display: flex;
-    justify-content: space-between;
-  }
-  .HomePageFooterContentCartOne {
-    width: 30%;
-  }
-  .HomePageFooterContentCartHeaderImage {
-    height: 30vh;
-    border-radius: 1rem;
-    width: 100%;
-    position: relative;
-  }
-  .HomePageFooterContentCartHeaderImageOne {
-    background-color: #fff;
-    padding: 1rem 1.5rem;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
-    position: absolute;
-    margin-top: -4%;
-    margin-left: 1%;
-  }
-  .HomePageFooterContentCartHeaderImageTwo {
-    background-color: #fff;
-    padding: 0.19rem;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    opacity: 0.5;
-    position: absolute;
-    margin-top: -4%;
-    margin-left: 8%;
-  }
-  .HomePageFooterContentCartThreeHeaderImageTwo{
-    background-color: rgb(186, 186, 186);
-    width: 7.5%;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    position: absolute;
-    margin-top: -4%;
-    margin-left: 8%;
-  }
-  .HomePageFooterContentHeader{
-    margin-top: 4rem;
-    font-size: 4rem;
-    font-weight: 700;
-  }
-  .HomePageFooterContentHeaderText{
-    margin: 3rem;
-    font-size: 1.3rem;
-    color: hsla(0,0%,100%,.75);
-  }
-  .HomePageFooterContentCartOneHeading{
-    font-size: 2rem;
-    font-weight: 500;
-  }
-  .HomePageFooterContentCartOneText{
-    font-size: 1.2rem;
-    color: hsla(0,0%,100%,.75);
-  }
-  .homePageFooterImage{
-    width: 1300px;
-    border-radius: 1rem;
-    height: 70vh;
-    position: relative;
-  }  
-  .homePageFooterImageTextHeading{
-    font-size: 4rem;
-    color: #1f0045;
-    font-weight: 500;
-    line-height: 1.2;
-    margin: 0rem 4rem;
-  }
-  .homePageFooterImageTextInput{
-    width: 100%;
-    padding: 2rem;
-    margin: 5rem 2rem;
-    color: #fff;
-    border-radius: 50px;
-    border: 2px solid rgb(196 190 190);
-    background: rgb(0 0 0 / 0%);
-  }
-  .homePageFooterImageTextInputButton{
-    padding: 1rem 2rem;
-    border-radius: 50px;
-    background-color: #ff5300;
-    border: none;
-    width: 40%;
-    color: #fff;
-    font-size: 1.5rem;
-    font-weight: 500;
-    position: absolute;
-    margin-left: 25.2rem;
-    margin-top: 5.8rem;
-  }
-  .homePageFooterImageTextInput:hover,
-  .homePageFooterImageTextInput:active,
-  .homePageFooterImageTextInput:focus{
-    outline: none;
-  }
-  .homePageFooterImageTextInputButton:hover,
-  .homePageFooterImageTextInputButton:active,
-  .homePageFooterImageTextInputButton:focus{
-    outline: none;
-    background-color: #1f0045;
-  }
-  .homePageFooterImageTextContent{
-    position: absolute;
-    margin-top: -24%;
-  }
-  .homePageFooter{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin: 1rem;
-    padding-top: 4rem;
-    padding-left: 7rem;
-    padding-right: 7rem;
-  }
-  .homePageFooterTextContainer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .homePageFooterTextContent{
-    width: 50%;
-    justify-content: space-evenly;
-    display: flex;
-  }
-  .homePageFooterTextContentHeading{
-    color: #ff5300;
-    font-size: 1.1rem;
-  }
-  .homePageFooterTextContentfeild{
-    font-size: 1.2rem;
-    margin-top: 2rem;
-    font-weight: 700;
-  }
-  .homePageFooterTextContentFinalFeild{
-    display: flex;
-    width: 100%;
-    padding-top: 4rem;
-    justify-content: space-between;
-  }
-  .homePageFooterTextContentFinaltextfeild{
-    font-size: 1.2rem;
-    color: hsla(0,0%,100%,.75);
-  }
-  .homePageTermsOfServices{
-    margin-left: 3rem;
-  }
-  .homePageFooterTextContentCart{
-    width: 30%;
-    margin: 2rem;
-  }
-  .homePageFooterTextContentSocialIcon{
-    width: 15%;
-    margin: 0.5rem;
-  }
-  .LinkItems{
-    color: #fff;
-    text-decoration: none;
-  }
-  .LinkItems:hover,
-  .LinkItems:focus{
-    color: hsla(0,0%,100%,.75);
-    text-decoration: none;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1f0045;
+  color: #fff;
+  padding-top: 2rem;
+}
+.HomePageFooterContentCart {
+  width: 100%;
+  padding: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.HomePageFooterContentCartOne {
+  width: 30%;
+}
+.HomePageFooterContentCartHeaderImage {
+  height: 30vh;
+  border-radius: 1rem;
+  width: 100%;
+  position: relative;
+}
+.HomePageFooterContentCartHeaderImageOne {
+  background-color: #fff;
+  padding: 1rem 1.5rem;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  position: absolute;
+  margin-top: -4%;
+  margin-left: 1%;
+}
+.HomePageFooterContentCartHeaderImageTwo {
+  background-color: #fff;
+  padding: 0.19rem;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  opacity: 0.5;
+  position: absolute;
+  margin-top: -4%;
+  margin-left: 8%;
+}
+.HomePageFooterContentCartThreeHeaderImageTwo {
+  background-color: rgb(186, 186, 186);
+  width: 7.5%;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  position: absolute;
+  margin-top: -4%;
+  margin-left: 8%;
+}
+.HomePageFooterContentHeader {
+  margin-top: 4rem;
+  font-size: 4rem;
+  font-weight: 700;
+}
+.HomePageFooterContentHeaderText {
+  margin: 3rem;
+  font-size: 1.3rem;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.HomePageFooterContentCartOneHeading {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.HomePageFooterContentCartOneText {
+  font-size: 1.2rem;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.homePageFooterImage {
+  width: 1300px;
+  border-radius: 1rem;
+  height: 70vh;
+  position: relative;
+}
+.homePageFooterImageTextHeading {
+  font-size: 4rem;
+  color: #1f0045;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0rem 4rem;
+}
+.homePageFooterImageTextInput {
+  width: 100%;
+  padding: 2rem;
+  margin: 5rem 2rem;
+  color: #fff;
+  border-radius: 50px;
+  border: 2px solid rgb(196 190 190);
+  background: rgb(0 0 0 / 0%);
+}
+.homePageFooterImageTextInputButton {
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  background-color: #ff5300;
+  border: none;
+  width: 40%;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  position: absolute;
+  margin-left: 25.2rem;
+  margin-top: 5.8rem;
+}
+.homePageFooterImageTextInput:hover,
+.homePageFooterImageTextInput:active,
+.homePageFooterImageTextInput:focus {
+  outline: none;
+}
+.homePageFooterImageTextInputButton:hover,
+.homePageFooterImageTextInputButton:active,
+.homePageFooterImageTextInputButton:focus {
+  outline: none;
+  background-color: #1f0045;
+}
+.homePageFooterImageTextContent {
+  position: absolute;
+  margin-top: -24%;
+}
+.homePageFooter {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  padding-top: 4rem;
+  padding-left: 7rem;
+  padding-right: 7rem;
+}
+.homePageFooterTextContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.homePageFooterTextContent {
+  width: 50%;
+  justify-content: space-evenly;
+  display: flex;
+}
+.homePageFooterTextContentHeading {
+  color: #ff5300;
+  font-size: 1.1rem;
+}
+.homePageFooterTextContentfeild {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  font-weight: 700;
+}
+.homePageFooterTextContentFinalFeild {
+  display: flex;
+  width: 100%;
+  padding-top: 4rem;
+  justify-content: space-between;
+}
+.homePageFooterTextContentFinaltextfeild {
+  font-size: 1.2rem;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.homePageTermsOfServices {
+  margin-left: 3rem;
+}
+.homePageFooterTextContentCart {
+  width: 30%;
+  margin: 2rem;
+}
+.homePageFooterTextContentSocialIcon {
+  width: 15%;
+  margin: 0.5rem;
+}
+.LinkItems {
+  color: #fff;
+  text-decoration: none;
+}
+.LinkItems:hover,
+.LinkItems:focus {
+  color: hsla(0, 0%, 100%, 0.75);
+  text-decoration: none;
+}

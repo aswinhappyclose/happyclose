@@ -6,6 +6,7 @@ import BannerImage from "../../images/BannerImage.png";
 import ProblumsFour from "../../images/ProblumsFour.png";
 import ProblumsFive from "../../images/ProblumsFive.png";
 import ProblumsSix from "../../images/ProblumsSix.png";
+
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -17,42 +18,95 @@ const Home = () => {
           <p className="homePageFirstContentTextFeildHeader">
             One solution for all your reporting needs
           </p>
-          <Link to="/scheduledemo"><button className="homePageFirstContentButton">Schedule Demo</button></Link>
+          <Link to="/scheduledemo" className="buttonLink">
+            <div className="homePageBannerButton">
+              <button className="homePageFirstContentButton">
+                Schedule Demo
+              </button>
+            </div>
+          </Link>
         </div>
         <div className="bannerImageContent">
           <p className="bannerImageContentTextOne">Book Close</p>
-          <i class="bi bi-chevron-up lineArrow"></i>
-          <hr className="line" />
-          {/* <></> */}
-          <div id="arrowAnim">
-            <div class="arrowSliding">
-              <div class="arrow"></div>
-            </div>
-            <div class="arrowSliding delay1">
-              <div class="arrow"></div>
-            </div>
-            <div class="arrowSliding delay2">
-              <div class="arrow"></div>
-            </div>
-            <div class="arrowSliding delay3">
-              <div class="arrow"></div>
-            </div>
-          </div>
-          {/* <></> */}
+          <svg id="more-arrows">
+            <polygon
+              class="arrow-top"
+              points="37.6,27.9 1.8,1.3 3.3,0 37.6,25.3 71.9,0 73.7,1.3 "
+            />
+            <polygon
+              class="arrow-middle"
+              points="37.6,45.8 0.8,18.7 4.4,16.4 37.6,41.2 71.2,16.4 74.5,18.7 "
+            />
+            <polygon
+              class="arrow-bottom"
+              points="37.6,64 0,36.1 5.1,32.8 37.6,56.8 70.4,32.8 75.5,36.1 "
+            />
+          </svg>
           <p className="bannerImageContentTextTwo">Reporting</p>
-          {/* <i class="bi bi-chevron-up lineArrowTwo"></i>
-          <hr className="lineTwo" /> */}
+          <svg className="arrowTwo">
+            <polygon
+              class="arrow-top Two"
+              points="37.6,27.9 1.8,1.3 3.3,0 37.6,25.3 71.9,0 73.7,1.3 "
+            />
+            <polygon
+              class="arrow-middle"
+              points="37.6,45.8 0.8,18.7 4.4,16.4 37.6,41.2 71.2,16.4 74.5,18.7 "
+            />
+            <polygon
+              class="arrow-bottom"
+              points="37.6,64 0,36.1 5.1,32.8 37.6,56.8 70.4,32.8 75.5,36.1 "
+            />
+          </svg>
+
           <img
             src={BannerImage}
             className="homePageFirstContentDesktopImage"
             alt=""
           />
           <p className="bannerImageContentTextThree">Consolidation</p>
-          <i class="bi bi-chevron-up lineArrowThree"></i>
-          <hr className="lineThree" />
+          <svg className="arrowThree">
+            <polygon
+              class="arrow-top Three"
+              points="37.6,27.9 1.8,1.3 3.3,0 37.6,25.3 71.9,0 73.7,1.3 "
+            />
+            <polygon
+              class="arrow-middle"
+              points="37.6,45.8 0.8,18.7 4.4,16.4 37.6,41.2 71.2,16.4 74.5,18.7 "
+            />
+            <polygon
+              class="arrow-bottom"
+              points="37.6,64 0,36.1 5.1,32.8 37.6,56.8 70.4,32.8 75.5,36.1 "
+            />
+          </svg>
           <p className="bannerImageContentTextFour">Risk Management</p>
-          <i class="bi bi-chevron-up lineArrowFour"></i>
-          <hr className="lineFour" />
+          <svg className="arrowFour">
+            <polygon
+              class="arrow-top Four"
+              points="37.6,27.9 1.8,1.3 3.3,0 37.6,25.3 71.9,0 73.7,1.3 "
+            />
+            <polygon
+              class="arrow-middle"
+              points="37.6,45.8 0.8,18.7 4.4,16.4 37.6,41.2 71.2,16.4 74.5,18.7 "
+            />
+            <polygon
+              class="arrow-bottom"
+              points="37.6,64 0,36.1 5.1,32.8 37.6,56.8 70.4,32.8 75.5,36.1 "
+            />
+          </svg>
+        </div>
+      </div>
+      <div className="homePageNewsPapperContent">
+        <div className="homePageNewsPapperContentCart">
+          <p>Bloomberg</p>
+        </div>
+        <div className="homePageNewsPapperContentCart">
+          <p>Business Line</p>
+        </div>
+        <div className="homePageNewsPapperContentCart">
+          <p>Bloomberg Tax</p>
+        </div>
+        <div className="homePageNewsPapperContentCart">
+          <p>Business Standard</p>
         </div>
       </div>
       <div className="SolutionsResults">
@@ -60,9 +114,9 @@ const Home = () => {
           <img
             src={ProblumsFour}
             alt=""
-            className="happyCloseProblumSolutionsCartImageOne"
+            className="happyCloseProblumSolutionsOneCartImageOne"
           />
-          <p className="happyCloseProblumSolutionsCartText">
+          <p className="happyCloseProblumSolutionsOneCartText">
             Intelligent close manager with - real time PL, Easy workflow, Audit
             trail
           </p>
@@ -71,9 +125,9 @@ const Home = () => {
           <img
             src={ProblumsFive}
             alt=""
-            className="happyCloseProblumSolutionsCartImageOne"
+            className="happyCloseProblumSolutionsOneCartImageOne"
           />
-          <p className="happyCloseProblumSolutionsCartText">
+          <p className="happyCloseProblumSolutionsOneCartText">
             Smart (GAAP agnostic) consolidation engine-automate consolidation
             adjustments
           </p>

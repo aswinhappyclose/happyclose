@@ -9,18 +9,20 @@ import Close from './components/screens/product/Product.js';
 import Blog from './components/screens/blog/Blog';
 import AboutUs from './components/screens/aboutUs/AboutUs';
 import ScheduleDemo from './components/screens/scheduleDemo/ScheduleDemo';
+import { ToastContainer} from 'react-toastify';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
+    <ToastContainer />
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/product" element={<Close/>}/>
         <Route path="/blog" element={<Blog/>}/>
         <Route path="/about" element={<AboutUs/>}/>
         <Route path="/scheduledemo" element={<ScheduleDemo/>}/>
-
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

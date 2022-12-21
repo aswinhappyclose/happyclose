@@ -8,8 +8,8 @@
   display: flex;
   background-image: url("../../images/footerBackgroungImage.png");
   background-position: 95% 70%;
-    background-size: 40%;
-    background-repeat: no-repeat;
+  background-size: 40%;
+  background-repeat: no-repeat;
 }
 .homePageFirstContentTextFeild {
   width: 50%;
@@ -35,17 +35,33 @@
   font-size: 1.2rem;
   margin-top: 2rem;
   font-weight: 700;
-  color: #fff;
-  background-color: #f86739;
-  border-radius: 50px;
+  color: #001a4d;
+  /* border-radius: 50px; */
   border: none;
+  transition: all 0.6s ease-out;
+  display: block;
+  background: transparent;
 }
 .homePageFirstContentButton:hover,
 .homePageFirstContentButton:active,
 .homePageFirstContentButton:focus {
-  background-color: #fff;
-  color: #f86739;
+  color: #fff;
+  text-decoration: none;
   outline: none;
+}
+a.buttonLink {
+  text-decoration: none;
+}
+.homePageBannerButton {
+  background: linear-gradient(to right, #f86739 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease-out;
+  border-radius: 50px;
+}
+.homePageBannerButton:hover {
+  background-position: left bottom;
+  text-decoration: none;
 }
 
 .homePageFirstContentsubFeild {
@@ -94,7 +110,7 @@
 }
 .bannerImageContentTextOne:hover,
 .bannerImageContentTextOne:active,
-.bannerImageContentTextOne:focus{
+.bannerImageContentTextOne:focus {
   transform: scale(1.2);
 }
 .bannerImageContentTextTwo {
@@ -102,8 +118,8 @@
   position: absolute;
   font-size: 1.5rem;
   font-weight: 500;
-  top: 90%;
-  left: 55%;
+  top: 87%;
+  left: 56%;
   border: 1px solid #fff;
   padding: 0.5rem 1.5rem;
   border-radius: 10px;
@@ -111,7 +127,7 @@
 }
 .bannerImageContentTextTwo:hover,
 .bannerImageContentTextTwo:active,
-.bannerImageContentTextTwo:focus{
+.bannerImageContentTextTwo:focus {
   transform: scale(1.2);
 }
 .bannerImageContentTextThree {
@@ -128,7 +144,7 @@
 }
 .bannerImageContentTextThree:hover,
 .bannerImageContentTextThree:active,
-.bannerImageContentTextThree:focus{
+.bannerImageContentTextThree:focus {
   transform: scale(1.2);
 }
 .bannerImageContentTextFour {
@@ -136,8 +152,8 @@
   font-size: 1.5rem;
   font-weight: 500;
   position: absolute;
-  right: 3rem;
-  top: 90%;
+  right: 1rem;
+  top: 87%;
   border: 1px solid #fff;
   padding: 0.5rem 1.5rem;
   border-radius: 10px;
@@ -145,7 +161,7 @@
 }
 .bannerImageContentTextFour:hover,
 .bannerImageContentTextFour:active,
-.bannerImageContentTextFour:focus{
+.bannerImageContentTextFour:focus {
   transform: scale(1.2);
 }
 .bannerImageContent {
@@ -188,6 +204,12 @@
   color: #280454;
   font-size: 1.3rem;
   font-weight: 500;
+  margin-top: 0.5rem;
+}
+.happyCloseProblumSolutionsOneCartText {
+  color: #280454;
+  font-size: 1.3rem;
+  font-weight: 500;
   margin-top: 4rem;
 }
 .happyCloseProblumSolutionsCartTwoText {
@@ -201,11 +223,20 @@
   border-radius: 1rem;
 }
 .happyCloseProblumSolutionsCartImageOne {
-  width: 50%;
-  margin-left: 4rem;
+  width: 75%;
+  margin-left: 2rem;
   transition: transform 1.5s;
 }
 .happyCloseProblumSolutionsCartImageOne:hover {
+  transform: scale(1.2);
+}
+.happyCloseProblumSolutionsOneCartImageOne {
+  width: 100%;
+  margin-top: 3rem;
+  margin-left: 0rem;
+  transition: transform 1.5s;
+}
+.happyCloseProblumSolutionsOneCartImageOne:hover {
   transform: scale(1.2);
 }
 .happyCloseProblumSolutionsCartImageTwo {
@@ -214,162 +245,153 @@
   margin-left: -3.7rem;
   margin-top: -0.5%;
 }
-#arrowAnim {
-  width: 40vw;
-  height: 50vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transform: rotate(-45deg);
-  position: absolute;
-  top: 55%;
-  left: 44%;
-  z-index: 20;
-}
-.line{
-  width: 8%;
-  height: 0.2vh;
-    text-align: left;
-    margin-left: 0;
-    background-color: #f86739;
-    transform: rotate(52deg);
-    z-index: 25;
-    position: absolute;
-    left: 60%;
-    top: 39%; 
-}
-i.bi.bi-chevron-up.lineArrow {
-  color: #f86739;
-  top: 32%;
-  font-size: 1.5rem;
-  position: absolute;
-  transform: rotate(-31deg);
-  z-index: 30;
-  left: 60.7%;
-}
-.lineTwo{
-  width: 8%;
-    height: 0.2vh;
-    text-align: left;
-    margin-left: 0;
-    background-color: #f86739;
-    transform: rotate(135deg);
-    z-index: 25;
-    position: absolute;
-    left: 60%;
-    top: 78%;
-}
-i.bi.bi-chevron-up.lineArrowTwo{
-  color: #f86739;
-    top: 84%;
-    font-size: 1.5rem;
-    position: absolute;
-    transform: rotate(-137deg);
-    z-index: 30;
-    left: 60.3%;
-}
-.lineThree{
-  width: 8%;
-    height: 0.2vh;
-    text-align: left;
-    margin-left: 0;
-    background-color: #f86739;
-    transform: rotate(132deg);
-    z-index: 25;
-    position: absolute;
-    right: 10rem;
-    top: 39%;
-}
-i.bi.bi-chevron-up.lineArrowThree {
-  color: #f86739;
-  top: 32.5%;
-  font-size: 1.5rem;
-  position: absolute;
-  transform: rotate(39deg);
-  z-index: 30;
-  right: 10.55rem;
-}
-.lineFour{
-  width: 8%;
-  height: 0.2vh;
-  text-align: left;
-  margin-left: 0;
-  background-color: #f86739;
-  transform: rotate(228deg);
-  z-index: 25;
-  position: absolute;
-  right: 11rem;
-  top: 78%;
-}
-i.bi.bi-chevron-up.lineArrowFour {
-  color: #f86739;
-  top: 84.5%;
-  font-size: 1.5rem;
-  position: absolute;
+
+/* Arrow & Hover Animation */
+#more-arrows {
+  width: 75px;
   transform: rotate(138deg);
-  z-index: 30;
-  right: 11.48rem;
-}
-
-.arrow {
-  width: 1vw;
-  height: 1vh;
-  border: 1vw solid;
-  border-color: #f86739 transparent transparent #f86739;
-  transform: rotate(-45deg);
-}
-.arrowSliding {
+  height: 65px;
   position: absolute;
-  -webkit-animation: slide 4s linear infinite;
-  animation: slide 4s linear infinite;
+  z-index: 25;
+  top: 36%;
+  left: 64%;
+}
+#more-arrows:hover polygon {
+  fill: #f86739;
+  transition: all 1s ease-out;
+}
+#more-arrows:hover polygon.arrow-bottom {
+  transform: translateY(-18px);
+}
+#more-arrows:hover polygon.arrow-top {
+  transform: translateY(18px);
+}
+polygon {
+  fill: #fff;
+  transition: all 1s ease-out;
+}
+polygon.arrow-middle {
+  opacity: 0.75;
+}
+polygon.arrow-top {
+  opacity: 0.5;
+}
+.arrowTwo {
+  width: 75px;
+  transform: rotate(43deg);
+  height: 65px;
+  position: absolute;
+  z-index: 25;
+  top: 76%;
+  left: 64%;
 }
 
-.delay1 {
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
+.arrowTwo:hover polygon {
+  fill: #f86739;
+  transition: all 1s ease-out;
 }
-.delay2 {
-  -webkit-animation-delay: 2s;
-  animation-delay: 2s;
+.arrowTwo:hover polygon.arrow-bottom {
+  transform: translateY(-18px);
 }
-.delay3 {
-  -webkit-animation-delay: 3s;
-  animation-delay: 3s;
+.arrowTwo:hover polygon.arrow-top.Two {
+  transform: translateY(18px);
+}
+polygon {
+  fill: #fff;
+  transition: all 1s ease-out;
+}
+polygon.arrow-middle {
+  opacity: 0.75;
+}
+polygon.arrow-top.Two {
+  opacity: 0.5;
+}
+.arrowThree {
+  width: 75px;
+  transform: rotate(322deg);
+  height: 65px;
+  position: absolute;
+  z-index: 25;
+  top: 77%;
+  right: 14rem;
 }
 
-@-webkit-keyframes slide {
-  0% {
-    opacity: 0;
-    transform: translateX(5vw);
-  }
-  20% {
-    opacity: 1;
-    transform: translateX(3vw);
-  }
-  80% {
-    opacity: 1;
-    transform: translateX(-3vw);
-  }
-  100% {
-    opacity: 0;
-    transform: translateX(-5vw);
-  }
+.arrowThree:hover polygon {
+  fill: #f86739;
+  transition: all 1s ease-out;
 }
-@keyframes slide {
-  0% {
-    opacity: 0;
-    transform: translateX(5vw);
-  }
-  20% {
-    opacity: 1;
-    transform: translateX(3vw);
-  }
-  80% {
-    opacity: 1;
-    transform: translateX(-3vw);
-  }
-  100% {
-    opacity: 0;
-    transform: translateX(-5vw);
-  }
+.arrowThree:hover polygon.arrow-bottom {
+  transform: translateY(-18px);
+}
+.arrowThree:hover polygon.arrow-top.Three {
+  transform: translateY(18px);
+}
+polygon {
+  fill: #fff;
+  transition: all 1s ease-out;
+}
+polygon.arrow-middle {
+  opacity: 0.75;
+}
+polygon.arrow-top.Three {
+  opacity: 0.5;
+}
+.arrowFour {
+  width: 75px;
+  transform: rotate(222deg);
+  height: 65px;
+  position: absolute;
+  z-index: 25;
+  top: 37%;
+  right: 14rem;
+}
+
+.arrowFour:hover polygon {
+  fill: #f86739;
+  transition: all 1s ease-out;
+}
+.arrowFour:hover polygon.arrow-bottom {
+  transform: translateY(-18px);
+}
+.arrowFour:hover polygon.arrow-top.Four {
+  transform: translateY(18px);
+}
+polygon {
+  fill: #fff;
+  transition: all 1s ease-out;
+}
+polygon.arrow-middle {
+  opacity: 0.75;
+}
+polygon.arrow-top.Four {
+  opacity: 0.5;
+}
+.homePageNewsPapperContent {
+  display: flex;
+  margin: 2rem 0rem;
+  padding: 4rem;
+  justify-content: space-evenly;
+}
+.homePageNewsPapperContentCart {
+  border: 2px solid #001a4d;
+  color: #f86739;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 0rem 2rem;
+  padding-top: 1rem !important;
+  border-radius: 1rem;
+  transition: transform 1.5s;
+  background: linear-gradient(to right, #f86739 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease-out;
+}
+.homePageNewsPapperContentCart:hover,
+.homePageNewsPapperContentCart:active,
+.homePageNewsPapperContentCart:focus {
+  transform: scale(1.2);
+  color: #fff;
+  background-position: left bottom;
+  text-decoration: none;
+  outline: none;
 }
