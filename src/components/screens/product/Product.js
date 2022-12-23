@@ -96,8 +96,8 @@ const Close = () => {
                   alt=""
                 />
                 <p className="reportingTextOne">
-                  <i class="bi bi-file-earmark-spreadsheet-fill" />
-                  Generates proforma Income Statement and Balance Sheet
+                  <i class="bi bi-file-earmark-text" />
+                  Generates standalone financial statements
                   <i class="bi bi-check2-circle" />
                 </p>
                 <p className="reportingTextTwo">
@@ -117,8 +117,8 @@ const Close = () => {
                   <i class="bi bi-check2-circle" />
                 </p>
                 <p className="reportingTextFive">
-                  <i class="bi bi-file-earmark-text" />
-                  Generates standalone financial statements
+                  <i class="bi bi-file-earmark-spreadsheet-fill" />
+                  Generates proforma Income Statement and Balance Sheet
                   <i class="bi bi-check2-circle" />
                 </p>
               </div>

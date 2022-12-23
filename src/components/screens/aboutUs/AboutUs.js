@@ -18,6 +18,19 @@ import NovImageTwo from "../../images/Nov-2022-2.png";
 import ClosingBook from "../../images/ClosingBook.png";
 import Reporting from "../../images/Reporting.png";
 import BannerImage1 from "../../images/BannerImage1.png";
+import ProblumsFour from "../../images/ProblumsFour.png";
+import ProblumsFive from "../../images/ProblumsFive.png";
+import ProblumsSix from "../../images/ProblumsSix.png";
+import SECReportQustion from "../../images/SECReportQustion.png";
+import SECReportQustionTwo from "../../images/SECReportQustionTwo.png";
+import LargeSolutions from "../../images/LargeSolutions.png";
+import LargeSolutionsTwo from "../../images/LargeSolutionsTwo.png";
+import Inversment from "../../images/Inversment.png";
+import InversmentTwo from "../../images/InversmentTwo.png";
+import friendly from "../../images/friendly.png";
+import friendlyTwo from "../../images/friendlyTwo.png";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
 
 const AboutUs = () => {
   const [value, setValue] = React.useState("1");
@@ -25,50 +38,48 @@ const AboutUs = () => {
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
+
+  const problumAndSolution = [
+    {
+      img: SECReportQustion,
+      text: " Established products generate more than 70% of revenue from US and focus on SEC reporting.",
+      image: SECReportQustionTwo,
+      textOne:
+        "Happy Close is an automated platform that supports Indian reporting requirements.",
+    },
+    {
+      img: LargeSolutions,
+      text: "Large solutions are currentlty fragmented",
+      image: LargeSolutionsTwo,
+      textOne:
+        " Happy Close is a one stop integrated platform can improve efficiency and collaboration among teams.",
+    },
+    {
+      img: Inversment,
+      text: "Tech investment in finance is majorly in planning and not on reporting and existing solutions are expensive.",
+      image: InversmentTwo,
+      textOne:
+        " Happy Close is inexpensive and can support both planning and reporting",
+    },
+    {
+      img: friendly,
+      text: " Lack of advanced user-friendly UI which is also GAAP and ERP agnostic",
+      image: friendlyTwo,
+      textOne:
+        " Happy Close brings a fresh perspective to book close process as the user can integrate basic excel workings to the reporting process. It reduces the need to learn new technologies and eliminates resistance to change.",
+    },
+  ];
   return (
     <>
       <Header />
-      <div className="newsPapperClippes">
-        <div className="newsPapperClippesCart">
-          <div id="overlay">
-            <img src={homePageCartOne} alt="" />
-            <p className="newsPapperClippesCartText">
-              Byju’s Reports Widening Losses After Prolonged Audit Delay -
-              Bloomberg
-            </p>
-          </div>
-        </div>
-        <div className="newsPapperClippesCart">
-          <div className="overlay One">
-            <img src={homePageCartTwo} alt="" />
-            <p className="newsPapperClippesCartText">
-              The new reporting requirements under the Companies (Auditors’
-              Report) Order will only make the audit report lengthier and
-              complex for shareholders - Business Line
-            </p>
-          </div>
-        </div>
-        <div className="newsPapperClippesCart">
-          <div className="overlay Two">
-            <img src={homePageCartFour} alt="" />
-            <p className="newsPapperClippesCartText">
-              {" "}
-              Indian Regulator SEBI Mulls Mandatory Audit for ESG Disclosures -
-              Bloomberg Tax
-            </p>
-          </div>
-        </div>
-        <div className="newsPapperClippesCart">
-          <div className="overlay Three">
-            <img src={homePageCartThree} alt="" />
-            <p className="newsPapperClippesCartText">
-              MCA mulls imposing fines on unicorns over delay in filing
-              financials - Business Standard
-            </p>
-          </div>
-        </div>
-      </div>
       <div className="aboutHappyCloseHistory">
+        <h1 className="aboutHappyCloseHistoryHeading">
+          Seamless book close to reporting process by accountants for
+          accountants…
+        </h1>
+        <p className="aboutHappyCloseHistoryText">
+          Let's solve our greatest challenges together
+        </p>
         <Box sx={{ width: "100%", typography: "body1" }}>
           <TabContext value={value}>
             <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
@@ -173,63 +184,166 @@ const AboutUs = () => {
           </TabContext>
         </Box>
       </div>
-      <div className="aboutUsLeftandRightContent">
-        <div className="aboutUsLeftandRightCart">
-          <p className="textFeildContent">
-            {" "}
-            Established products generate more than 70% of revenue from US and
-            focus on SEC reporting.{" "}
-          </p>
-          <p className="textFeildContentRight">
-            Happy Close is an automated platform that supports Indian reporting
-            requirements.
+      <p className="newsPapperClippesHeading">
+        Key metrics that led to the birth of happy close
+      </p>
+      <div className="newsPapperClippes">
+        <div className="newsPapperClippesCart">
+          <div id="overlay">
+            <img src={homePageCartOne} alt="" />
+            <p className="newsPapperClippesCartText">
+              High cost of delayed reporting
+            </p>
+          </div>
+        </div>
+        <div className="newsPapperClippesCart">
+          <div className="overlay One">
+            <img src={homePageCartTwo} alt="" />
+            <p className="newsPapperClippesCartText">
+              Ever changing disclosure requirements
+            </p>
+          </div>
+        </div>
+        <div className="newsPapperClippesCart">
+          <div className="overlay Two">
+            <img src={homePageCartFour} alt="" />
+            <p className="newsPapperClippesCartText">
+              {" "}
+              Lack of integration between teams
+            </p>
+          </div>
+        </div>
+        <div className="newsPapperClippesCart">
+          <div className="overlay Three">
+            <img src={homePageCartThree} alt="" />
+            <p className="newsPapperClippesCartText">Abundance of data</p>
+          </div>
+        </div>
+      </div>
+      <div className="aboutUsKeymetrics">
+        <header>Newspost HappyClose</header>
+        <div class="subhead">
+          Chennai - Thursday February 14, 1997 - Seven Pages
+        </div>
+        <div class="content">
+          <div class="collumns">
+            <div class="collumn">
+              <div class="head">
+                <span class="headline hl3">
+                  Byju’s Reports Widening Losses After Prolonged Audit Delay
+                </span>
+                <p>
+                  <span class="headline hl4">Bloomberg</span>
+                </p>
+              </div>
+            </div>
+            <div class="collumn">
+              <div class="head">
+                <span class="headline hl5">
+                  {" "}
+                  The new reporting requirements will only make the audit report
+                  lengthier and complex for shareholders
+                </span>
+                <p>
+                  <span class="headline hl6">Business Line</span>
+                </p>
+              </div>
+            </div>
+            <div class="collumn">
+              <div class="head">
+                <span class="headline hl1">
+                  {" "}
+                  Indian Regulator SEBI Mulls Mandatory Audit for ESG
+                  Disclosures{" "}
+                </span>
+                <p>
+                  <span class="headline hl2">Bloomberg Tax</span>
+                </p>
+              </div>
+            </div>
+            <div class="collumn">
+              <div class="head">
+                <span class="headline hl3">
+                  {" "}
+                  MCA mulls imposing fines on unicorns over delay in filing
+                  financials
+                </span>
+                <p>
+                  <span class="headline hl4"> Business Standard </span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h1 className="SolutionsResultsHeading">Happyclose Modules</h1>
+      <div className="SolutionsResults">
+        <div className="happyCloseProblumSolutionsCart">
+          <img
+            src={ProblumsFour}
+            alt=""
+            className="happyCloseProblumSolutionsOneCartImageOne"
+          />
+          <p className="happyCloseProblumSolutionsOneCartText">
+            Intelligent close manager with - real time PL, Easy workflow, Audit
+            trail
           </p>
         </div>
-        <div className="aboutUsLeftandRightCart">
-          <p className="textFeildContentTwo">
-            Large solutions are currentlty fragmented
-          </p>
-          <p className="textFeildContentTwoRight">
-            Happy Close is a one stop integrated platform can improve efficiency
-            and collaboration among teams.
-          </p>
-        </div>
-        <div className="aboutUsLeftandRightCart">
-          <p className="textFeildContent">
-            Tech investment in finance is majorly in planning and not on
-            reporting and existing solutions are expensive.
-          </p>
-          <p className="textFeildContentRight">
-            Happy Close is inexpensive and can support both planning and
-            reporting
+        <div className="happyCloseProblumSolutionsCart">
+          <img
+            src={ProblumsFive}
+            alt=""
+            className="happyCloseProblumSolutionsOneCartImageOne"
+          />
+          <p className="happyCloseProblumSolutionsOneCartText">
+            Smart (GAAP agnostic) consolidation engine-automate consolidation
+            adjustments
           </p>
         </div>
-        <div className="aboutUsLeftandRightCart">
-          <p className="textFeildContentTwo">
-            Lack of advanced user-friendly UI which is also GAAP and ERP
-            agnostic
-          </p>
-          <p className="textFeildContentTwoRight">
-            Happy Close brings a fresh perspective to book close process as the
-            user can integrate basic excel workings to the reporting process. It
-            reduces the need to learn new technologies and eliminates resistance
-            to change.
+        <div className="happyCloseProblumSolutionsCart">
+          <img
+            src={ProblumsSix}
+            alt=""
+            className="happyCloseProblumSolutionsCartImageOne"
+          />
+          <p className="happyCloseProblumSolutionsCartText">
+            Connected solution with customisable templates to avoid errors,
+            duplication of effort, enable one source of truth, walk the last
+            mile (XBRL conversion)
           </p>
         </div>
       </div>
-      <div className="aboutUsOurModuleContent">
-        <div className="aboutUsOurModuleCart">
-          <p className="aboutUsOurModuleCartText">Book Close</p>
-        </div>
-        <div className="aboutUsOurModuleCart">
-          <p className="aboutUsOurModuleCartText">Consolidation</p>
-        </div>{" "}
-        <div className="aboutUsOurModuleCart">
-          <p className="aboutUsOurModuleCartText">Reporting</p>
-        </div>{" "}
-        <div className="aboutUsOurModuleCart">
-          <p className="aboutUsOurModuleCartText">Risk Management</p>
-        </div>
+      <div className="aboutUsProblumAndSolutionsContainer">
+        <Swiper spaceBetween={50} slidesPerView={3}>
+          {problumAndSolution.map((data) => {
+            return (
+              <SwiperSlide>
+                <div className="problumandSolutioncart">
+                  <div className="problumandSolutioncartOne">
+                    <img
+                      src={data.img}
+                      alt=""
+                      className="problumandSolutioncartFirstImage"
+                    />
+                    <p className="problumandSolutioncartFirstText">
+                      {data.text}
+                    </p>
+                  </div>
+                  <div className="problumandSolutioncartTwo">
+                    <img
+                      src={data.image}
+                      alt=""
+                      className="problumandSolutioncartFirstImage"
+                    />
+                    <p className="problumandSolutioncartFirstText">
+                      {data.textOne}
+                    </p>
+                  </div>
+                </div>
+              </SwiperSlide>
+            );
+          })}
+        </Swiper>
       </div>
       <div className="aboutUsMainContainer">
         <div className="aboutUsBannerCantainer">
@@ -244,8 +358,12 @@ const AboutUs = () => {
             visual design, and video games.
           </p>
           <div className="aboutUsPageSocialMediaContent">
-            <i class="bi bi-envelope-at-fill Message"></i>
-            <i class="bi bi-linkedin LinkedIn"></i>
+            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new">
+              <i class="bi bi-envelope-at-fill Message"></i>
+            </a>
+            <a href="https://in.linkedin.com/">
+              <i class="bi bi-linkedin LinkedIn"></i>
+            </a>
           </div>
         </div>
         <div className="aboutUsBannerCantainer">
@@ -260,8 +378,12 @@ const AboutUs = () => {
             long drives, moonlight treks, or wildlife safaris – he loves it all.
           </p>
           <div className="aboutUsPageSocialMediaContent">
-            <i class="bi bi-envelope-at-fill Message"></i>
-            <i class="bi bi-linkedin LinkedIn"></i>
+            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new">
+              <i class="bi bi-envelope-at-fill Message"></i>
+            </a>
+            <a href="https://in.linkedin.com/">
+              <i class="bi bi-linkedin LinkedIn"></i>
+            </a>
           </div>
         </div>
       </div>

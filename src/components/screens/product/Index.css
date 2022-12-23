@@ -2,16 +2,18 @@
   background-image: url("../../images/homePageBanner.png");
   padding-top: 45%;
   top: 30%;
-  padding-bottom: 15%;
   background-position: 100% 100%;
   background-size: 50%;
   background-repeat: no-repeat;
   background-color: #fefbf3;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .closePageFirstContentTextFeild {
-  width: 50%;
+  width: 80%;
+  text-align: center;
   top: 30%;
   padding: 1rem 3rem;
   display: flex;
@@ -23,13 +25,14 @@
   font-size: 4rem;
   line-height: 1.2;
   font-weight: 500;
+  font-family: "Lora" !important;
 }
 .closePageFirstContentText {
   margin-top: 1.5rem;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   line-height: 1.2;
+  font-family: "Lora";
 }
-
 .homePageTransformYouWork {
   background-color: #fff;
   color: #1f0045;
@@ -60,6 +63,7 @@
 .homePageTransformYouWorkFirstCartcontent {
   margin: 2rem;
   width: 50%;
+  font-family: "Lora";
 }
 .homePageTransformYouWorkFirstCartcontentHeading {
   color: #ff5300;
@@ -93,6 +97,7 @@
 .homePageTransformYouWorkSecondCartcontent {
   margin: 2rem;
   width: 50%;
+  font-family: "Lora";
 }
 .homePageTransformYouWorkSecondCartcontentHeading {
   font-size: 1.5rem;
@@ -154,10 +159,11 @@
   grid-row-gap: 1.5rem;
 }
 .homePageTransformYouWorkText {
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 500;
   margin-top: 0rem;
   margin-bottom: 3rem;
+  font-family: "Lora";
 }
 i.bi.bi-check2-circle {
   color: rgb(26, 97, 26);
@@ -174,12 +180,13 @@ i.bi.bi {
   position: absolute;
   top: 30%;
   border-radius: 10px;
-  left: 40%;
+  left: 36%;
   z-index: 11;
   background-color: #fff;
   padding: 0.5rem 1rem;
   display: flex;
   align-items: center;
+  font-family: "Lora";
 }
 .bookcloseTextTwo {
   position: absolute;
@@ -191,6 +198,7 @@ i.bi.bi {
   z-index: 11;
   display: flex;
   align-items: center;
+  font-family: "Lora";
 }
 .bookcloseTextThree {
   position: absolute;
@@ -202,6 +210,7 @@ i.bi.bi {
   z-index: 11;
   display: flex;
   align-items: center;
+  font-family: "Lora";
 }
 .bookcloseTextFour {
   position: absolute;
@@ -213,6 +222,7 @@ i.bi.bi {
   z-index: 11;
   display: flex;
   align-items: center;
+  font-family: "Lora";
 }
 .bookcloseTextFive {
   position: absolute;
@@ -224,10 +234,11 @@ i.bi.bi {
   z-index: 11;
   display: flex;
   align-items: center;
+  font-family: "Lora";
 }
 .reportingTextOne {
   position: absolute;
-  top: 10%;
+  top: 31%;
   border-radius: 10px;
   left: 38%;
   z-index: 21;
@@ -236,10 +247,11 @@ i.bi.bi {
   padding: 0.5rem 1rem;
   display: flex;
   align-items: center;
+  font-family: "Lora";
 }
 .reportingTextTwo {
   position: absolute;
-  top: 21%;
+  top: 30%;
   right: 1rem;
   background-color: #fff;
   color: #000;
@@ -248,94 +260,102 @@ i.bi.bi {
   z-index: 21;
   display: flex;
   align-items: center;
+  font-family: "Lora";
 }
 .reportingTextThree {
   position: absolute;
-  top: 32%;
-  left: 38%;
-  background-color: #fff;
-  color: #000;
-  padding: 0.5rem 1rem;
-  border-radius: 10px;
-  z-index: 21;
-  display: flex;
-  align-items: center;
-}
-.reportngTextFour {
-  position: absolute;
-  top: 45%;
-  right: 1rem;
-  background-color: #fff;
-  color: #000;
-  padding: 0.5rem 1rem;
-  border-radius: 10px;
-  z-index: 21;
-  display: flex;
-  align-items: center;
-}
-.reportingTextFive {
-  position: absolute;
-  top: 58%;
-  left: 46%;
-  background-color: #fff;
-  color: #000;
-  padding: 0.5rem 1rem;
-  border-radius: 10px;
-  z-index: 21;
-  display: flex;
-  align-items: center;
-}
-.consolidateTextOne {
-  position: absolute;
-  top: 10%;
-  border-radius: 10px;
-  left: 44%;
-  z-index: 31;
-  background-color: #fff;
-  color: #000;
-  padding: 0.5rem 1rem;
-  display: flex;
-  align-items: center;
-}
-.consolidateTextTwo {
-  position: absolute;
-  top: 25%;
-  right: 1rem;
-  background-color: #fff;
-  color: #000;
-  padding: 0.5rem 1rem;
-  border-radius: 10px;
-  z-index: 31;
-  display: flex;
-  align-items: center;
-}
-.consolidateTextThree {
-  position: absolute;
-  top: 42%;
-  left: 55%;
-  background-color: #fff;
-  color: #000;
-  padding: 0.5rem 1rem;
-  border-radius: 10px;
-  z-index: 31;
-  display: flex;
-  align-items: center;
-}
-.consolidateTextFour {
-  position: absolute;
-  top: 54%;
+  top: 52%;
   right: 12rem;
   background-color: #fff;
   color: #000;
   padding: 0.5rem 1rem;
   border-radius: 10px;
+  z-index: 21;
+  display: flex;
+  align-items: center;
+  font-family: "Lora";
+}
+.reportngTextFour {
+  position: absolute;
+  top: 71%;
+  right: 35rem;
+  background-color: #fff;
+  color: #000;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  z-index: 21;
+  display: flex;
+  align-items: center;
+  font-family: "Lora";
+}
+.reportingTextFive {
+  position: absolute;
+  top: 71%;
+  right: 1rem;
+  background-color: #fff;
+  color: #000;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  z-index: 21;
+  display: flex;
+  align-items: center;
+  font-family: "Lora";
+}
+.consolidateTextOne {
+  position: absolute;
+  top: 9%;
+  border-radius: 10px;
+  left: 54%;
+  z-index: 31;
+  background-color: #fff;
+  color: #000;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  font-family: "Lora";
+}
+.consolidateTextTwo {
+  position: absolute;
+  top: 59%;
+  right: 3rem;
+  background-color: #fff;
+  color: #000;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
   z-index: 31;
   display: flex;
   align-items: center;
+  font-family: "Lora";
+}
+.consolidateTextThree {
+  position: absolute;
+  top: 37%;
+  left: 48%;
+  background-color: #fff;
+  color: #000;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  z-index: 31;
+  display: flex;
+  align-items: center;
+  font-family: "Lora";
+}
+.consolidateTextFour {
+  position: absolute;
+  top: 37%;
+  right: 1rem;
+  background-color: #fff;
+  color: #000;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  z-index: 31;
+  display: flex;
+  align-items: center;
+  font-family: "Lora";
 }
 .riskManagementTextOne {
   position: absolute;
-  top: 51%;
+  top: 65%;
   border-radius: 10px;
   left: 57%;
   z-index: 41;
@@ -344,10 +364,11 @@ i.bi.bi {
   padding: 0.5rem 1rem;
   display: flex;
   align-items: center;
+  font-family: "Lora";
 }
 .riskManagementTextTwo {
   position: absolute;
-  top: 66%;
+  top: 78%;
   right: 1rem;
   background-color: #fff;
   color: #000;
@@ -356,4 +377,5 @@ i.bi.bi {
   z-index: 41;
   display: flex;
   align-items: center;
+  font-family: "Lora";
 }

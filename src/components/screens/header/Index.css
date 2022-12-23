@@ -18,6 +18,7 @@
   color: #fff;
   text-decoration: none;
   cursor: pointer;
+  font-family: "Lora";
 }
 .headerLogoImage {
   width: 15%;
@@ -53,6 +54,7 @@
   width: 100%;
   font-size: 1.2rem;
   font-weight: 500;
+  font-family: "Lora";
 }
 .HeaderLogo {
   width: 7%;

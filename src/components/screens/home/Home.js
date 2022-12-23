@@ -3,9 +3,10 @@ import "./Index.css";
 import Header from "../header/Index.js";
 import Footer from "../footer/Footer";
 import BannerImage from "../../images/BannerImage.png";
-import ProblumsFour from "../../images/ProblumsFour.png";
-import ProblumsFive from "../../images/ProblumsFive.png";
-import ProblumsSix from "../../images/ProblumsSix.png";
+import HomePageBookCloseCartImage from "../../images/HomePageBookCloseCartImage.png";
+import HomePageReportCartImage from "../../images/HomePageReportCartImage.png";
+import HomePageConsolidateCartImage from "../../images/HomePageConsolidateCartImage.png";
+import HomePageRiskManagementCartImage from "../../images/HomePageRiskManagementCartImage.png";
 
 import { Link } from "react-router-dom";
 
@@ -95,55 +96,47 @@ const Home = () => {
           </svg>
         </div>
       </div>
-      <div className="homePageNewsPapperContent">
-        <div className="homePageNewsPapperContentCart">
-          <p>Bloomberg</p>
-        </div>
-        <div className="homePageNewsPapperContentCart">
-          <p>Business Line</p>
-        </div>
-        <div className="homePageNewsPapperContentCart">
-          <p>Bloomberg Tax</p>
-        </div>
-        <div className="homePageNewsPapperContentCart">
-          <p>Business Standard</p>
-        </div>
-      </div>
-      <div className="SolutionsResults">
-        <div className="happyCloseProblumSolutionsCart">
-          <img
-            src={ProblumsFour}
-            alt=""
-            className="happyCloseProblumSolutionsOneCartImageOne"
-          />
-          <p className="happyCloseProblumSolutionsOneCartText">
-            Intelligent close manager with - real time PL, Easy workflow, Audit
-            trail
-          </p>
-        </div>
-        <div className="happyCloseProblumSolutionsCart">
-          <img
-            src={ProblumsFive}
-            alt=""
-            className="happyCloseProblumSolutionsOneCartImageOne"
-          />
-          <p className="happyCloseProblumSolutionsOneCartText">
-            Smart (GAAP agnostic) consolidation engine-automate consolidation
-            adjustments
-          </p>
-        </div>
-        <div className="happyCloseProblumSolutionsCart">
-          <img
-            src={ProblumsSix}
-            alt=""
-            className="happyCloseProblumSolutionsCartImageOne"
-          />
-          <p className="happyCloseProblumSolutionsCartText">
-            Connected solution with customisable templates to avoid errors,
-            duplication of effort, enable one source of truth, walk the last
-            mile (XBRL conversion)
-          </p>
-        </div>
+      <div className="aboutUsOurModuleContent">
+        <Link to="/product" className="aboutUsOurModuleCart">
+          <div>
+            <img
+              src={HomePageBookCloseCartImage}
+              alt=""
+              className="aboutUsOurModuleCartTextImage"
+            />
+            <p className="aboutUsOurModuleCartText">Book Close</p>
+          </div>
+        </Link>
+        <Link to="/product" className="aboutUsOurModuleCart">
+          <div>
+            <img
+              src={HomePageConsolidateCartImage}
+              alt=""
+              className="aboutUsOurModuleCartTextImage"
+            />
+            <p className="aboutUsOurModuleCartText">Consolidation</p>
+          </div>
+        </Link>
+        <Link to="/product" className="aboutUsOurModuleCart">
+          <div>
+            <img
+              src={HomePageReportCartImage}
+              alt=""
+              className="aboutUsOurModuleCartTextImage"
+            />
+            <p className="aboutUsOurModuleCartText">Reporting</p>
+          </div>
+        </Link>
+        <Link to="/product" className="aboutUsOurModuleCart">
+          <div>
+            <img
+              src={HomePageRiskManagementCartImage}
+              alt=""
+              className="aboutUsOurModuleCartTextImage"
+            />
+            <p className="aboutUsOurModuleCartText">Risk Management</p>
+          </div>
+        </Link>
       </div>
       <Footer />
     </div>

@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #1f0045;
+  background-color: #001a4d;
   color: #fff;
   padding-top: 2rem;
 }
@@ -137,18 +137,22 @@
 }
 .homePageFooterTextContentHeading {
   color: #ff5300;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  font-family: "Lora";
 }
 .homePageFooterTextContentfeild {
   font-size: 1.2rem;
   margin-top: 2rem;
   font-weight: 700;
+  font-family: "Lora";
 }
 .homePageFooterTextContentFinalFeild {
   display: flex;
   width: 100%;
   padding-top: 4rem;
   justify-content: space-between;
+  font-family: "Lora";
 }
 .homePageFooterTextContentFinaltextfeild {
   font-size: 1.2rem;

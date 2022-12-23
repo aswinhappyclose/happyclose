@@ -1,6 +1,5 @@
 import React from "react";
 import "./Index.css";
-// import FooterGirlImage from "../../images/footerGirlImage.png";
 import FooterLogo from "../../images/footerLogo.png";
 import Twitter from "../../images/twitter.jpg";
 import LinkedIn from "../../images/linkedIn.png";
@@ -10,23 +9,6 @@ const Footer = () => {
   return (
     <>
       <div className="HomePageFooterContent">
-        {/* <div>
-          <img src={FooterGirlImage} alt="" className="homePageFooterImage" />
-          <div className="homePageFooterImageTextContent">
-            <p className="homePageFooterImageTextHeading">
-              Supercharge your <br />
-              month-end close
-            </p>
-            <button className="homePageFooterImageTextInputButton">
-              Schedule Demo
-            </button>
-            <input
-              tyoe="text"
-              placeholder="your email"
-              className="homePageFooterImageTextInput"
-            />
-          </div>
-        </div> */}
         <div className="homePageFooter">
           <div className="homePageFooterTextContainer">
             <img src={FooterLogo} alt="" />
@@ -34,24 +16,28 @@ const Footer = () => {
               <div className="homePageFooterTextContentCart">
                 <p className="homePageFooterTextContentHeading">Product</p>
                 <p className="homePageFooterTextContentfeild">
-                  <Link to="/product/close" className="LinkItems">
-                    Close
+                  <Link to="/product" className="LinkItems">
+                    Book Close
                   </Link>
                 </p>
                 <p className="homePageFooterTextContentfeild">
-                  <Link to="/product/reconcile" className="LinkItems">
-                    Reconcile
+                  <Link to="/product" className="LinkItems">
+                    Reporting
                   </Link>
                 </p>
                 <p className="homePageFooterTextContentfeild">
-                  <Link to="/product/analyze" className="LinkItems">
-                    Analyze
+                  <Link to="/product" className="LinkItems">
+                    Consolidate
+                  </Link>
+                </p>
+                <p className="homePageFooterTextContentfeild">
+                  <Link to="/product" className="LinkItems">
+                    Risk Management
                   </Link>
                 </p>
               </div>
               <div className="homePageFooterTextContentCart">
                 <p className="homePageFooterTextContentHeading">Company</p>
-                <p className="homePageFooterTextContentfeild">Careers</p>
                 <p className="homePageFooterTextContentfeild">
                   <Link to="/about" className="LinkItems">
                     About Us
@@ -80,11 +66,10 @@ const Footer = () => {
           </div>
           <div className="homePageFooterTextContentFinalFeild">
             <p className="homePageFooterTextContentFinaltextfeild">
-              © 2022 numeric.io All right reserved.
+              © 2022 happyclose.io All right reserved.
             </p>
             <p className="homePageFooterTextContentFinaltextfeild">
-              {" "}
-              Privacy Policy{" "}
+              Privacy Policy
               <span className="homePageTermsOfServices">Terms of Service</span>
             </p>
           </div>

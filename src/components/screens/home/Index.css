@@ -25,6 +25,7 @@
   margin-top: 10rem;
   font-weight: 500;
   color: #fff;
+  font-family: "Lora";
 }
 .homePageFirstContentText {
   font-size: 1.7rem;
@@ -35,8 +36,8 @@
   font-size: 1.2rem;
   margin-top: 2rem;
   font-weight: 700;
-  color: #001a4d;
-  /* border-radius: 50px; */
+  color: #001a4d !important;
+  font-family: "Lora";
   border: none;
   transition: all 0.6s ease-out;
   display: block;
@@ -107,6 +108,7 @@ a.buttonLink {
   padding: 0.5rem 1.5rem;
   border-radius: 10px;
   transition: transform 1.5s;
+  font-family: "Lora";
 }
 .bannerImageContentTextOne:hover,
 .bannerImageContentTextOne:active,
@@ -124,6 +126,7 @@ a.buttonLink {
   padding: 0.5rem 1.5rem;
   border-radius: 10px;
   transition: transform 1.5s;
+  font-family: "Lora";
 }
 .bannerImageContentTextTwo:hover,
 .bannerImageContentTextTwo:active,
@@ -141,6 +144,7 @@ a.buttonLink {
   padding: 0.5rem 1.5rem;
   border-radius: 10px;
   transition: transform 1.5s;
+  font-family: "Lora";
 }
 .bannerImageContentTextThree:hover,
 .bannerImageContentTextThree:active,
@@ -158,6 +162,7 @@ a.buttonLink {
   padding: 0.5rem 1.5rem;
   border-radius: 10px;
   transition: transform 1.5s;
+  font-family: "Lora";
 }
 .bannerImageContentTextFour:hover,
 .bannerImageContentTextFour:active,
@@ -174,78 +179,6 @@ a.buttonLink {
   margin-top: 6rem;
   position: relative;
 }
-.SolutionsResults {
-  padding: 6rem;
-  background-color: #eeebe4;
-  display: flex;
-  justify-content: space-evenly;
-}
-.happyCloseProblumSolutionsCartContainer {
-  display: flex;
-  justify-content: space-between;
-}
-.happyCloseProblumSolutionsCart {
-  display: flex;
-  flex-direction: column;
-  width: 25%;
-  border: 4px solid #f86739;
-  background-color: #fff;
-  padding: 2rem;
-  border-radius: 2rem;
-}
-.happyCloseProblumSolutionsCart:focus,
-.happyCloseProblumSolutionsCart:hover,
-.happyCloseProblumSolutionsCart:active {
-  margin-top: -20px;
-  transition: all 0.5s ease;
-  box-shadow: 0px 25px 20px 0 rgb(0 0 0 / 15%);
-}
-.happyCloseProblumSolutionsCartText {
-  color: #280454;
-  font-size: 1.3rem;
-  font-weight: 500;
-  margin-top: 0.5rem;
-}
-.happyCloseProblumSolutionsOneCartText {
-  color: #280454;
-  font-size: 1.3rem;
-  font-weight: 500;
-  margin-top: 4rem;
-}
-.happyCloseProblumSolutionsCartTwoText {
-  background-color: #fff;
-  color: #000000;
-  padding: 2rem 3.8rem;
-  font-size: 1rem;
-  width: 90%;
-  font-weight: 500;
-  margin-bottom: 2rem;
-  border-radius: 1rem;
-}
-.happyCloseProblumSolutionsCartImageOne {
-  width: 75%;
-  margin-left: 2rem;
-  transition: transform 1.5s;
-}
-.happyCloseProblumSolutionsCartImageOne:hover {
-  transform: scale(1.2);
-}
-.happyCloseProblumSolutionsOneCartImageOne {
-  width: 100%;
-  margin-top: 3rem;
-  margin-left: 0rem;
-  transition: transform 1.5s;
-}
-.happyCloseProblumSolutionsOneCartImageOne:hover {
-  transform: scale(1.2);
-}
-.happyCloseProblumSolutionsCartImageTwo {
-  position: absolute;
-  width: 8%;
-  margin-left: -3.7rem;
-  margin-top: -0.5%;
-}
-
 /* Arrow & Hover Animation */
 #more-arrows {
   width: 75px;
@@ -366,32 +299,39 @@ polygon.arrow-middle {
 polygon.arrow-top.Four {
   opacity: 0.5;
 }
-.homePageNewsPapperContent {
-  display: flex;
-  margin: 2rem 0rem;
+.aboutUsOurModuleContent {
   padding: 4rem;
+  display: flex;
   justify-content: space-evenly;
 }
-.homePageNewsPapperContentCart {
-  border: 2px solid #001a4d;
-  color: #f86739;
-  font-size: 1.2rem;
-  font-weight: 500;
-  padding: 0rem 2rem;
-  padding-top: 1rem !important;
-  border-radius: 1rem;
+.aboutUsOurModuleCart {
+  border: none;
+  width: 15%;
+  padding: 1rem;
+  text-align: center;
+  background-image: url("../../images/happyCloseModule.jpg");
+  background-repeat: no-repeat;
+  background-size: 300px;
+  cursor: pointer;
+  border-radius: 10px;
   transition: transform 1.5s;
-  background: linear-gradient(to right, #f86739 50%, white 50%);
-  background-size: 200% 100%;
-  background-position: right bottom;
-  transition: all 0.5s ease-out;
+  display: flex;
+  align-items: end;
 }
-.homePageNewsPapperContentCart:hover,
-.homePageNewsPapperContentCart:active,
-.homePageNewsPapperContentCart:focus {
+.aboutUsOurModuleCart:hover,
+.aboutUsOurModuleCart:focus,
+.aboutUsOurModuleCart:active {
   transform: scale(1.2);
-  color: #fff;
-  background-position: left bottom;
   text-decoration: none;
-  outline: none;
+}
+.aboutUsOurModuleCartText {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #fff;
+  padding-top: 1rem;
+  font-family: "Lora";
+}
+.aboutUsOurModuleCartTextImage {
+  width: 50%;
 }
