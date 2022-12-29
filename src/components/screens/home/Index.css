@@ -156,7 +156,7 @@ a.buttonLink {
   font-size: 1.5rem;
   font-weight: 500;
   position: absolute;
-  right: 1rem;
+  right: 1.5rem;
   top: 87%;
   border: 1px solid #fff;
   padding: 0.5rem 1.5rem;
@@ -175,7 +175,7 @@ a.buttonLink {
   justify-content: center;
 }
 .homePageFirstContentDesktopImage {
-  width: 50%;
+  width: 63%;
   margin-top: 6rem;
   position: relative;
 }
@@ -334,4 +334,375 @@ polygon.arrow-top.Four {
 }
 .aboutUsOurModuleCartTextImage {
   width: 50%;
+}
+@media only screen and (min-width: 280px) and (max-width: 426px) {
+  .homePageFirstContent{    padding: 10% 0%;
+      width: 100%;
+      display: flex;
+      background-image: url("../../images/footerBackgroungImage.png");
+      background-position: 100% 16%;
+      background-size: 40%;
+      background-repeat: no-repeat;
+      flex-direction: column;
+      align-items: center;
+  }
+  .homePageFirstContentTextFeild{
+    width: 100%;
+  }
+  .homePageFirstContentTextFeildHeader {
+    font-size: 2rem;
+  }
+  .buttonLink {
+    text-decoration: none;
+    margin-top: -2.5rem !important;
+}.homePageFirstContentDesktopImage {
+  width: 100%;
+  margin: 3rem 0rem;
+}
+.bannerImageContentTextOne {
+  font-size: 12px !important;
+  top: 85% !important;
+  left: 8% !important;
+  padding: 0.5rem 1rem !important;
+}
+#more-arrows{
+  display: none !important;
+}
+.arrowTwo{
+  display: none;
+}
+.arrowThree{
+  display: none;
+}
+.arrowFour{
+  display: none;
+}
+.bannerImageContentTextTwo {
+ 
+  font-size: 12px !important;
+  top: 118% !important;
+  left: 8% !important;
+  padding: 0.5rem 1.5rem;
+}
+.bannerImageContentTextFour {
+   font-size: 12px;
+  right: 1rem;
+  top: 118%;
+  padding: 0.5rem 1rem;
+ 
+}
+.bannerImageContentTextThree {
+  font-size: 12px;
+  right: 1rem;
+  top: 85%;
+  padding: 0.5rem 1rem;
+}
+.aboutUsOurModuleContent {
+  padding: 0rem !important;
+  width: 100% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.aboutUsOurModuleCart {
+  border: none;
+  width: 70% !important;
+  margin: 1rem 0rem;
+  justify-content: center !important;
+}
+}
+@media only screen and (min-width: 427px) and (max-width: 600px) {
+  .homePageFirstContent{ 
+    padding: 10% 0%;
+    width: 100%;
+    display: flex;
+    background-image: url("../../images/footerBackgroungImage.png");
+    background-position: 100% 16%;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    align-items: center;
+}
+.homePageFirstContentTextFeild{
+  width: 100%;
+}
+.homePageFirstContentTextFeildHeader {
+  font-size: 2rem;
+}
+.buttonLink {
+  text-decoration: none;
+  margin-top: -2.5rem !important;
+}.homePageFirstContentDesktopImage {
+width: 100%;
+margin: 3rem 0rem;
+}
+.bannerImageContentTextOne {
+font-size: 12px !important;
+top: 85% !important;
+left: 10% !important;
+padding: 0.5rem 1rem !important;
+}
+#more-arrows{
+display: none !important;
+}
+.arrowTwo{
+display: none;
+}
+.arrowThree{
+display: none;
+}
+.arrowFour{
+display: none;
+}
+.bannerImageContentTextTwo {
+
+font-size: 12px !important;
+top: 125% !important;
+left: 10% !important;
+padding: 0.5rem 1.5rem;
+}
+.bannerImageContentTextFour {
+ font-size: 12px;
+right: 1.5rem;
+top: 125%;
+padding: 0.5rem 1rem;
+
+}
+.bannerImageContentTextThree {
+font-size: 12px;
+right: 1.5rem;
+top: 85%;
+padding: 0.5rem 1rem;
+}
+.aboutUsOurModuleContent {
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.aboutUsOurModuleCart {
+  border: none;
+  width: 47% !important;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+}
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+  .homePageFirstContentTextFeildHeader {
+    font-size: 2rem;
+}
+.homePageFirstContentDesktopImage {
+  width: 100% !important;
+  margin-top: 6rem !important;
+}
+#more-arrows{
+  display: none !important;
+  }
+  .arrowTwo{
+  display: none;
+  }
+  .arrowThree{
+  display: none;
+  }
+  .arrowFour{
+  display: none;
+  }
+.bannerImageContentTextOne {
+  font-size: 13px;
+  top: 10rem;
+  left: 40%;
+}
+.bannerImageContentTextThree {
+  font-size: 12px;
+  right: 1rem;
+  top: 10rem;
+}
+.bannerImageContentTextTwo {
+  font-size: 13px;
+  font-weight: 500;
+  top: 95%;
+  left: 41%;
+ }
+ .bannerImageContentTextFour {
+  font-size: 13px;
+  right: 1rem;
+  top: 95%;
+}
+.homePageFirstContentTextFeild {
+  width: 43% !important;
+  padding: 1rem !important;
+  
+}
+}
+@media only screen and (min-width: 767px) and (max-width: 1000px) {
+  .homePageFirstContentTextFeildHeader {
+    font-size: 3rem;
+  }
+  .homePageFirstContentDesktopImage {
+    width: 80% !important;
+    margin-top: 9rem;
+}
+.homePageFirstContentTextFeild {
+  width: 45% !important;
+  padding: 1rem !important;
+}
+.bannerImageContentTextOne {
+  font-size: 1.3rem;
+  top: 10rem;
+  left: 43%;
+  padding: 0.5rem 1.5rem;
+}
+.bannerImageContentTextThree {
+  font-size: 1.3rem;
+  right: 1rem;
+  top: 10rem;
+}
+#more-arrows {
+  transform: rotate(136deg);
+  top: 42%;
+  left: 50%;
+}
+.arrowFour {
+  transform: rotate(222deg);
+  top: 42%;
+  right: 5rem;
+}
+.bannerImageContentTextTwo {
+  font-size: 1.3rem;
+    top: 102%;
+    left: 37%;
+}
+.bannerImageContentTextFour {
+  font-size: 1.3rem;
+  right: 1rem;
+  top: 102%;
+}
+.arrowThree {
+  top: 87%;
+  right: 5rem;
+  transform: rotate(313deg);
+}
+.arrowTwo {
+  top: 87%;
+    left: 49%;
+}
+.aboutUsOurModuleContent {
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.aboutUsOurModuleCart{
+  width: 22%;
+}
+}
+@media only screen and (min-width: 1001px) and (max-width: 1076px) {
+  .homePageFirstContentDesktopImage {
+    width: 100%;
+    margin-top: 6rem;
+    position: relative;
+}
+.bannerImageContentTextOne {
+  font-size: 1.3rem;
+  font-weight: 500;
+  top: 10rem;
+  left: 50%;
+}
+#more-arrows {
+  transform: rotate(143deg) !important;
+  top: 42% !important;
+  left: 58% !important;
+}
+.bannerImageContentTextThree {
+  font-size: 1.3rem;
+  right: 2rem;
+  top: 10rem;
+}
+.arrowFour {
+  transform: rotate(217deg);
+  top: 42%;
+  right: 5rem;
+}
+.bannerImageContentTextTwo {
+  font-size: 1.3rem;
+  top: 135%;
+  left: 50%;
+}
+.bannerImageContentTextFour {
+  font-size: 1.3rem;
+  right: 1.5rem;
+  top: 135%;
+}
+.arrowThree {
+  transform: rotate(318deg);
+  top: 117%;
+  right: 5rem;
+}
+.arrowTwo {
+  transform: rotate(43deg);
+  top: 117%;
+  left: 57%;
+}
+.aboutUsOurModuleContent {
+    padding: 2rem;
+}
+.aboutUsOurModuleCart {
+  width: 22%;
+}
+}
+@media only screen and (min-width: 1440px){
+  .homePageFirstContentDesktopImage {
+    width: 63%;
+    margin-top: 6rem;
+    position: relative;
+}
+.bannerImageContentTextOne {
+  font-size: 1.5rem;
+  font-weight: 500;
+  top: 12rem;
+  left: 56%;
+}
+#more-arrows {
+  transform: rotate(143deg) !important;
+  top: 36% !important;
+  left: 63% !important;
+}
+.bannerImageContentTextThree {
+  font-size: 1.5rem;
+  right: 5rem;
+  top: 12rem;
+}
+.arrowFour {
+  transform: rotate(221deg);
+  top: 37%;
+  right: 13rem;
+}
+.bannerImageContentTextTwo {
+  font-size: 1.5rem;
+  top: 100%;
+  left: 55%;
+}
+.bannerImageContentTextFour {
+  font-size: 1.5rem;
+  right: 1.5rem;
+  top: 100%;
+}
+.arrowThree {
+    transform: rotate(318deg);
+    top: 85%;
+    right: 12rem;
+}
+.arrowTwo {
+  transform: rotate(40deg);
+  top: 85%;
+  left: 63%;
+}
+.aboutUsOurModuleContent {
+    padding: 4rem;
+}
+.aboutUsOurModuleCart {
+  width: 20%;
+  justify-content: center;
+}
 }

@@ -178,3 +178,52 @@
   color: hsla(0, 0%, 100%, 0.75);
   text-decoration: none;
 }
+@media only screen and (min-width: 280px) and (max-width: 786px) {
+  .homePageFooter {
+    display: flex;
+    flex-direction: column;
+   padding: 0rem !important;
+}
+.homePageFooterTextContentFinalFeild {
+  display: flex;
+  flex-direction: column !important;
+}
+.homePageFooterTextContainer {
+  display: flex;
+  flex-direction: column !important;
+}
+.homePageFooterTextContent {
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column !important;
+}
+.homePageFooterTextContentCart {
+  width: 100%;
+  margin: 0.5rem !important;
+  text-align: center;
+}
+.homePageFooterTextContentFinaltextfeild{
+  text-align: center;
+}
+.homePageFooterTextContentfeild{
+  margin-top: 0rem;
+  font-size: 15px;
+}
+.homePageFooterTextContentHeading{
+  font-size: 20px;
+}
+.homePageTermsOfServices{
+  margin-left: 1.5rem;
+}
+}
+@media only screen and (min-width: 1001px) and (max-width: 1440px) {
+.homePageFooterTextContent {
+  width: 60% !important;
+  justify-content: space-evenly;
+  display: flex;
+}
+.homePageFooterTextContentCart {
+  width: 32%;
+  margin: 1rem !important;
+}
+}

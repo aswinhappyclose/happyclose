@@ -21,7 +21,7 @@ import BannerImage1 from "../../images/BannerImage1.png";
 import ProblumsFour from "../../images/ProblumsFour.png";
 import ProblumsFive from "../../images/ProblumsFive.png";
 import ProblumsSix from "../../images/ProblumsSix.png";
-import SECReportQustion from "../../images/SECReportQustion.png";
+import SECReportQustion from "../../images/SECReportQustion.jpg";
 import SECReportQustionTwo from "../../images/SECReportQustionTwo.png";
 import LargeSolutions from "../../images/LargeSolutions.png";
 import LargeSolutionsTwo from "../../images/LargeSolutionsTwo.png";
