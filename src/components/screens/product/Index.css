@@ -1,5 +1,5 @@
 .closePageFirstContent {
-  background-image: url("../../images/homePageBanner.png");
+  background-image: url("../../themes/images/homePageBanner.png");
   padding-top: 45%;
   top: 30%;
   background-position: 100% 100%;
@@ -22,34 +22,35 @@
 }
 .closePageFirstContentTextFeildHeader {
   margin-top: 4rem;
-  font-size: 4rem;
+  font-size: var(--heading);
   line-height: 1.2;
   font-weight: 500;
-  font-family: "Lora" !important;
+  font-family: var(--defaultRegular) !important;
 }
 .closePageFirstContentText {
   margin-top: 1.5rem;
-  font-size: 1.4rem;
+  font-size: var(--content);
   line-height: 1.2;
-  font-family: "Lora";
+  font-weight: 500;
+  font-family: var(--defaultRegular);
 }
 .homePageTransformYouWork {
-  background-color: #fff;
-  color: #1f0045;
+  background-color: var(--whiteColor);
+  color: var(--defaultColor);
   padding: 4rem;
   padding-bottom: 12rem;
   margin: 2rem 0rem;
 }
 .homePageTransformYouWork {
-  background-color: #fff;
-  color: #1f0045;
+  background-color: var(--whiteColor);
+  color: var(--defaultColor);
   padding: 4rem;
   padding-bottom: 12rem;
   margin: 2rem 0rem;
 }
 .homePageTransformYouWorkFirstCart {
   border-radius: 1.25rem;
-  background-color: #eeebe4;
+  background-color: var(--lightGreyColor);
   padding-top: 2rem;
   display: flex;
   justify-content: space-between;
@@ -63,18 +64,18 @@
 .homePageTransformYouWorkFirstCartcontent {
   margin: 2rem;
   width: 50%;
-  font-family: "Lora";
+  font-family: var(--defaultRegular);
 }
 .homePageTransformYouWorkFirstCartcontentHeading {
-  color: #ff5300;
-  font-size: 1.4rem;
+  color: var(--primaryColor);
+  font-size: var(--content);
   font-weight: 700;
 }
 .homePageTransformYouWorkFirstCartcontentContent {
-  color: #1f0045;
-  font-size: 2rem;
-  font-weight: 500;
-  margin-top: 11rem;
+  color: var(--defaultColor);
+  font-size: var(--content);
+  font-weight: 700;
+  margin-top: 13rem;
 }
 
 .homePageTransformYouWorkFirstCartImage {
@@ -82,8 +83,8 @@
 }
 .homePageTransformYouWorkSecondCart {
   border-radius: 1.25rem;
-  background-color: #ff5300;
-  color: #fff;
+  background-color: var(--primaryColor);
+  color: var(--whiteColor);
   padding-top: 2rem;
   display: flex;
   justify-content: space-between;
@@ -97,20 +98,20 @@
 .homePageTransformYouWorkSecondCartcontent {
   margin: 2rem;
   width: 50%;
-  font-family: "Lora";
+  font-family:var(--defaultRegular);
 }
 .homePageTransformYouWorkSecondCartcontentHeading {
-  font-size: 1.5rem;
-  font-weight: 600;
+  font-size: var(--content);
+  font-weight: 700;
 }
 .homePageTransformYouWorkSecondCartcontentContent {
-  font-size: 2rem;
-  font-weight: 500;
-  margin-top: 7rem;
+  font-size: var(--content);
+  font-weight: 700;
+  margin-top: 9rem;
 }
 .homePageTransformYouWorkFoutCartcontentContent {
-  font-size: 2rem;
-  font-weight: 500;
+  font-size: var(--content);
+  font-weight: 700;
   margin-top: 13rem;
 }
 .homePageTransformYouWorkSecondCartcontentLearnMore {
@@ -120,8 +121,8 @@
 }
 .homePageTransformYouWorkThirdCart {
   border-radius: 1.25rem;
-  background-color: #001a4d;
-  color: #fff;
+  background-color: var(--defaultColor);
+  color: var(--whiteColor);
   padding-top: 2rem;
   display: flex;
   justify-content: space-between;
@@ -136,8 +137,8 @@
 }
 .homePageTransformYouWorkFourCart {
   border-radius: 1.25rem;
-  background-color: #e5c981;
-  color: #fff;
+  background-color: var(--lightYellowColor);
+  color: var(--whiteColor);
   padding-top: 2rem;
   display: flex;
   justify-content: space-between;
@@ -159,14 +160,14 @@
   grid-row-gap: 1.5rem;
 }
 .homePageTransformYouWorkText {
-  font-size: 3.5rem;
+  font-size: var(--heading);
   font-weight: 500;
   margin-top: 0rem;
   margin-bottom: 3rem;
-  font-family: "Lora";
+  font-family:var(--defaultRegular);
 }
 i.bi.bi-check2-circle {
-  color: rgb(26, 97, 26);
+  color: var(--greenColor);
   font-size: 1.8rem;
   padding-left: 0.5rem;
   margin-right: 0rem !important;
@@ -182,124 +183,124 @@ i.bi.bi {
   border-radius: 10px;
   left: 36%;
   z-index: 11;
-  background-color: #fff;
+  background-color: var(--whiteColor);
   padding: 0.5rem 1rem;
   display: flex;
   align-items: center;
-  font-family: "Lora";
+  font-family: var(--defaultRegular);
 }
 .bookcloseTextTwo {
   position: absolute;
-  top: 30%;
+  top: 36%;
   right: 1rem;
-  background-color: #fff;
+  background-color: var(--whiteColor);
   padding: 0.5rem 1rem;
   border-radius: 10px;
   z-index: 11;
   display: flex;
   align-items: center;
-  font-family: "Lora";
+  font-family: var(--defaultRegular);
 }
 .bookcloseTextThree {
   position: absolute;
   top: 52%;
   left: 48%;
-  background-color: #fff;
+  background-color: var(--whiteColor);
   padding: 0.5rem 1rem;
   border-radius: 10px;
   z-index: 11;
   display: flex;
   align-items: center;
-  font-family: "Lora";
+  font-family: var(--defaultRegular);
 }
 .bookcloseTextFour {
   position: absolute;
-  top: 52%;
-  right: 7rem;
-  background-color: #fff;
+  top: 55%;
+  right: 4rem;
+  background-color: var(--whiteColor);
   padding: 0.5rem 1rem;
   border-radius: 10px;
   z-index: 11;
   display: flex;
   align-items: center;
-  font-family: "Lora";
+  font-family:var(--defaultRegular);
 }
 .bookcloseTextFive {
   position: absolute;
-  top: 64%;
-  right: 19rem;
-  background-color: #fff;
+  top: 71%;
+  right: 12rem;
+  background-color: var(--whiteColor);
   padding: 0.5rem 1rem;
   border-radius: 10px;
   z-index: 11;
   display: flex;
   align-items: center;
-  font-family: "Lora";
+  font-family: var(--defaultRegular);
 }
 .reportingTextOne {
   position: absolute;
   top: 31%;
   border-radius: 10px;
-  left: 38%;
+  left: 51%;
   z-index: 21;
-  background-color: #fff;
+  background-color: var(--whiteColor);
   color: #000;
   padding: 0.5rem 1rem;
   display: flex;
   align-items: center;
-  font-family: "Lora";
+  font-family: var(--defaultRegular);
 }
 .reportingTextTwo {
   position: absolute;
-  top: 30%;
+  top: 14%;
   right: 1rem;
-  background-color: #fff;
+  background-color: var(--whiteColor);
   color: #000;
   padding: 0.5rem 1rem;
   border-radius: 10px;
   z-index: 21;
   display: flex;
   align-items: center;
-  font-family: "Lora";
+  font-family: var(--defaultRegular);
 }
 .reportingTextThree {
   position: absolute;
-  top: 52%;
-  right: 12rem;
-  background-color: #fff;
+  top: 53%;
+  right: 2rem;
+  background-color: var(--whiteColor);
   color: #000;
   padding: 0.5rem 1rem;
   border-radius: 10px;
   z-index: 21;
   display: flex;
   align-items: center;
-  font-family: "Lora";
+  font-family: var(--defaultRegular);
 }
-.reportngTextFour {
+.reportingTextFour {
   position: absolute;
-  top: 71%;
-  right: 35rem;
-  background-color: #fff;
+  top: 68%;
+  right: 27rem;
+  background-color: var(--whiteColor);
   color: #000;
   padding: 0.5rem 1rem;
   border-radius: 10px;
   z-index: 21;
   display: flex;
   align-items: center;
-  font-family: "Lora";
+  font-family: var(--defaultRegular);
 }
 .reportingTextFive {
   position: absolute;
   top: 71%;
   right: 1rem;
-  background-color: #fff;
+  background-color: var(--whiteColor);
   color: #000;
   padding: 0.5rem 1rem;
   border-radius: 10px;
   z-index: 21;
   display: flex;
   align-items: center;
-  font-family: "Lora";
+  font-family: var(--defaultRegular);
 }
 .consolidateTextOne {
   position: absolute;
@@ -307,75 +308,141 @@ i.bi.bi {
   border-radius: 10px;
   left: 54%;
   z-index: 31;
-  background-color: #fff;
+  background-color: var(--whiteColor);
   color: #000;
   padding: 0.5rem 1rem;
   display: flex;
   align-items: center;
-  font-family: "Lora";
+  font-family: var(--defaultRegular);
 }
 .consolidateTextTwo {
   position: absolute;
   top: 59%;
   right: 3rem;
-  background-color: #fff;
+  background-color: var(--whiteColor);
   color: #000;
   padding: 0.5rem 1rem;
   border-radius: 10px;
   z-index: 31;
   display: flex;
   align-items: center;
-  font-family: "Lora";
+  font-family: var(--defaultRegular);
 }
 .consolidateTextThree {
   position: absolute;
   top: 37%;
   left: 48%;
-  background-color: #fff;
+  background-color: var(--whiteColor);
   color: #000;
   padding: 0.5rem 1rem;
   border-radius: 10px;
   z-index: 31;
   display: flex;
   align-items: center;
-  font-family: "Lora";
+  font-family: var(--defaultRegular);
 }
 .consolidateTextFour {
   position: absolute;
   top: 37%;
   right: 1rem;
-  background-color: #fff;
+  background-color: var(--whiteColor);
   color: #000;
   padding: 0.5rem 1rem;
   border-radius: 10px;
   z-index: 31;
   display: flex;
   align-items: center;
-  font-family: "Lora";
+  font-family: var(--defaultRegular);
+}
+.consolidateTextFive {
+  position: absolute;
+  top: 59%;
+  right: 25rem;
+  background-color: var(--whiteColor);
+  color: #000;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  z-index: 31;
+  display: flex;
+  align-items: center;
+  font-family: var(--defaultRegular);
 }
 .riskManagementTextOne {
   position: absolute;
-  top: 65%;
+  top: 19%;
   border-radius: 10px;
-  left: 57%;
+  left: 50%;
   z-index: 41;
-  background-color: #fff;
+  background-color: var(--whiteColor);
   color: #000;
   padding: 0.5rem 1rem;
   display: flex;
   align-items: center;
-  font-family: "Lora";
+  font-family: var(--defaultRegular);
 }
+
 .riskManagementTextTwo {
   position: absolute;
-  top: 78%;
+  top: 30%;
   right: 1rem;
-  background-color: #fff;
+  background-color: var(--whiteColor);
   color: #000;
   padding: 0.5rem 1rem;
   border-radius: 10px;
   z-index: 41;
   display: flex;
   align-items: center;
-  font-family: "Lora";
+  font-family: var(--defaultRegular);
+}
+.riskManagementTextThree {
+  position: absolute;
+  top: 45%;
+  border-radius: 10px;
+  left: 50%;
+  z-index: 41;
+  background-color: var(--whiteColor);
+  color: #000;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  font-family: var(--defaultRegular);
+}
+.riskManagementTextFour {
+  position: absolute;
+  top: 56%; 
+  border-radius: 10px;
+  right: 1rem;
+  z-index: 41;
+  background-color: var(--whiteColor);
+  color: #000;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  font-family: var(--defaultRegular);
+}
+.riskManagementTextFive {
+  position: absolute;
+  top: 70%;
+  border-radius: 10px;
+  left: 50%;
+  z-index: 41;
+  background-color: var(--whiteColor);
+  color: #000;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  font-family: var(--defaultRegular);
+}
+.riskManagementTextSix {
+  position: absolute;
+  top: 82%;
+  border-radius: 10px;
+  right: 1rem;
+  z-index: 41;
+  background-color: var(--whiteColor);
+  color: #000;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  font-family: var(--defaultRegular);
 }

@@ -10,7 +10,7 @@ import Blog from "./components/screens/blog/Blog";
 import AboutUs from "./components/screens/aboutUs/AboutUs";
 import ScheduleDemo from "./components/screens/scheduleDemo/ScheduleDemo";
 import { ToastContainer } from "react-toastify";
-import "./components/Global.css";
+import "./components/themes/css/Global.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

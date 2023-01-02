@@ -1,8 +1,8 @@
 import React from "react";
 import "./Index.css";
-import FooterLogo from "../../images/footerLogo.png";
-import Twitter from "../../images/twitter.jpg";
-import LinkedIn from "../../images/linkedIn.png";
+import BannerImageFooter from "../../themes/images/BannerImageFooter.png";
+import Twitter from "../../themes/images/twitter.jpg";
+import LinkedIn from "../../themes/images/linkedIn.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="HomePageFooterContent">
         <div className="homePageFooter">
           <div className="homePageFooterTextContainer">
-            <img src={FooterLogo} alt="" />
+            <img src={BannerImageFooter} alt="" className="FooterLogoImageContent"/>
             <div className="homePageFooterTextContent">
               <div className="homePageFooterTextContentCart">
                 <p className="homePageFooterTextContentHeading">Product</p>

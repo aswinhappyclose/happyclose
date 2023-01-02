@@ -2,15 +2,18 @@ import React from "react";
 import "./Index.css";
 import Header from "../header/Index.js";
 import Footer from "../footer/Footer";
-import BannerImage from "../../images/BannerImage.png";
-import HomePageBookCloseCartImage from "../../images/HomePageBookCloseCartImage.png";
-import HomePageReportCartImage from "../../images/HomePageReportCartImage.png";
-import HomePageConsolidateCartImage from "../../images/HomePageConsolidateCartImage.png";
-import HomePageRiskManagementCartImage from "../../images/HomePageRiskManagementCartImage.png";
+import BannerImage from "../../themes/images/BannerImage.png";
+import HomePageBookCloseCartImage from "../../themes/images/ClosingBook.png";
+import HomePageReportCartImage from "../../themes/images/Reporting.png";
+import HomePageConsolidateCartImage from "../../themes/images/Consolidate.png";
+import HomePageRiskManagementCartImage from "../../themes/images/RiskManagement.png";
+
 
 import { Link } from "react-router-dom";
 
 const Home = () => {
+
+
   return (
     <div className="MainContainer">
       <Header />
@@ -138,6 +141,7 @@ const Home = () => {
           </div>
         </Link>
       </div>
+     
       <Footer />
     </div>
   );

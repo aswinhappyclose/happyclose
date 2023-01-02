@@ -1,74 +1,34 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "../header/Index.js";
 import "./Index.css";
 import Footer from "../footer/Footer.js";
-import homePageCartOne from "../../images/homePageCartOne.png";
-import homePageCartTwo from "../../images/homePageCartTwo.png";
-import homePageCartThree from "../../images/homePageCartThree.png";
-import homePageCartFour from "../../images/homePageCartFour.png";
+import homePageCartOne from "../../themes/images/homePageCartOne.png";
+import homePageCartTwo from "../../themes/images/homePageCartTwo.jpg";
+import homePageCartThree from "../../themes/images/homePageCartThree.jpg";
+import homePageCartFour from "../../themes/images/homePageCartFour.png";
 import Box from "@mui/material/Box";
 import Tab from "@mui/material/Tab";
 import TabContext from "@mui/lab/TabContext";
 import TabList from "@mui/lab/TabList";
 import TabPanel from "@mui/lab/TabPanel";
-import SepImage from "../../images/Sep-2022.png";
-import OctImage from "../../images/Oct-2022.png";
-import NovImageOne from "../../images/Nov-2022-1.png";
-import NovImageTwo from "../../images/Nov-2022-2.png";
-import ClosingBook from "../../images/ClosingBook.png";
-import Reporting from "../../images/Reporting.png";
-import BannerImage1 from "../../images/BannerImage1.png";
-import ProblumsFour from "../../images/ProblumsFour.png";
-import ProblumsFive from "../../images/ProblumsFive.png";
-import ProblumsSix from "../../images/ProblumsSix.png";
-import SECReportQustion from "../../images/SECReportQustion.jpg";
-import SECReportQustionTwo from "../../images/SECReportQustionTwo.png";
-import LargeSolutions from "../../images/LargeSolutions.png";
-import LargeSolutionsTwo from "../../images/LargeSolutionsTwo.png";
-import Inversment from "../../images/Inversment.png";
-import InversmentTwo from "../../images/InversmentTwo.png";
-import friendly from "../../images/friendly.png";
-import friendlyTwo from "../../images/friendlyTwo.png";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
+import SepImage from "../../themes/images/Sep-2022.png";
+import OctImage from "../../themes/images/Oct-2022.png";
+import NovImageOne from "../../themes/images/Nov-2022-1.png";
+import NovImageTwo from "../../themes/images/Nov-2022-2.png";
+import ClosingBook from "../../themes/images/ClosingBook.png";
+import Reporting from "../../themes/images/Reporting.png";
+import BannerImage1 from "../../themes/images/BannerImage1.png";
+import ZFLogo from "../../themes/images/ZFLogo.jpg";
+
+
 
 const AboutUs = () => {
-  const [value, setValue] = React.useState("1");
+  const [value, setValue] = useState("1");
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
 
-  const problumAndSolution = [
-    {
-      img: SECReportQustion,
-      text: " Established products generate more than 70% of revenue from US and focus on SEC reporting.",
-      image: SECReportQustionTwo,
-      textOne:
-        "Happy Close is an automated platform that supports Indian reporting requirements.",
-    },
-    {
-      img: LargeSolutions,
-      text: "Large solutions are currentlty fragmented",
-      image: LargeSolutionsTwo,
-      textOne:
-        " Happy Close is a one stop integrated platform can improve efficiency and collaboration among teams.",
-    },
-    {
-      img: Inversment,
-      text: "Tech investment in finance is majorly in planning and not on reporting and existing solutions are expensive.",
-      image: InversmentTwo,
-      textOne:
-        " Happy Close is inexpensive and can support both planning and reporting",
-    },
-    {
-      img: friendly,
-      text: " Lack of advanced user-friendly UI which is also GAAP and ERP agnostic",
-      image: friendlyTwo,
-      textOne:
-        " Happy Close brings a fresh perspective to book close process as the user can integrate basic excel workings to the reporting process. It reduces the need to learn new technologies and eliminates resistance to change.",
-    },
-  ];
   return (
     <>
       <Header />
@@ -133,9 +93,12 @@ const AboutUs = () => {
                   of big four experience coupled with experience as financial
                   controllers was their investment.{" "}
                 </p>
-                <div>
-                  <img src={NovImageOne} alt="" />
-                  <img src={NovImageTwo} alt="" />
+                <div className="aboutUsNovContentImages">
+                  <div>
+                  <img src={NovImageOne} alt="" className="aboutUsNovContentImageOne"/>
+                  <img src={NovImageTwo} alt="" className="aboutUsNovContentImageTwo"/>
+                  </div>
+                  <img src={ZFLogo} alt=""  className="ZFLogo"/>
                 </div>
               </div>
             </TabPanel>
@@ -185,166 +148,43 @@ const AboutUs = () => {
         </Box>
       </div>
       <p className="newsPapperClippesHeading">
-        Key metrics that led to the birth of happy close
+      Factors that led to the birth of happy close
       </p>
       <div className="newsPapperClippes">
         <div className="newsPapperClippesCart">
           <div id="overlay">
-            <img src={homePageCartOne} alt="" />
+            <img src={homePageCartOne} alt=""  className="newsPapperClippesCartImage"/>
             <p className="newsPapperClippesCartText">
-              High cost of delayed reporting
+            Remote / Hybrid working is here <br/>to stay
+           
             </p>
           </div>
         </div>
         <div className="newsPapperClippesCart">
           <div className="overlay One">
-            <img src={homePageCartTwo} alt="" />
+            <img src={homePageCartTwo} alt="" className="newsPapperClippesCartImageTwo"/>
             <p className="newsPapperClippesCartText">
-              Ever changing disclosure requirements
+            High Cost of incorrect/ delayed reporting
             </p>
           </div>
         </div>
         <div className="newsPapperClippesCart">
           <div className="overlay Two">
-            <img src={homePageCartFour} alt="" />
+            <img src={homePageCartThree} alt="" className="newsPapperClippesCartImageThree"/>
             <p className="newsPapperClippesCartText">
               {" "}
-              Lack of integration between teams
+              Spreadsheets are no longer a viable alternative for a growing company 
             </p>
           </div>
         </div>
         <div className="newsPapperClippesCart">
           <div className="overlay Three">
-            <img src={homePageCartThree} alt="" />
-            <p className="newsPapperClippesCartText">Abundance of data</p>
+            <img src={homePageCartFour} alt="" className="newsPapperClippesCartImageFour"/>
+            <p className="newsPapperClippesCartText">Reporting solutions need to be global </p>
           </div>
         </div>
       </div>
-      <div className="aboutUsKeymetrics">
-        <header>Newspost HappyClose</header>
-        <div class="subhead">
-          Chennai - Thursday February 14, 1997 - Seven Pages
-        </div>
-        <div class="content">
-          <div class="collumns">
-            <div class="collumn">
-              <div class="head">
-                <span class="headline hl3">
-                  Byju’s Reports Widening Losses After Prolonged Audit Delay
-                </span>
-                <p>
-                  <span class="headline hl4">Bloomberg</span>
-                </p>
-              </div>
-            </div>
-            <div class="collumn">
-              <div class="head">
-                <span class="headline hl5">
-                  {" "}
-                  The new reporting requirements will only make the audit report
-                  lengthier and complex for shareholders
-                </span>
-                <p>
-                  <span class="headline hl6">Business Line</span>
-                </p>
-              </div>
-            </div>
-            <div class="collumn">
-              <div class="head">
-                <span class="headline hl1">
-                  {" "}
-                  Indian Regulator SEBI Mulls Mandatory Audit for ESG
-                  Disclosures{" "}
-                </span>
-                <p>
-                  <span class="headline hl2">Bloomberg Tax</span>
-                </p>
-              </div>
-            </div>
-            <div class="collumn">
-              <div class="head">
-                <span class="headline hl3">
-                  {" "}
-                  MCA mulls imposing fines on unicorns over delay in filing
-                  financials
-                </span>
-                <p>
-                  <span class="headline hl4"> Business Standard </span>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <h1 className="SolutionsResultsHeading">Happyclose Modules</h1>
-      <div className="SolutionsResults">
-        <div className="happyCloseProblumSolutionsCart">
-          <img
-            src={ProblumsFour}
-            alt=""
-            className="happyCloseProblumSolutionsOneCartImageOne"
-          />
-          <p className="happyCloseProblumSolutionsOneCartText">
-            Intelligent close manager with - real time PL, Easy workflow, Audit
-            trail
-          </p>
-        </div>
-        <div className="happyCloseProblumSolutionsCart">
-          <img
-            src={ProblumsFive}
-            alt=""
-            className="happyCloseProblumSolutionsOneCartImageOne"
-          />
-          <p className="happyCloseProblumSolutionsOneCartText">
-            Smart (GAAP agnostic) consolidation engine-automate consolidation
-            adjustments
-          </p>
-        </div>
-        <div className="happyCloseProblumSolutionsCart">
-          <img
-            src={ProblumsSix}
-            alt=""
-            className="happyCloseProblumSolutionsCartImageOne"
-          />
-          <p className="happyCloseProblumSolutionsCartText">
-            Connected solution with customisable templates to avoid errors,
-            duplication of effort, enable one source of truth, walk the last
-            mile (XBRL conversion)
-          </p>
-        </div>
-      </div>
-      <div className="aboutUsProblumAndSolutionsContainer">
-        <Swiper spaceBetween={50} slidesPerView={3}>
-          {problumAndSolution.map((data) => {
-            return (
-              <SwiperSlide>
-                <div className="problumandSolutioncart">
-                  <div className="problumandSolutioncartOne">
-                    <img
-                      src={data.img}
-                      alt=""
-                      className="problumandSolutioncartFirstImage"
-                    />
-                    <p className="problumandSolutioncartFirstText">
-                      {data.text}
-                    </p>
-                  </div>
-                  <div className="problumandSolutioncartTwo">
-                    <img
-                      src={data.image}
-                      alt=""
-                      className="problumandSolutioncartFirstImage"
-                    />
-                    <p className="problumandSolutioncartFirstText">
-                      {data.textOne}
-                    </p>
-                  </div>
-                </div>
-              </SwiperSlide>
-            );
-          })}
-        </Swiper>
-      </div>
+
       <div className="aboutUsMainContainer">
         <div className="aboutUsBannerCantainer">
           <h1 className="aboutUsBannerCantainerHeading">Arjun Parthasarathy</h1>

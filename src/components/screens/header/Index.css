@@ -11,14 +11,14 @@
   align-items: center;
   justify-content: space-between;
   padding: 1rem 2rem;
-  background-color: #001a4d;
+  background-color: var(--defaultColor);
   width: 100%;
 }
 .headerLinkItems {
-  color: #fff;
+  color: var(--whiteColor);
   text-decoration: none;
   cursor: pointer;
-  font-family: "Lora";
+  font-family: var(--defaultRegular);
 }
 .headerLogoImage {
   width: 15%;
@@ -26,7 +26,7 @@
 .headerLinkItems:active,
 .headerLinkItems:focus,
 .headerLinkItems:hover {
-  color: #fff;
+  color: var(--whiteColor);
   text-decoration: none;
 }
 .headerTextContainer {
@@ -38,30 +38,30 @@
   margin-right: 1rem;
 }
 .headerTexContainertagsContnents {
-  font-size: 1.3rem;
+  font-size: var(--content);
   font-weight: 700;
   padding-top: 0.2rem;
-  color: #fff;
+  color: var(--whiteColor);
 }
 .headerTexContainertagsContnents:hover {
-  color: #f86739;
+  color: var(--primaryColor);
 }
 .headerTreadingHeadilines {
   padding: 0.5rem;
   text-align: center;
-  background-color: #fff;
-  color: #001a4d;
+  background-color: var(--whiteColor);
+  color: var(--defaultColor);
   width: 100%;
-  font-size: 1.2rem;
-  font-weight: 500;
-  font-family: "Lora";
+  font-size: var(--content);
+  font-weight: 700;
+  font-family: var(--defaultRegular);
 }
 .HeaderLogo {
   width: 7%;
 }
 @media only screen and (min-width: 280px) and (max-width: 426px) {
   .headerTreadingHeadilines {
-    font-size: 15px;
+    font-size: var(--content);
   }
   .headerTextContainer {
     width: 75% !important;
@@ -74,12 +74,12 @@
     padding: 0.5rem 1.5rem !important;
   }
   .headerTexContainertagsContnents {
-    font-size: 12px !important;
+    font-size: var(--content) !important;
   }
 }
 @media only screen and (min-width: 427px) and (max-width: 1000px) {
   .headerTreadingHeadilines {
-    font-size: 15px;
+    font-size:var(--content);
   }
   .headerTextContainer {
     width: 65% !important;
@@ -92,7 +92,7 @@
     padding: 0.5rem 1.5rem !important;
   }
   .headerTexContainertagsContnents {
-    font-size: 15px !important;
+    font-size:var(--content)!important;
   }
   .homePageFirstContentButton {
     padding: 0.5rem 2.5rem;

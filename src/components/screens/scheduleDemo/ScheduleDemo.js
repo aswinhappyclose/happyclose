@@ -121,7 +121,7 @@ const ScheduleDemo = () => {
             <textarea
               type="text"
               className="scheduleDemoContentTextInputMessage"
-              placeholder="Help us to help you"
+              placeholder="Share additional information, if any"
               name="Message"
               value={scheduled.Message}
               onChange={(e) =>
@@ -134,7 +134,7 @@ const ScheduleDemo = () => {
           </div>
           <div className="scheduleDemoSubmitButton">
             <button className="scheduleDemoButton" onClick={Validate}>
-              Lets explore Happy Close
+             Submit
             </button>
           </div>
         </div>

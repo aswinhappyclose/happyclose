@@ -4,9 +4,9 @@
 .homePageFirstContent {
   padding: 10% 0%;
   width: 100%;
-  background-color: #001a4d;
+  background-color: var(--defaultColor);
   display: flex;
-  background-image: url("../../images/footerBackgroungImage.png");
+  background-image: url("../../themes/images/footerBackgroungImage.png");
   background-position: 95% 70%;
   background-size: 40%;
   background-repeat: no-repeat;
@@ -20,12 +20,12 @@
   text-align: center;
 }
 .homePageFirstContentTextFeildHeader {
-  font-size: 4rem;
+  font-size: var(--heading);
   line-height: 1.2;
   margin-top: 10rem;
   font-weight: 500;
-  color: #fff;
-  font-family: "Lora";
+  color: var(--whiteColor);
+  font-family: var(--defaultRegular);
 }
 .homePageFirstContentText {
   font-size: 1.7rem;
@@ -33,11 +33,11 @@
 }
 .homePageFirstContentButton {
   padding: 1rem 2rem;
-  font-size: 1.2rem;
+  font-size: var(--content);
   margin-top: 2rem;
   font-weight: 700;
-  color: #001a4d !important;
-  font-family: "Lora";
+  color: var(--defaultColor) !important;
+  font-family: var(--defaultRegular);
   border: none;
   transition: all 0.6s ease-out;
   display: block;
@@ -46,7 +46,7 @@
 .homePageFirstContentButton:hover,
 .homePageFirstContentButton:active,
 .homePageFirstContentButton:focus {
-  color: #fff;
+  color: var(--whiteColor);
   text-decoration: none;
   outline: none;
 }
@@ -54,7 +54,7 @@ a.buttonLink {
   text-decoration: none;
 }
 .homePageBannerButton {
-  background: linear-gradient(to right, #f86739 50%, white 50%);
+  background: linear-gradient(to right, var(--primaryColor) 50%, var(--whiteColor) 50%);
   background-size: 200% 100%;
   background-position: right bottom;
   transition: all 0.5s ease-out;
@@ -98,17 +98,17 @@ a.buttonLink {
   margin: 0rem;
 }
 .bannerImageContentTextOne {
-  color: #f86739;
+  color: var(--primaryColor);
   position: absolute;
-  font-size: 1.5rem;
-  font-weight: 500;
+  font-size: var(--content);
+  font-weight: 700;
   top: 12rem;
   left: 55%;
-  border: 1px solid #fff;
+  border: 1px solid var(--whiteColor);
   padding: 0.5rem 1.5rem;
   border-radius: 10px;
   transition: transform 1.5s;
-  font-family: "Lora";
+  font-family: var(--defaultRegular);
 }
 .bannerImageContentTextOne:hover,
 .bannerImageContentTextOne:active,
@@ -116,17 +116,17 @@ a.buttonLink {
   transform: scale(1.2);
 }
 .bannerImageContentTextTwo {
-  color: #f86739;
+  color: var(--primaryColor);
   position: absolute;
-  font-size: 1.5rem;
-  font-weight: 500;
+  font-size: var(--content);
+  font-weight: 700;
   top: 87%;
   left: 56%;
-  border: 1px solid #fff;
+  border: 1px solid var(--whiteColor);
   padding: 0.5rem 1.5rem;
   border-radius: 10px;
   transition: transform 1.5s;
-  font-family: "Lora";
+  font-family: var(--defaultRegular);
 }
 .bannerImageContentTextTwo:hover,
 .bannerImageContentTextTwo:active,
@@ -134,17 +134,17 @@ a.buttonLink {
   transform: scale(1.2);
 }
 .bannerImageContentTextThree {
-  color: #f86739;
-  font-size: 1.5rem;
-  font-weight: 500;
+  color: var(--primaryColor);
+  font-size: var(--content);
+  font-weight: 700;
   position: absolute;
   right: 3rem;
   top: 12.5rem;
-  border: 1px solid #fff;
+  border: 1px solid var(--whiteColor);
   padding: 0.5rem 1.5rem;
   border-radius: 10px;
   transition: transform 1.5s;
-  font-family: "Lora";
+  font-family: var(--defaultRegular);
 }
 .bannerImageContentTextThree:hover,
 .bannerImageContentTextThree:active,
@@ -152,17 +152,17 @@ a.buttonLink {
   transform: scale(1.2);
 }
 .bannerImageContentTextFour {
-  color: #f86739;
-  font-size: 1.5rem;
-  font-weight: 500;
+  color: var(--primaryColor);
+  font-size: var(--content);
+  font-weight: 700;
   position: absolute;
   right: 1.5rem;
   top: 87%;
-  border: 1px solid #fff;
+  border: 1px solid var(--whiteColor);
   padding: 0.5rem 1.5rem;
   border-radius: 10px;
   transition: transform 1.5s;
-  font-family: "Lora";
+  font-family: var(--defaultRegular);
 }
 .bannerImageContentTextFour:hover,
 .bannerImageContentTextFour:active,
@@ -190,7 +190,7 @@ a.buttonLink {
   left: 64%;
 }
 #more-arrows:hover polygon {
-  fill: #f86739;
+  fill: var(--primaryColor);
   transition: all 1s ease-out;
 }
 #more-arrows:hover polygon.arrow-bottom {
@@ -200,7 +200,7 @@ a.buttonLink {
   transform: translateY(18px);
 }
 polygon {
-  fill: #fff;
+  fill: var(--whiteColor);
   transition: all 1s ease-out;
 }
 polygon.arrow-middle {
@@ -220,7 +220,7 @@ polygon.arrow-top {
 }
 
 .arrowTwo:hover polygon {
-  fill: #f86739;
+  fill: var(--primaryColor);
   transition: all 1s ease-out;
 }
 .arrowTwo:hover polygon.arrow-bottom {
@@ -230,7 +230,7 @@ polygon.arrow-top {
   transform: translateY(18px);
 }
 polygon {
-  fill: #fff;
+  fill: var(--whiteColor);
   transition: all 1s ease-out;
 }
 polygon.arrow-middle {
@@ -250,7 +250,7 @@ polygon.arrow-top.Two {
 }
 
 .arrowThree:hover polygon {
-  fill: #f86739;
+  fill: var(--primaryColor);
   transition: all 1s ease-out;
 }
 .arrowThree:hover polygon.arrow-bottom {
@@ -260,7 +260,7 @@ polygon.arrow-top.Two {
   transform: translateY(18px);
 }
 polygon {
-  fill: #fff;
+  fill: var(--whiteColor);
   transition: all 1s ease-out;
 }
 polygon.arrow-middle {
@@ -280,7 +280,7 @@ polygon.arrow-top.Three {
 }
 
 .arrowFour:hover polygon {
-  fill: #f86739;
+  fill: var(--primaryColor);
   transition: all 1s ease-out;
 }
 .arrowFour:hover polygon.arrow-bottom {
@@ -290,7 +290,7 @@ polygon.arrow-top.Three {
   transform: translateY(18px);
 }
 polygon {
-  fill: #fff;
+  fill: var(--whiteColor);
   transition: all 1s ease-out;
 }
 polygon.arrow-middle {
@@ -309,7 +309,7 @@ polygon.arrow-top.Four {
   width: 15%;
   padding: 1rem;
   text-align: center;
-  background-image: url("../../images/happyCloseModule.jpg");
+  background-image: url("../../themes/images/happyCloseModule.jpg");
   background-repeat: no-repeat;
   background-size: 300px;
   cursor: pointer;
@@ -326,21 +326,23 @@ polygon.arrow-top.Four {
 }
 .aboutUsOurModuleCartText {
   text-align: center;
-  font-size: 1.3rem;
-  font-weight: 500;
-  color: #fff;
+  font-size:var(--content);
+  font-weight: 700;
+  color: var(--whiteColor);
   padding-top: 1rem;
-  font-family: "Lora";
+  font-family: var(--defaultRegular);
 }
 .aboutUsOurModuleCartTextImage {
   width: 50%;
 }
+
+
 @media only screen and (min-width: 280px) and (max-width: 426px) {
   .homePageFirstContent {
     padding: 10% 0%;
     width: 100%;
     display: flex;
-    background-image: url("../../images/footerBackgroungImage.png");
+    background-image: url("../../themes/images/footerBackgroungImage.png");
     background-position: 100% 16%;
     background-size: 40%;
     background-repeat: no-repeat;
@@ -362,7 +364,7 @@ polygon.arrow-top.Four {
     margin: 3rem 0rem;
   }
   .bannerImageContentTextOne {
-    font-size: 12px !important;
+    font-size:var(--content) !important;
     top: 85% !important;
     left: 8% !important;
     padding: 0.5rem 1rem !important;
@@ -380,19 +382,19 @@ polygon.arrow-top.Four {
     display: none;
   }
   .bannerImageContentTextTwo {
-    font-size: 12px !important;
+    font-size:var(--content) !important;
     top: 118% !important;
     left: 8% !important;
     padding: 0.5rem 1.5rem;
   }
   .bannerImageContentTextFour {
-    font-size: 12px;
+    font-size: var(--content);
     right: 1rem;
     top: 118%;
     padding: 0.5rem 1rem;
   }
   .bannerImageContentTextThree {
-    font-size: 12px;
+    font-size: var(--content);
     right: 1rem;
     top: 85%;
     padding: 0.5rem 1rem;
@@ -417,7 +419,7 @@ polygon.arrow-top.Four {
     padding: 10% 0%;
     width: 100%;
     display: flex;
-    background-image: url("../../images/footerBackgroungImage.png");
+    background-image: url("../../themes/images/footerBackgroungImage.png");
     background-position: 100% 16%;
     background-size: 40%;
     background-repeat: no-repeat;
@@ -439,7 +441,7 @@ polygon.arrow-top.Four {
     margin: 3rem 0rem;
   }
   .bannerImageContentTextOne {
-    font-size: 12px !important;
+    font-size: var(--content) !important;
     top: 85% !important;
     left: 10% !important;
     padding: 0.5rem 1rem !important;
@@ -457,19 +459,19 @@ polygon.arrow-top.Four {
     display: none;
   }
   .bannerImageContentTextTwo {
-    font-size: 12px !important;
+    font-size:var(--content) !important;
     top: 125% !important;
     left: 10% !important;
     padding: 0.5rem 1.5rem;
   }
   .bannerImageContentTextFour {
-    font-size: 12px;
+    font-size:var(--content);
     right: 1.5rem;
     top: 125%;
     padding: 0.5rem 1rem;
   }
   .bannerImageContentTextThree {
-    font-size: 12px;
+    font-size: var(--content);
     right: 1.5rem;
     top: 85%;
     padding: 0.5rem 1rem;
@@ -508,23 +510,23 @@ polygon.arrow-top.Four {
     display: none;
   }
   .bannerImageContentTextOne {
-    font-size: 13px;
+    font-size: var(--content);
     top: 10rem;
     left: 40%;
   }
   .bannerImageContentTextThree {
-    font-size: 12px;
+    font-size: var(--content);
     right: 1rem;
     top: 10rem;
   }
   .bannerImageContentTextTwo {
-    font-size: 13px;
-    font-weight: 500;
+    font-size: var(--content);
+    font-weight: 700;
     top: 95%;
     left: 41%;
   }
   .bannerImageContentTextFour {
-    font-size: 13px;
+    font-size: var(--content);
     right: 1rem;
     top: 95%;
   }
@@ -546,13 +548,13 @@ polygon.arrow-top.Four {
     padding: 1rem !important;
   }
   .bannerImageContentTextOne {
-    font-size: 1.3rem;
+    font-size: var(--content);
     top: 10rem;
     left: 43%;
     padding: 0.5rem 1.5rem;
   }
   .bannerImageContentTextThree {
-    font-size: 1.3rem;
+    font-size: var(--content);
     right: 1rem;
     top: 10rem;
   }
@@ -567,12 +569,12 @@ polygon.arrow-top.Four {
     right: 5rem;
   }
   .bannerImageContentTextTwo {
-    font-size: 1.3rem;
+    font-size:var(--content);
     top: 102%;
     left: 37%;
   }
   .bannerImageContentTextFour {
-    font-size: 1.3rem;
+    font-size:var(--content);
     right: 1rem;
     top: 102%;
   }
@@ -602,8 +604,8 @@ polygon.arrow-top.Four {
     position: relative;
   }
   .bannerImageContentTextOne {
-    font-size: 1.3rem;
-    font-weight: 500;
+    font-size: var(--content);
+    font-weight: 700;
     top: 10rem;
     left: 50%;
   }
@@ -613,7 +615,7 @@ polygon.arrow-top.Four {
     left: 58% !important;
   }
   .bannerImageContentTextThree {
-    font-size: 1.3rem;
+    font-size:var(--content);
     right: 2rem;
     top: 10rem;
   }
@@ -623,12 +625,12 @@ polygon.arrow-top.Four {
     right: 5rem;
   }
   .bannerImageContentTextTwo {
-    font-size: 1.3rem;
+    font-size: var(--content);
     top: 135%;
     left: 50%;
   }
   .bannerImageContentTextFour {
-    font-size: 1.3rem;
+    font-size: var(--content);
     right: 1.5rem;
     top: 135%;
   }
@@ -656,8 +658,8 @@ polygon.arrow-top.Four {
     position: relative;
   }
   .bannerImageContentTextOne {
-    font-size: 1.5rem;
-    font-weight: 500;
+    font-size:var(--content);
+    font-weight: 700;
     top: 12rem;
     left: 56%;
   }
@@ -667,7 +669,7 @@ polygon.arrow-top.Four {
     left: 63% !important;
   }
   .bannerImageContentTextThree {
-    font-size: 1.5rem;
+    font-size:var(--content);
     right: 5rem;
     top: 12rem;
   }
@@ -677,12 +679,12 @@ polygon.arrow-top.Four {
     right: 13rem;
   }
   .bannerImageContentTextTwo {
-    font-size: 1.5rem;
+    font-size: var(--content);
     top: 100%;
     left: 55%;
   }
   .bannerImageContentTextFour {
-    font-size: 1.5rem;
+    font-size: var(--content);
     right: 1.5rem;
     top: 100%;
   }

@@ -1,10 +1,10 @@
 import React from "react";
 import "./Index.css";
 import Header from "../header/Index.js";
-import ClosingBook from "../../images/ClosingBook.png";
-import Reporting from "../../images/Reporting.png";
-import Consolidate from "../../images/Consolidate.png";
-import RiskManagement from "../../images/RiskManagement.png";
+import ClosingBook from "../../themes/images/ClosingBook.png";
+import Reporting from "../../themes/images/Reporting.png";
+import Consolidate from "../../themes/images/Consolidate.png";
+import RiskManagement from "../../themes/images/RiskManagement.png";
 import Footer from "../footer/Footer.js";
 
 const Close = () => {
@@ -16,23 +16,12 @@ const Close = () => {
           <div className="closePageFirstContent">
             <div className="closePageFirstContentTextFeild">
               <p className="closePageFirstContentTextFeildHeader">
-                Reporting tasks reimagined …
+                Reporting Reimagined</p>
+              <p className="closePageFirstContentText">
+              Happy close is built to be a one stop solution for managing your book close and reporting .  Happy close helps you manage your book close across various jurisdictions, consolidate at multiple levels and enables.
               </p>
               <p className="closePageFirstContentText">
-                Happy Close modules revolutionizes the way finance teams work
-                and ensures timely reporting.
-                <br />
-                The cloud based solution automates and speeds up your period-end
-                close workflow acting as a centralized repository for the
-                month-end close activites. It incorporates all the essential
-                components to ensure regulatory compliance, streamlined close
-                process, improved visibility and audit readiness.
-              </p>
-              <p className="closePageFirstContentText">
-                Here is a full stack of book close and reporting solutions –
-                built for speed and scale around your unique business needs. All
-                supported by dedicated, local teams, with expertise in every
-                major market.
+              collaborative reporting. And because its all built on one platform never worry about your data integrity Happy close platform will ensure data consistency for effortless and seamless reporting.
               </p>
             </div>
           </div>
@@ -97,28 +86,22 @@ const Close = () => {
                 />
                 <p className="reportingTextOne">
                   <i class="bi bi-file-earmark-text" />
-                  Generates standalone financial statements
+                  Manage multi GAAP reporting
                   <i class="bi bi-check2-circle" />
                 </p>
                 <p className="reportingTextTwo">
                   <i class="bi bi-hourglass-top" />
-                  Real time visibility for every financial caption
+                  One source of data - connected platform
                   <i class="bi bi-check2-circle" />
                 </p>
                 <p className="reportingTextThree">
                   <i class="bi bi-arrow-down-up" />
-                  There is a push and pull feature between ERP and solution
+                  Collaborate and work on deliverables
                   <i class="bi bi-check2-circle" />
                 </p>
-                <p className="reportngTextFour">
+                <p className="reportingTextFour">
                   <i class="bi bi-bezier2" />
-                  Compare actuals Vs budgets and understand reasons for key
-                  variances
-                  <i class="bi bi-check2-circle" />
-                </p>
-                <p className="reportingTextFive">
-                  <i class="bi bi-file-earmark-spreadsheet-fill" />
-                  Generates proforma Income Statement and Balance Sheet
+                  Create approval workflows
                   <i class="bi bi-check2-circle" />
                 </p>
               </div>
@@ -139,24 +122,27 @@ const Close = () => {
                 />
                 <p className="consolidateTextOne">
                   <i class="bi bi-link-45deg" />
-                  Group accounting policies are automatically linked to
-                  workflows
+                  US GAAP/ IFRS  compliant consolidation engine
                   <i class="bi bi-check2-circle" />
                 </p>
                 <p className="consolidateTextTwo">
                   <i class="bi bi-pin-map-fill" />
-                  Assign consolidation tasks to regional controllers and track
-                  the status real time
+                  Consolidate and multiple levels
                   <i class="bi bi-check2-circle" />
                 </p>
                 <p className="consolidateTextThree">
                   <i class="bi bi-bell-fill" />
-                  Triggers timely notifications
+                  Automated ICO reconciliation
                   <i class="bi bi-check2-circle" />
                 </p>
                 <p className="consolidateTextFour">
                   <i class="bi bi-buildings-fill" />
-                  Intercompany engine
+                  Visibility on component close status
+                  <i class="bi bi-check2-circle" />
+                </p>
+                <p className="consolidateTextFive">
+                  <i class="bi bi-buildings-fill" />
+                  Set up and manage group reporting policies
                   <i class="bi bi-check2-circle" />
                 </p>
               </div>
@@ -176,13 +162,33 @@ const Close = () => {
                   alt=""
                 />
                 <p className="riskManagementTextOne">
-                  <i class="bi bi-chevron-bar-contract" /> Integrates control
-                  testing
+                  <i class="bi bi-chevron-bar-contract" />
+                   US GAAP/ IFRS compliant 
                   <i class="bi bi-check2-circle" />
                 </p>
                 <p className="riskManagementTextTwo">
                   <i class="bi bi-clipboard-minus-fill" />
-                  Eliminates duplication of efforts for SOX compliance
+                  consolidation engine
+                  <i class="bi bi-check2-circle" />
+                </p>
+                <p className="riskManagementTextThree">
+                  <i class="bi bi-clipboard-minus-fill" />
+                  Consolidate at multiple levels
+                  <i class="bi bi-check2-circle" />
+                </p>
+                <p className="riskManagementTextFour">
+                  <i class="bi bi-clipboard-minus-fill" />
+                  Automated ICO reconciliation
+                  <i class="bi bi-check2-circle" />
+                </p>
+                <p className="riskManagementTextFive">
+                  <i class="bi bi-clipboard-minus-fill" />
+                  Visibility on component close status
+                  <i class="bi bi-check2-circle" />
+                </p>
+                <p className="riskManagementTextSix">
+                  <i class="bi bi-clipboard-minus-fill" />
+                  Set up and manage group reporting policies
                   <i class="bi bi-check2-circle" />
                 </p>
               </div>

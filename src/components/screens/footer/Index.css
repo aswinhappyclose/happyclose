@@ -2,8 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #001a4d;
-  color: #fff;
+  background-color: var(--defaultColor);
+  color: var(--whiteColor);
   padding-top: 2rem;
 }
 .HomePageFooterContentCart {
@@ -22,7 +22,7 @@
   position: relative;
 }
 .HomePageFooterContentCartHeaderImageOne {
-  background-color: #fff;
+  background-color: var(--whiteColor);
   padding: 1rem 1.5rem;
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
@@ -31,7 +31,7 @@
   margin-left: 1%;
 }
 .HomePageFooterContentCartHeaderImageTwo {
-  background-color: #fff;
+  background-color: var(--whiteColor);
   padding: 0.19rem;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
@@ -75,7 +75,7 @@
 }
 .homePageFooterImageTextHeading {
   font-size: 4rem;
-  color: #1f0045;
+  color: var(--defaultColor);
   font-weight: 500;
   line-height: 1.2;
   margin: 0rem 4rem;
@@ -84,7 +84,7 @@
   width: 100%;
   padding: 2rem;
   margin: 5rem 2rem;
-  color: #fff;
+  color: var(--whiteColor);
   border-radius: 50px;
   border: 2px solid rgb(196 190 190);
   background: rgb(0 0 0 / 0%);
@@ -92,10 +92,10 @@
 .homePageFooterImageTextInputButton {
   padding: 1rem 2rem;
   border-radius: 50px;
-  background-color: #ff5300;
+  background-color: var(--primaryColor);
   border: none;
   width: 40%;
-  color: #fff;
+  color: var(--whiteColor);
   font-size: 1.5rem;
   font-weight: 500;
   position: absolute;
@@ -111,7 +111,7 @@
 .homePageFooterImageTextInputButton:active,
 .homePageFooterImageTextInputButton:focus {
   outline: none;
-  background-color: #1f0045;
+  background-color: var(--defaultColor);
 }
 .homePageFooterImageTextContent {
   position: absolute;
@@ -136,26 +136,27 @@
   display: flex;
 }
 .homePageFooterTextContentHeading {
-  color: #ff5300;
-  font-size: 1.3rem;
+  color: var(--primaryColor);
+  font-size: var(--content);
   font-weight: 700;
-  font-family: "Lora";
+  font-family: var(--defaultRegular);
 }
 .homePageFooterTextContentfeild {
-  font-size: 1.2rem;
+  font-size: var(--content);
   margin-top: 2rem;
   font-weight: 700;
-  font-family: "Lora";
+  font-family: var(--defaultRegular);
 }
 .homePageFooterTextContentFinalFeild {
   display: flex;
   width: 100%;
   padding-top: 4rem;
   justify-content: space-between;
-  font-family: "Lora";
+  font-family: var(--defaultRegular);
 }
 .homePageFooterTextContentFinaltextfeild {
-  font-size: 1.2rem;
+  font-size: var(--content);
+  font-weight: 700;
   color: hsla(0, 0%, 100%, 0.75);
 }
 .homePageTermsOfServices {
@@ -170,13 +171,17 @@
   margin: 0.5rem;
 }
 .LinkItems {
-  color: #fff;
+  color: var(--whiteColor);
   text-decoration: none;
 }
 .LinkItems:hover,
 .LinkItems:focus {
   color: hsla(0, 0%, 100%, 0.75);
   text-decoration: none;
+}
+.FooterLogoImageContent{
+  width: 15%;
+  margin-top: -14rem;
 }
 @media only screen and (min-width: 280px) and (max-width: 786px) {
   .homePageFooter {
@@ -207,10 +212,10 @@
   }
   .homePageFooterTextContentfeild {
     margin-top: 0rem;
-    font-size: 15px;
+    font-size: var(--content);
   }
   .homePageFooterTextContentHeading {
-    font-size: 20px;
+    font-size: var(--content);
   }
   .homePageTermsOfServices {
     margin-left: 1.5rem;

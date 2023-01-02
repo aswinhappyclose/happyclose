@@ -10,12 +10,14 @@
   padding: 1.5rem 2rem;
 }
 .scheduleDemoHeader {
-  font-size: 4rem;
+  font-size: var(--heading);
   font-weight: 500;
+  font-family: var(--defaultRegular);
+font-weight: 700;
 }
 .scheduleDemoText {
-  font-size: 1.3rem;
-  font-family: "Lora";
+  font-size: var(--content);
+  font-family: var(--defaultRegular);
 }
 .scheduleDemoContectUs {
   display: flex;
@@ -27,7 +29,7 @@
   padding: 2rem;
   text-align: center;
   background-color: #eee;
-  border: 3px solid #001a4d;
+  border: 3px solid var(--defaultColor);
   border-radius: 3rem;
   align-items: center;
   display: flex;
@@ -41,9 +43,9 @@
   box-shadow: 5px 25px 25px 5px rgb(0 0 0 / 15%);
 }
 .scheduleDemoContentText {
-  font-size: 1.5rem;
-  font-weight: 500;
-  font-family: "Lora";
+  font-size: var(--content);
+  font-weight: 700;
+  font-family: var(--defaultRegular);
 }
 .scheduleDemoContentTextInput {
   padding: 0.7rem 1rem;
@@ -59,7 +61,7 @@
   outline: none;
 }
 .scheduleDemoContentTextInputLable {
-  font-size: 1.1rem;
+  font-size: var(--content);
   margin: 0.5rem 0rem;
 }
 .scheduleDemoContentTextInputFeild {
@@ -82,11 +84,11 @@
   outline: none;
 }
 .scheduleDemoButton {
-  padding: 1rem 2rem;
-  font-size: 1.2rem;
+  padding: 0.7rem 4rem;
+  font-size: var(--content);
   font-weight: 700;
-  color: #001a4d;
-  font-family: "Lora";
+  color: var(--defaultColor);
+  font-family: var(--defaultRegular);
   border: none;
   transition: all 0.6s ease-out;
   display: block;
@@ -95,12 +97,12 @@
 .scheduleDemoButton:hover,
 .scheduleDemoButton:active,
 .scheduleDemoButton:focus {
-  color: #001a4d;
+  color: var(--defaultColor);
   text-decoration: none;
   outline: none;
 }
 .scheduleDemoSubmitButton {
-  background: linear-gradient(to right, #f86739 50%, white 50%);
+  background: linear-gradient(to right, var(--primaryColor) 50%, var(--whiteColor) 50%);
   background-size: 200% 100%;
   background-position: right bottom;
   transition: all 0.5s ease-out;
@@ -112,7 +114,7 @@
 }
 
 .happycloseFoundersMail {
-  color: #0b0bf3;
+  color: var(--blueColor);
   text-decoration: underline;
   cursor: pointer;
 }

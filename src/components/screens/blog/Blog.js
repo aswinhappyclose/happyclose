@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../header/Index.js";
 import "./Index.css";
-import BlogImage from "../../images/blogImage.png";
+import BlogImage from "../../themes/images/blogImage.png";
 import Footer from "../footer/Footer.js";
 
 const Blog = () => {

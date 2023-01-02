@@ -1,3 +1,28 @@
+:root {
+        /*Colors  */
+          --primaryColor: #ff6b00;
+          --defaultColor: #001a4d;
+          --whiteColor: #fff;
+          --blueColor: #0b0bf3;
+          --lightGreyColor: #eeebe4;
+          --lightYellowColor: #e5c981;
+          --overlayColor: rgba(55, 55, 55, 0.8);
+          --overlayHoverColor: rgba(55, 55, 55, 0);
+          --greenColor: rgb(10, 62, 10);
+          --darkColor: #000000;
+
+
+        /* Font-Family */
+          --defaultRegular: "Lato-Regular";
+        /* Font-Size */
+          --content: 1.3rem;
+          --heading: 4rem;
+          --title: 2rem;
+
+}
+
+
+
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -10,13 +35,13 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #ff5300;
+  background: var(--primaryColor);
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #ff5300;
+  background: var(--primaryColor);
 }
 /* toastify */
 .toastify {

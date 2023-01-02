@@ -1,7 +1,7 @@
 import React from "react";
 import "./Index.css";
 import { Link } from "react-router-dom";
-import Logo from "../../images/BannerImage.png";
+import Logo from "../../themes/images/BannerImage.png";
 
 const Index = () => {
   return (
