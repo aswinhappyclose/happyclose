@@ -1,14 +1,14 @@
-import React, { useState } from "react";
+import React, { useEffect } from "react";
 import "./Index.css";
 import homePageCartOne from "../../themes/images/homePageCartOne.png";
 import homePageCartTwo from "../../themes/images/homePageCartTwo.png";
 import homePageCartThree from "../../themes/images/homePageCartThree.png";
 import homePageCartFour from "../../themes/images/homePageCartFour.png";
-import Box from "@mui/material/Box";
-import Tab from "@mui/material/Tab";
-import TabContext from "@mui/lab/TabContext";
-import TabList from "@mui/lab/TabList";
-import TabPanel from "@mui/lab/TabPanel";
+// import Box from "@mui/material/Box";
+// import Tab from "@mui/material/Tab";
+// import TabContext from "@mui/lab/TabContext";
+// import TabList from "@mui/lab/TabList";
+// import TabPanel from "@mui/lab/TabPanel";
 import SepImage from "../../themes/images/Sep-2022.png";
 import OctImage from "../../themes/images/Oct-2022.png";
 import NovImageOne from "../../themes/images/Nov-2022-1.png";
@@ -19,15 +19,30 @@ import BannerImage1 from "../../themes/images/BannerImage1.png";
 import ZFLogo from "../../themes/images/ZFLogo.jpg";
 import Consolidate from "../../themes/images/Consolidate.png";
 
-
-
-
 const AboutUs = () => {
-  const [value, setValue] = useState("1");
+  // const [value, setValue] = useState("1");
 
-  const handleChange = (event, newValue) => {
-    setValue(newValue);
-  };
+  // const handleChange = (event, newValue) => {
+  //   setValue(newValue);
+  // };
+  useEffect(()=>{
+    document.getElementById("defaultOpen").click();
+  })
+
+  const openCity=(evt, cityName)=> {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  
 
   return (
     <>
@@ -39,7 +54,7 @@ const AboutUs = () => {
         <p className="aboutHappyCloseHistoryText">
           Let's solve our greatest challenges together
         </p>
-        <Box sx={{ width: "100%", typography: "body1" }}>
+        {/* <Box sx={{ width: "100%", typography: "body1" }}>
           <TabContext value={value}>
             <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
               <TabList
@@ -93,10 +108,17 @@ const AboutUs = () => {
                   controllers was their investment.{" "}
                 </p>
                 <div className="aboutUsNovContentImages">
-                 
-                  <img src={NovImageOne} alt="" className="aboutUsNovContentImageOne"/>
-                  <img src={NovImageTwo} alt="" className="aboutUsNovContentImageTwo"/>
-                  <img src={ZFLogo} alt=""  className="ZFLogo"/>
+                  <img
+                    src={NovImageOne}
+                    alt=""
+                    className="aboutUsNovContentImageOne"
+                  />
+                  <img
+                    src={NovImageTwo}
+                    alt=""
+                    className="aboutUsNovContentImageTwo"
+                  />
+                  <img src={ZFLogo} alt="" className="ZFLogo" />
                 </div>
               </div>
             </TabPanel>
@@ -127,7 +149,6 @@ const AboutUs = () => {
                   alt=""
                   className="aboutUsTabPanelContentImage"
                 />
-                
               </div>
             </TabPanel>
             <TabPanel value="6">
@@ -141,7 +162,7 @@ const AboutUs = () => {
                   alt=""
                   className="aboutUsTabPanelContentImageJuly"
                 />
-                 <img
+                <img
                   src={Consolidate}
                   alt=""
                   className="aboutUsTabPanelContentImageJuly"
@@ -149,42 +170,189 @@ const AboutUs = () => {
               </div>
             </TabPanel>
           </TabContext>
-        </Box>
+        </Box> */}
+        <div className="aboutHappyCloseHistory">
+          <div class="tab">
+            <button
+              class="tablinks"
+              onClick={(event)=>openCity(event, 'London')}
+              id="defaultOpen"
+            >
+              Sep 2022
+            </button>
+            <button class="tablinks"  onClick={(event)=>openCity(event, 'Paris')}>
+              {" "}
+              Oct 2022
+            </button>
+            <button class="tablinks" onClick={(event)=>openCity(event, 'Tokyo')}>
+              {" "}
+              Nov 2022
+            </button>
+            <button class="tablinks" onClick={(event)=>openCity(event, 'india')}>
+              Dec 2022
+            </button>
+            <button class="tablinks" onClick={(event)=>openCity(event, 'us')}>
+              May 2023
+            </button>
+            <button class="tablinks" onClick={(event)=>openCity(event, 'uk')}>
+              July 2023
+            </button>
+          </div>
+          <div id="London" class="tabcontent">
+          <div className="aboutUsTabPanelContent">
+                <p className="aboutUsTabPanelContentText">
+                  Casual coffee meet between two best friends turns into intense
+                  discussion about problems faced by them in their role as
+                  financial controllers. "Expensive reporting modules and lack
+                  of tech driven close & consolidation is the problem", they
+                  conclude.
+                </p>
+                <img
+                  src={SepImage}
+                  alt=""
+                  className="aboutUsTabPanelContentImage"
+                />
+              </div>
+          </div>
+          <div id="Paris" class="tabcontent">
+          <div className="aboutUsTabPanelContent">
+                <p className="aboutUsTabPanelContentText">
+                  They decide to put a stop to the long working hours of
+                  financial controllers and conceive an idea to bring a paradigm
+                  shift in the world of book close to reporting process.
+                </p>
+                <img
+                  src={OctImage}
+                  alt=""
+                  className="aboutUsTabPanelContentImage"
+                />
+              </div>
+          </div>
+          <div id="Tokyo" class="tabcontent">
+          <div className="aboutUsTabPanelContent">
+                <p className="aboutUsTabPanelContentText">
+                  The two best friends finally begin to pursue their dream -
+                  solve the greatest challenges of controllers together. Years
+                  of big four experience coupled with experience as financial
+                  controllers was their investment.{" "}
+                </p>
+                <div className="aboutUsNovContentImages">
+                  <img
+                    src={NovImageOne}
+                    alt=""
+                    className="aboutUsNovContentImageOne"
+                  />
+                  <img
+                    src={NovImageTwo}
+                    alt=""
+                    className="aboutUsNovContentImageTwo"
+                  />
+                  <img src={ZFLogo} alt="" className="ZFLogo" />
+                </div>
+              </div>
+          </div>
+          <div id="india" class="tabcontent">
+          <div className="aboutUsTabPanelContent">
+                <div className="aboutUsTabPanelContentText">
+                  <h2>Happy Close was born.</h2>
+                  <p>
+                    Not sure if the name is because "simplicity is new
+                    sophistication" or we couldn't come up with a better one at
+                    the moment.
+                  </p>
+                </div>
+                <img
+                  src={BannerImage1}
+                  alt=""
+                  className="aboutUsTabPanelContentImageHappyClose"
+                />
+              </div>
+          </div>
+          <div id="us" class="tabcontent">
+          <div className="aboutUsTabPanelContent">
+                <p className="aboutUsTabPanelContentText">
+                  Book Close module of happy close is scheduled to be rolled out
+                </p>
+                <img
+                  src={ClosingBook}
+                  alt=""
+                  className="aboutUsTabPanelContentImage"
+                />
+              </div>
+          </div>
+          <div id="uk" class="tabcontent">
+          <div className="aboutUsTabPanelContent">
+                <p className="aboutUsTabPanelContentText">
+                  Consolidation and Reporting modules of happy close are
+                  scheduled to be rolled out
+                </p>
+                <img
+                  src={Reporting}
+                  alt=""
+                  className="aboutUsTabPanelContentImageJuly"
+                />
+                <img
+                  src={Consolidate}
+                  alt=""
+                  className="aboutUsTabPanelContentImageJuly"
+                />
+              </div>
+          </div>
+        </div>
       </div>
       <p className="newsPapperClippesHeading">
-      Factors that led to the birth of happy close
+        Factors that led to the birth of happy close
       </p>
       <div className="newsPapperClippes">
         <div className="newsPapperClippesCart">
           <div id="overlay">
-            <img src={homePageCartOne} alt=""  className="newsPapperClippesCartImage"/>
+            <img
+              src={homePageCartOne}
+              alt=""
+              className="newsPapperClippesCartImage"
+            />
             <p className="newsPapperClippesCartText">
-            Remote / Hybrid working is here <br/>to stay
-           
+              Remote / Hybrid working is here <br />
+              to stay
             </p>
           </div>
         </div>
         <div className="newsPapperClippesCart">
           <div className="overlay One">
-            <img src={homePageCartTwo} alt="" className="newsPapperClippesCartImageTwo"/>
+            <img
+              src={homePageCartTwo}
+              alt=""
+              className="newsPapperClippesCartImageTwo"
+            />
             <p className="newsPapperClippesCartText">
-            High Cost of incorrect/ delayed reporting
+              High Cost of incorrect/ delayed reporting
             </p>
           </div>
         </div>
         <div className="newsPapperClippesCart">
           <div className="overlay Two">
-            <img src={homePageCartThree} alt="" className="newsPapperClippesCartImageThree"/>
+            <img
+              src={homePageCartThree}
+              alt=""
+              className="newsPapperClippesCartImageThree"
+            />
             <p className="newsPapperClippesCartText">
               {" "}
-              Spreadsheets are no longer a viable alternative for a growing company 
+              Spreadsheets are no longer a viable alternative for a growing
+              company
             </p>
           </div>
         </div>
         <div className="newsPapperClippesCart">
           <div className="overlay Three">
-            <img src={homePageCartFour} alt="" className="newsPapperClippesCartImageFour"/>
-            <p className="newsPapperClippesCartText">Reporting solutions need to be local </p>
+            <img
+              src={homePageCartFour}
+              alt=""
+              className="newsPapperClippesCartImageFour"
+            />
+            <p className="newsPapperClippesCartText">
+              Reporting solutions need to be local{" "}
+            </p>
           </div>
         </div>
       </div>
