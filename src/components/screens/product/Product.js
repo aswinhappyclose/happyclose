@@ -1,31 +1,28 @@
 import React from "react";
 import "./Index.css";
-import Header from "../header/Index.js";
 import ClosingBook from "../../themes/images/ClosingBook.png";
 import Reporting from "../../themes/images/Reporting.png";
 import Consolidate from "../../themes/images/Consolidate.png";
 import RiskManagement from "../../themes/images/RiskManagement.png";
-import Footer from "../footer/Footer.js";
 
 const Close = () => {
+
+  
   return (
     <>
-      <Header />
       <div className="mainContainer">
-        <div className="closePageMainContent">
+        <div id="closePageMainContent" className="closePageMainContent">
           <div className="closePageFirstContent">
             <div className="closePageFirstContentTextFeild">
               <p className="closePageFirstContentTextFeildHeader">
-                Reporting Reimagined</p>
+                Reporting Reimagined...</p>
               <p className="closePageFirstContentText">
               Happy close is built to be a one stop solution for managing your book close and reporting .  Happy close helps you manage your book close across various jurisdictions, consolidate at multiple levels and enables.
-              </p>
-              <p className="closePageFirstContentText">
-              collaborative reporting. And because its all built on one platform never worry about your data integrity Happy close platform will ensure data consistency for effortless and seamless reporting.
+              collaborative reporting. And because its all built on one platform never worry about your data integrity. Happy close platform will ensure data consistency for effortless and seamless reporting.
               </p>
             </div>
           </div>
-          <div className="homePageTransformYouWork">
+          <div className="homePageTransformYouWork" >
             <h2 className="homePageTransformYouWorkText">Our Modules</h2>
             <div className="homePageTransformYouWorkcartContainer">
               <div className="homePageTransformYouWorkFirstCart">
@@ -194,9 +191,9 @@ const Close = () => {
               </div>
             </div>
           </div>
-          <Footer />
         </div>
       </div>
+      
     </>
   );
 };

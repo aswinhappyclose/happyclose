@@ -6,10 +6,10 @@
   width: 100%;
   background-color: var(--defaultColor);
   display: flex;
-  background-image: url("../../themes/images/footerBackgroungImage.png");
+  /* background-image: url("../../themes/images/footerBackgroungImage.png");
   background-position: 95% 70%;
   background-size: 40%;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 .homePageFirstContentTextFeild {
   width: 50%;
@@ -25,7 +25,7 @@
   margin-top: 10rem;
   font-weight: 500;
   color: var(--whiteColor);
-  font-family: var(--defaultRegular);
+  font-family: var(--headerFontFamily);
 }
 .homePageFirstContentText {
   font-size: 1.7rem;
@@ -102,7 +102,7 @@ a.buttonLink {
   position: absolute;
   font-size: var(--content);
   font-weight: 700;
-  top: 12rem;
+  top: 14rem;
   left: 55%;
   border: 1px solid var(--whiteColor);
   padding: 0.5rem 1.5rem;
@@ -139,7 +139,7 @@ a.buttonLink {
   font-weight: 700;
   position: absolute;
   right: 3rem;
-  top: 12.5rem;
+  top: 14.5rem;
   border: 1px solid var(--whiteColor);
   padding: 0.5rem 1.5rem;
   border-radius: 10px;
@@ -186,7 +186,7 @@ a.buttonLink {
   height: 65px;
   position: absolute;
   z-index: 25;
-  top: 36%;
+  top: 39%;
   left: 64%;
 }
 #more-arrows:hover polygon {
@@ -215,8 +215,8 @@ polygon.arrow-top {
   height: 65px;
   position: absolute;
   z-index: 25;
-  top: 76%;
-  left: 64%;
+  top: 88%;
+  left: 62%;
 }
 
 .arrowTwo:hover polygon {
@@ -245,8 +245,8 @@ polygon.arrow-top.Two {
   height: 65px;
   position: absolute;
   z-index: 25;
-  top: 77%;
-  right: 14rem;
+  top: 89%;
+  right: 12rem;
 }
 
 .arrowThree:hover polygon {
@@ -660,22 +660,22 @@ polygon.arrow-top.Four {
   .bannerImageContentTextOne {
     font-size:var(--content);
     font-weight: 700;
-    top: 12rem;
+    top: 14rem;
     left: 56%;
   }
   #more-arrows {
     transform: rotate(143deg) !important;
-    top: 36% !important;
+    top: 39% !important;
     left: 63% !important;
   }
   .bannerImageContentTextThree {
     font-size:var(--content);
     right: 5rem;
-    top: 12rem;
+    top: 14.5rem;
   }
   .arrowFour {
     transform: rotate(221deg);
-    top: 37%;
+    top: 39.5%;
     right: 13rem;
   }
   .bannerImageContentTextTwo {
@@ -690,13 +690,13 @@ polygon.arrow-top.Four {
   }
   .arrowThree {
     transform: rotate(318deg);
-    top: 85%;
+    top: 89%;
     right: 12rem;
   }
   .arrowTwo {
     transform: rotate(40deg);
-    top: 85%;
-    left: 63%;
+    top: 88%;
+    left: 62%;
   }
   .aboutUsOurModuleContent {
     padding: 4rem;

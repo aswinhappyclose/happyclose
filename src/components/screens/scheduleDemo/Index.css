@@ -12,7 +12,7 @@
 .scheduleDemoHeader {
   font-size: var(--heading);
   font-weight: 500;
-  font-family: var(--defaultRegular);
+  font-family: var(--headerFontFamily);
 font-weight: 700;
 }
 .scheduleDemoText {
@@ -45,7 +45,7 @@ font-weight: 700;
 .scheduleDemoContentText {
   font-size: var(--content);
   font-weight: 700;
-  font-family: var(--defaultRegular);
+  font-family: var(--headerFontFamily);
 }
 .scheduleDemoContentTextInput {
   padding: 0.7rem 1rem;

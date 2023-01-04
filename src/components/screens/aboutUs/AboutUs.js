@@ -1,10 +1,8 @@
 import React, { useState } from "react";
-import Header from "../header/Index.js";
 import "./Index.css";
-import Footer from "../footer/Footer.js";
 import homePageCartOne from "../../themes/images/homePageCartOne.png";
-import homePageCartTwo from "../../themes/images/homePageCartTwo.jpg";
-import homePageCartThree from "../../themes/images/homePageCartThree.jpg";
+import homePageCartTwo from "../../themes/images/homePageCartTwo.png";
+import homePageCartThree from "../../themes/images/homePageCartThree.png";
 import homePageCartFour from "../../themes/images/homePageCartFour.png";
 import Box from "@mui/material/Box";
 import Tab from "@mui/material/Tab";
@@ -19,6 +17,8 @@ import ClosingBook from "../../themes/images/ClosingBook.png";
 import Reporting from "../../themes/images/Reporting.png";
 import BannerImage1 from "../../themes/images/BannerImage1.png";
 import ZFLogo from "../../themes/images/ZFLogo.jpg";
+import Consolidate from "../../themes/images/Consolidate.png";
+
 
 
 
@@ -31,7 +31,6 @@ const AboutUs = () => {
 
   return (
     <>
-      <Header />
       <div className="aboutHappyCloseHistory">
         <h1 className="aboutHappyCloseHistoryHeading">
           Seamless book close to reporting process by accountants for
@@ -94,10 +93,9 @@ const AboutUs = () => {
                   controllers was their investment.{" "}
                 </p>
                 <div className="aboutUsNovContentImages">
-                  <div>
+                 
                   <img src={NovImageOne} alt="" className="aboutUsNovContentImageOne"/>
                   <img src={NovImageTwo} alt="" className="aboutUsNovContentImageTwo"/>
-                  </div>
                   <img src={ZFLogo} alt=""  className="ZFLogo"/>
                 </div>
               </div>
@@ -129,6 +127,7 @@ const AboutUs = () => {
                   alt=""
                   className="aboutUsTabPanelContentImage"
                 />
+                
               </div>
             </TabPanel>
             <TabPanel value="6">
@@ -140,7 +139,12 @@ const AboutUs = () => {
                 <img
                   src={Reporting}
                   alt=""
-                  className="aboutUsTabPanelContentImage"
+                  className="aboutUsTabPanelContentImageJuly"
+                />
+                 <img
+                  src={Consolidate}
+                  alt=""
+                  className="aboutUsTabPanelContentImageJuly"
                 />
               </div>
             </TabPanel>
@@ -180,7 +184,7 @@ const AboutUs = () => {
         <div className="newsPapperClippesCart">
           <div className="overlay Three">
             <img src={homePageCartFour} alt="" className="newsPapperClippesCartImageFour"/>
-            <p className="newsPapperClippesCartText">Reporting solutions need to be global </p>
+            <p className="newsPapperClippesCartText">Reporting solutions need to be local </p>
           </div>
         </div>
       </div>
@@ -227,7 +231,6 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 };

@@ -7,12 +7,16 @@ import HomePageBookCloseCartImage from "../../themes/images/ClosingBook.png";
 import HomePageReportCartImage from "../../themes/images/Reporting.png";
 import HomePageConsolidateCartImage from "../../themes/images/Consolidate.png";
 import HomePageRiskManagementCartImage from "../../themes/images/RiskManagement.png";
-
-
 import { Link } from "react-router-dom";
+import Close from "../product/Product";
+import AboutUs from "../aboutUs/AboutUs";
+import Blog from "../blog/Blog";
 
 const Home = () => {
 
+  const Product=()=> {
+    window.scrollBy(0, 1020);
+  }
 
   return (
     <div className="MainContainer">
@@ -100,7 +104,7 @@ const Home = () => {
         </div>
       </div>
       <div className="aboutUsOurModuleContent">
-        <Link to="/product" className="aboutUsOurModuleCart">
+        <Link  className="aboutUsOurModuleCart" onClick={Product}>
           <div>
             <img
               src={HomePageBookCloseCartImage}
@@ -110,7 +114,7 @@ const Home = () => {
             <p className="aboutUsOurModuleCartText">Book Close</p>
           </div>
         </Link>
-        <Link to="/product" className="aboutUsOurModuleCart">
+        <Link  className="aboutUsOurModuleCart" onClick={Product}>
           <div>
             <img
               src={HomePageConsolidateCartImage}
@@ -120,7 +124,7 @@ const Home = () => {
             <p className="aboutUsOurModuleCartText">Consolidation</p>
           </div>
         </Link>
-        <Link to="/product" className="aboutUsOurModuleCart">
+        <Link  className="aboutUsOurModuleCart" onClick={Product}>
           <div>
             <img
               src={HomePageReportCartImage}
@@ -130,7 +134,7 @@ const Home = () => {
             <p className="aboutUsOurModuleCartText">Reporting</p>
           </div>
         </Link>
-        <Link to="/product" className="aboutUsOurModuleCart">
+        <Link  className="aboutUsOurModuleCart" onClick={Product}>
           <div>
             <img
               src={HomePageRiskManagementCartImage}
@@ -141,7 +145,10 @@ const Home = () => {
           </div>
         </Link>
       </div>
-     
+     <Close 
+     />
+    <AboutUs />
+    <Blog />
       <Footer />
     </div>
   );

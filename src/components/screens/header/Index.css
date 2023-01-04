@@ -14,6 +14,7 @@
   background-color: var(--defaultColor);
   width: 100%;
 }
+
 .headerLinkItems {
   color: var(--whiteColor);
   text-decoration: none;

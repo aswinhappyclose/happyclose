@@ -1,7 +1,6 @@
 .closePageFirstContent {
   background-image: url("../../themes/images/homePageBanner.png");
-  padding-top: 45%;
-  top: 30%;
+  padding-top: 25%;
   background-position: 100% 100%;
   background-size: 50%;
   background-repeat: no-repeat;
@@ -14,7 +13,7 @@
 .closePageFirstContentTextFeild {
   width: 80%;
   text-align: center;
-  top: 30%;
+  top: 164%;
   padding: 1rem 3rem;
   display: flex;
   flex-direction: column;
@@ -25,7 +24,7 @@
   font-size: var(--heading);
   line-height: 1.2;
   font-weight: 500;
-  font-family: var(--defaultRegular) !important;
+  font-family: var(--headerFontFamily) !important;
 }
 .closePageFirstContentText {
   margin-top: 1.5rem;
@@ -164,7 +163,7 @@
   font-weight: 500;
   margin-top: 0rem;
   margin-bottom: 3rem;
-  font-family:var(--defaultRegular);
+  font-family:var(--headerFontFamily);
 }
 i.bi.bi-check2-circle {
   color: var(--greenColor);
