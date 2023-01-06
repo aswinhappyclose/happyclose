@@ -27,6 +27,7 @@ const ScheduleDemo = () => {
     } else toast.success("Scheduled Demo Successfully!!!");
   };
 
+
   return (
     <>
       <Header />
@@ -134,7 +135,7 @@ const ScheduleDemo = () => {
           </div>
           <div className="scheduleDemoSubmitButton">
             <button className="scheduleDemoButton" onClick={Validate}>
-             Submit
+              Submit
             </button>
           </div>
         </div>

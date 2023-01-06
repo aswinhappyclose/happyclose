@@ -373,7 +373,7 @@ const AboutUs = () => {
             <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new">
               <i class="bi bi-envelope-at-fill Message"></i>
             </a>
-            <a href="https://in.linkedin.com/">
+            <a href="https://www.linkedin.com/search/results/all/?heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAAAX1uf8BAIFovyeNjUH3ag2bCzpWM1IxRi0&keywords=arjun%20parthasarathy&origin=RICH_QUERY_SUGGESTION&position=1&searchId=1be60506-c83e-4ef1-a604-b01b7492d065&sid=S()">
               <i class="bi bi-linkedin LinkedIn"></i>
             </a>
           </div>
@@ -393,7 +393,7 @@ const AboutUs = () => {
             <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new">
               <i class="bi bi-envelope-at-fill Message"></i>
             </a>
-            <a href="https://in.linkedin.com/">
+            <a href="https://www.linkedin.com/search/results/all/?heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAAAyuZk4Begwgfb9raAElWYoSXPPonlpUJ4c&keywords=rj%20narayanan&origin=RICH_QUERY_SUGGESTION&position=1&searchId=2cf0b7e8-3e2c-4c58-a724-da1c4fdc6532&sid=%3AVs">
               <i class="bi bi-linkedin LinkedIn"></i>
             </a>
           </div>
