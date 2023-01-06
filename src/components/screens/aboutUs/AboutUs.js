@@ -4,11 +4,6 @@ import homePageCartOne from "../../themes/images/homePageCartOne.png";
 import homePageCartTwo from "../../themes/images/homePageCartTwo.png";
 import homePageCartThree from "../../themes/images/homePageCartThree.png";
 import homePageCartFour from "../../themes/images/homePageCartFour.png";
-// import Box from "@mui/material/Box";
-// import Tab from "@mui/material/Tab";
-// import TabContext from "@mui/lab/TabContext";
-// import TabList from "@mui/lab/TabList";
-// import TabPanel from "@mui/lab/TabPanel";
 import SepImage from "../../themes/images/Sep-2022.png";
 import OctImage from "../../themes/images/Oct-2022.png";
 import NovImageOne from "../../themes/images/Nov-2022-1.png";
@@ -20,11 +15,7 @@ import ZFLogo from "../../themes/images/ZFLogo.jpg";
 import Consolidate from "../../themes/images/Consolidate.png";
 
 const AboutUs = () => {
-  // const [value, setValue] = useState("1");
 
-  // const handleChange = (event, newValue) => {
-  //   setValue(newValue);
-  // };
   useEffect(() => {
     document.getElementById("defaultOpen").click();
   });
@@ -53,123 +44,6 @@ const AboutUs = () => {
         <p className="aboutHappyCloseHistoryText">
           Let's solve our greatest challenges together
         </p>
-        {/* <Box sx={{ width: "100%", typography: "body1" }}>
-          <TabContext value={value}>
-            <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
-              <TabList
-                onChange={handleChange}
-                aria-label="lab API tabs example"
-              >
-                <Tab label="Sep 2022" value="1" />
-                <Tab label="Oct 2022" value="2" />
-                <Tab label="Nov 2022" value="3" />
-                <Tab label="Dec 2022" value="4" />
-                <Tab label="May 2023" value="5" />
-                <Tab label="July 2023" value="6" />
-              </TabList>
-            </Box>
-            <TabPanel value="1">
-              <div className="aboutUsTabPanelContent">
-                <p className="aboutUsTabPanelContentText">
-                  Casual coffee meet between two best friends turns into intense
-                  discussion about problems faced by them in their role as
-                  financial controllers. "Expensive reporting modules and lack
-                  of tech driven close & consolidation is the problem", they
-                  conclude.
-                </p>
-                <img
-                  src={SepImage}
-                  alt=""
-                  className="aboutUsTabPanelContentImage"
-                />
-              </div>
-            </TabPanel>
-            <TabPanel value="2">
-              <div className="aboutUsTabPanelContent">
-                <p className="aboutUsTabPanelContentText">
-                  They decide to put a stop to the long working hours of
-                  financial controllers and conceive an idea to bring a paradigm
-                  shift in the world of book close to reporting process.
-                </p>
-                <img
-                  src={OctImage}
-                  alt=""
-                  className="aboutUsTabPanelContentImage"
-                />
-              </div>
-            </TabPanel>
-            <TabPanel value="3">
-              <div className="aboutUsTabPanelContent">
-                <p className="aboutUsTabPanelContentText">
-                  The two best friends finally begin to pursue their dream -
-                  solve the greatest challenges of controllers together. Years
-                  of big four experience coupled with experience as financial
-                  controllers was their investment.{" "}
-                </p>
-                <div className="aboutUsNovContentImages">
-                  <img
-                    src={NovImageOne}
-                    alt=""
-                    className="aboutUsNovContentImageOne"
-                  />
-                  <img
-                    src={NovImageTwo}
-                    alt=""
-                    className="aboutUsNovContentImageTwo"
-                  />
-                  <img src={ZFLogo} alt="" className="ZFLogo" />
-                </div>
-              </div>
-            </TabPanel>
-            <TabPanel value="4">
-              <div className="aboutUsTabPanelContent">
-                <div className="aboutUsTabPanelContentText">
-                  <h2>Happy Close was born.</h2>
-                  <p>
-                    Not sure if the name is because "simplicity is new
-                    sophistication" or we couldn't come up with a better one at
-                    the moment.
-                  </p>
-                </div>
-                <img
-                  src={BannerImage1}
-                  alt=""
-                  className="aboutUsTabPanelContentImageHappyClose"
-                />
-              </div>
-            </TabPanel>
-            <TabPanel value="5">
-              <div className="aboutUsTabPanelContent">
-                <p className="aboutUsTabPanelContentText">
-                  Book Close module of happy close is scheduled to be rolled out
-                </p>
-                <img
-                  src={ClosingBook}
-                  alt=""
-                  className="aboutUsTabPanelContentImage"
-                />
-              </div>
-            </TabPanel>
-            <TabPanel value="6">
-              <div className="aboutUsTabPanelContent">
-                <p className="aboutUsTabPanelContentText">
-                  Consolidation and Reporting modules of happy close are
-                  scheduled to be rolled out
-                </p>
-                <img
-                  src={Reporting}
-                  alt=""
-                  className="aboutUsTabPanelContentImageJuly"
-                />
-                <img
-                  src={Consolidate}
-                  alt=""
-                  className="aboutUsTabPanelContentImageJuly"
-                />
-              </div>
-            </TabPanel>
-          </TabContext>
-        </Box> */}
         <div className="aboutHappyCloseHistory">
           <div class="tab">
             <button
