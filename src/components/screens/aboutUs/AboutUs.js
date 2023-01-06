@@ -25,11 +25,11 @@ const AboutUs = () => {
   // const handleChange = (event, newValue) => {
   //   setValue(newValue);
   // };
-  useEffect(()=>{
+  useEffect(() => {
     document.getElementById("defaultOpen").click();
-  })
+  });
 
-  const openCity=(evt, cityName)=> {
+  const openCity = (evt, cityName) => {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
@@ -41,8 +41,7 @@ const AboutUs = () => {
     }
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
-  }
-  
+  };
 
   return (
     <>
@@ -175,128 +174,137 @@ const AboutUs = () => {
           <div class="tab">
             <button
               class="tablinks"
-              onClick={(event)=>openCity(event, 'London')}
+              onClick={(event) => openCity(event, "London")}
               id="defaultOpen"
             >
               Sep 2022
             </button>
-            <button class="tablinks"  onClick={(event)=>openCity(event, 'Paris')}>
+            <button
+              class="tablinks"
+              onClick={(event) => openCity(event, "Paris")}
+            >
               {" "}
               Oct 2022
             </button>
-            <button class="tablinks" onClick={(event)=>openCity(event, 'Tokyo')}>
+            <button
+              class="tablinks"
+              onClick={(event) => openCity(event, "Tokyo")}
+            >
               {" "}
               Nov 2022
             </button>
-            <button class="tablinks" onClick={(event)=>openCity(event, 'india')}>
+            <button
+              class="tablinks"
+              onClick={(event) => openCity(event, "india")}
+            >
               Dec 2022
             </button>
-            <button class="tablinks" onClick={(event)=>openCity(event, 'us')}>
+            <button class="tablinks" onClick={(event) => openCity(event, "us")}>
               May 2023
             </button>
-            <button class="tablinks" onClick={(event)=>openCity(event, 'uk')}>
+            <button class="tablinks" onClick={(event) => openCity(event, "uk")}>
               July 2023
             </button>
           </div>
           <div id="London" class="tabcontent">
-          <div className="aboutUsTabPanelContent">
-                <p className="aboutUsTabPanelContentText">
-                  Casual coffee meet between two best friends turns into intense
-                  discussion about problems faced by them in their role as
-                  financial controllers. "Expensive reporting modules and lack
-                  of tech driven close & consolidation is the problem", they
-                  conclude.
-                </p>
-                <img
-                  src={SepImage}
-                  alt=""
-                  className="aboutUsTabPanelContentImage"
-                />
-              </div>
+            <div className="aboutUsTabPanelContent">
+              <p className="aboutUsTabPanelContentText">
+                Casual coffee meet between two best friends turns into intense
+                discussion about problems faced by them in their role as
+                financial controllers. "Expensive reporting modules and lack of
+                tech driven close & consolidation is the problem", they
+                conclude.
+              </p>
+              <img
+                src={SepImage}
+                alt=""
+                className="aboutUsTabPanelContentImage"
+              />
+            </div>
           </div>
           <div id="Paris" class="tabcontent">
-          <div className="aboutUsTabPanelContent">
-                <p className="aboutUsTabPanelContentText">
-                  They decide to put a stop to the long working hours of
-                  financial controllers and conceive an idea to bring a paradigm
-                  shift in the world of book close to reporting process.
-                </p>
-                <img
-                  src={OctImage}
-                  alt=""
-                  className="aboutUsTabPanelContentImage"
-                />
-              </div>
+            <div className="aboutUsTabPanelContent">
+              <p className="aboutUsTabPanelContentText">
+                They decide to put a stop to the long working hours of financial
+                controllers and conceive an idea to bring a paradigm shift in
+                the world of book close to reporting process.
+              </p>
+              <img
+                src={OctImage}
+                alt=""
+                className="aboutUsTabPanelContentImage"
+              />
+            </div>
           </div>
           <div id="Tokyo" class="tabcontent">
-          <div className="aboutUsTabPanelContent">
-                <p className="aboutUsTabPanelContentText">
-                  The two best friends finally begin to pursue their dream -
-                  solve the greatest challenges of controllers together. Years
-                  of big four experience coupled with experience as financial
-                  controllers was their investment.{" "}
-                </p>
-                <div className="aboutUsNovContentImages">
-                  <img
-                    src={NovImageOne}
-                    alt=""
-                    className="aboutUsNovContentImageOne"
-                  />
-                  <img
-                    src={NovImageTwo}
-                    alt=""
-                    className="aboutUsNovContentImageTwo"
-                  />
-                  <img src={ZFLogo} alt="" className="ZFLogo" />
-                </div>
+            <div className="aboutUsTabPanelContent">
+              <p className="aboutUsTabPanelContentText">
+                The two best friends finally begin to pursue their dream - solve
+                the greatest challenges of controllers together. Years of big
+                four experience coupled with experience as financial controllers
+                was their investment.{" "}
+              </p>
+              <div className="aboutUsNovContentImages">
+                <img
+                  src={NovImageOne}
+                  alt=""
+                  className="aboutUsNovContentImageOne"
+                />
+                <img
+                  src={NovImageTwo}
+                  alt=""
+                  className="aboutUsNovContentImageTwo"
+                />
+                <img src={ZFLogo} alt="" className="ZFLogo" />
               </div>
+            </div>
           </div>
           <div id="india" class="tabcontent">
-          <div className="aboutUsTabPanelContent">
-                <div className="aboutUsTabPanelContentText">
-                  <h2>Happy Close was born.</h2>
-                  <p>
-                    Not sure if the name is because "simplicity is new
-                    sophistication" or we couldn't come up with a better one at
-                    the moment.
-                  </p>
-                </div>
-                <img
-                  src={BannerImage1}
-                  alt=""
-                  className="aboutUsTabPanelContentImageHappyClose"
-                />
+            <div className="aboutUsTabPanelContent">
+              <div className="aboutUsTabPanelContentText">
+                <h2>Happy Close was born.</h2>
+                <p>
+                  Not sure if the name is because "simplicity is new
+                  sophistication" or we couldn't come up with a better one at
+                  the moment.
+                </p>
               </div>
+              <img
+                src={BannerImage1}
+                alt=""
+                className="aboutUsTabPanelContentImageHappyClose"
+              />
+            </div>
           </div>
           <div id="us" class="tabcontent">
-          <div className="aboutUsTabPanelContent">
-                <p className="aboutUsTabPanelContentText">
-                  Book Close module of happy close is scheduled to be rolled out
-                </p>
-                <img
-                  src={ClosingBook}
-                  alt=""
-                  className="aboutUsTabPanelContentImage"
-                />
-              </div>
+            <div className="aboutUsTabPanelContent">
+              <p className="aboutUsTabPanelContentText">
+                Book Close module of happy close is scheduled to be rolled out
+              </p>
+              <img
+                src={ClosingBook}
+                alt=""
+                className="aboutUsTabPanelContentImage"
+              />
+            </div>
           </div>
           <div id="uk" class="tabcontent">
-          <div className="aboutUsTabPanelContent">
-                <p className="aboutUsTabPanelContentText">
-                  Consolidation and Reporting modules of happy close are
-                  scheduled to be rolled out
-                </p>
-                <img
-                  src={Reporting}
-                  alt=""
-                  className="aboutUsTabPanelContentImageJuly"
-                />
-                <img
-                  src={Consolidate}
-                  alt=""
-                  className="aboutUsTabPanelContentImageJuly"
-                />
-              </div>
+            <div className="aboutUsTabPanelContent">
+              <p className="aboutUsTabPanelContentText">
+                Consolidation and Reporting modules of happy close are scheduled
+                to be rolled out
+              </p>
+              <img
+                src={Reporting}
+                alt=""
+                className="aboutUsTabPanelContentImageJuly"
+              />
+              <img
+                src={Consolidate}
+                alt=""
+                className="aboutUsTabPanelContentImageJuly"
+              />
+            </div>
           </div>
         </div>
       </div>
