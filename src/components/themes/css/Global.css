@@ -18,7 +18,7 @@
             
         /* Font-Size */
           --content: 1.3rem;
-          --heading: 4rem;
+          --heading: 3rem;
           --title: 2rem;
 
 }
@@ -28,7 +28,7 @@ html {
   scroll-behavior: smooth;
 }
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 6px;
 }
 
 /* Track */

@@ -13,7 +13,7 @@
   font-size: var(--heading);
   font-weight: 500;
   font-family: var(--headerFontFamily);
-font-weight: 700;
+  font-weight: 700;
 }
 .scheduleDemoText {
   font-size: var(--content);
@@ -21,7 +21,7 @@ font-weight: 700;
 }
 .scheduleDemoContectUs {
   display: flex;
-  width: 90%;
+  width: 100%;
   justify-content: space-evenly;
 }
 .scheduleDemoContent {
@@ -72,7 +72,7 @@ font-weight: 700;
 .scheduleDemoContentTextInputMessage {
   padding: 0.7rem 1rem;
   margin: 0.8rem 0rem;
-  height: 10vh;
+  height: 13vh;
   width: 100%;
   border-radius: 10px;
   border: none;
@@ -102,7 +102,11 @@ font-weight: 700;
   outline: none;
 }
 .scheduleDemoSubmitButton {
-  background: linear-gradient(to right, var(--primaryColor) 50%, var(--whiteColor) 50%);
+  background: linear-gradient(
+    to right,
+    var(--primaryColor) 50%,
+    var(--whiteColor) 50%
+  );
   background-size: 200% 100%;
   background-position: right bottom;
   transition: all 0.5s ease-out;
@@ -117,4 +121,111 @@ font-weight: 700;
   color: var(--blueColor);
   text-decoration: underline;
   cursor: pointer;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 426px) {
+  .scheduleDemoMainContainer {
+    padding-top: 50% !important;
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 1rem;
+  }
+  .scheduleDemoMainContant {
+    width: 100%;
+    padding: 1rem;
+  }
+  .scheduleDemoHeader {
+    font-size: 2rem;
+  }
+  .scheduleDemoContent {
+    width: 100%;
+    padding: 1rem;
+  }
+  .scheduleDemoContentTextInputFeild {
+    width: 90%;
+  }
+  .scheduleDemoContentTextInputMessage {
+    height: 14vh;
+  }
+  .scheduleDemoButton {
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width: 427px) and (max-width: 600px) {
+  .scheduleDemoMainContainer {
+    padding-top: 25% !important;
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 1rem;
+    align-items: center;
+  }
+  .scheduleDemoMainContant {
+    width: 100%;
+    padding: 1rem;
+  }
+  .scheduleDemoHeader {
+    font-size: 2rem;
+  }
+  .scheduleDemoContent {
+    width: 80%;
+    padding: 1rem;
+  }
+  .scheduleDemoContentTextInputFeild {
+    width: 90%;
+  }
+  .scheduleDemoContentTextInputMessage {
+    height: 14vh;
+  }
+  .scheduleDemoButton {
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+  .scheduleDemoMainContainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+  }
+  .scheduleDemoMainContant {
+    width: 100%;
+}
+.scheduleDemoHeader {
+  font-size: 2rem;
+}
+.scheduleDemoContent {
+  width: 70%;
+}
+.scheduleDemoContentTextInputMessage {
+  height: 15vh;
+ }
+}
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+  .scheduleDemoContent {
+    width: 50%;
+    padding: 2rem;
+  }
+  .scheduleDemoHeader {
+    font-size: 2rem;
+}
+.scheduleDemoContentTextInputFeild {
+  width: 80%;
+}
+.scheduleDemoContentTextInputMessage {
+  height: 15vh;
+}
+}
+@media only screen and (min-width: 1001px) and (max-width: 1200px) {
+  .scheduleDemoContent {
+    width: 50%;
+    padding: 2rem;
+}
+.scheduleDemoContentTextInputFeild {
+  width: 65%;
+}
+.scheduleDemoContentTextInputMessage {
+  height: 15vh;
+}
 }

@@ -189,6 +189,10 @@
     flex-direction: column;
     padding: 0rem !important;
   }
+  .FooterLogoImageContent {
+    width: 70%;
+    margin-top: -3rem;
+}
   .homePageFooterTextContentFinalFeild {
     display: flex;
     flex-direction: column !important;
@@ -231,4 +235,13 @@
     width: 32%;
     margin: 1rem !important;
   }
+}
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+  .homePageFooter {
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+.homePageFooterTextContent {
+  width: 67%;
+}
 }

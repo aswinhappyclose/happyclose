@@ -62,21 +62,23 @@
 }
 @media only screen and (min-width: 280px) and (max-width: 426px) {
   .headerTreadingHeadilines {
-    font-size: var(--content);
+    font-size: 1rem;
   }
   .headerTextContainer {
     width: 75% !important;
     margin-right: 0rem !important;
   }
   .HeaderLogo {
-    width: 25% !important;
-  }
+    width: 22% !important;
+}
   .headerMainContainerContent {
-    padding: 0.5rem 1.5rem !important;
+    padding: 0.5rem !important;
   }
   .headerTexContainertagsContnents {
-    font-size: var(--content) !important;
+    font-size: 1rem!important;
   }
+
+
 }
 @media only screen and (min-width: 427px) and (max-width: 1000px) {
   .headerTreadingHeadilines {

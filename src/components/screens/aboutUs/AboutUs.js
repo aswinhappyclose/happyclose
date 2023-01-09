@@ -44,7 +44,7 @@ const AboutUs = () => {
         <p className="aboutHappyCloseHistoryText">
           Let's solve our greatest challenges together
         </p>
-        <div className="aboutHappyCloseHistory">
+        <div className="aboutHappyCloseHistoryContent">
           <div class="tab">
             <button
               class="tablinks"

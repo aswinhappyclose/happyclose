@@ -1,6 +1,5 @@
 .closePageFirstContent {
   background-image: url("../../themes/images/homePageBanner.png");
-  padding-top: 25%;
   background-position: 100% 100%;
   background-size: 50%;
   background-repeat: no-repeat;
@@ -13,14 +12,11 @@
 .closePageFirstContentTextFeild {
   width: 80%;
   text-align: center;
-  top: 164%;
   padding: 1rem 3rem;
   display: flex;
   flex-direction: column;
-  position: absolute;
 }
 .closePageFirstContentTextFeildHeader {
-  margin-top: 4rem;
   font-size: var(--heading);
   line-height: 1.2;
   font-weight: 500;
@@ -40,13 +36,7 @@
   padding-bottom: 12rem;
   margin: 2rem 0rem;
 }
-.homePageTransformYouWork {
-  background-color: var(--whiteColor);
-  color: var(--defaultColor);
-  padding: 4rem;
-  padding-bottom: 12rem;
-  margin: 2rem 0rem;
-}
+
 .homePageTransformYouWorkFirstCart {
   border-radius: 1.25rem;
   background-color: var(--lightGreyColor);
@@ -89,7 +79,7 @@
   justify-content: space-between;
   cursor: pointer;
   position: sticky;
-  top: 16rem;
+  top: 11rem;
   z-index: 20;
   min-height: 31rem;
   margin-bottom: -14rem;
@@ -97,7 +87,7 @@
 .homePageTransformYouWorkSecondCartcontent {
   margin: 2rem;
   width: 50%;
-  font-family:var(--defaultRegular);
+  font-family: var(--defaultRegular);
 }
 .homePageTransformYouWorkSecondCartcontentHeading {
   font-size: var(--content);
@@ -129,7 +119,7 @@
   position: sticky;
   overflow: hidden;
   z-index: 30;
-  top: 25rem;
+  top: 15rem;
   min-height: 31rem;
   margin-top: 7rem;
   margin-bottom: -13rem;
@@ -163,7 +153,7 @@
   font-weight: 500;
   margin-top: 0rem;
   margin-bottom: 3rem;
-  font-family:var(--headerFontFamily);
+  font-family: var(--headerFontFamily);
 }
 i.bi.bi-check2-circle {
   color: var(--greenColor);
@@ -190,7 +180,7 @@ i.bi.bi {
 }
 .bookcloseTextTwo {
   position: absolute;
-  top: 36%;
+  top: 41%;
   right: 1rem;
   background-color: var(--whiteColor);
   padding: 0.5rem 1rem;
@@ -214,20 +204,20 @@ i.bi.bi {
 }
 .bookcloseTextFour {
   position: absolute;
-  top: 55%;
-  right: 4rem;
+  top: 57%;
+  right: 1rem;
   background-color: var(--whiteColor);
   padding: 0.5rem 1rem;
   border-radius: 10px;
   z-index: 11;
   display: flex;
   align-items: center;
-  font-family:var(--defaultRegular);
+  font-family: var(--defaultRegular);
 }
 .bookcloseTextFive {
   position: absolute;
-  top: 71%;
-  right: 12rem;
+  top: 68%;
+  right: 21rem;
   background-color: var(--whiteColor);
   padding: 0.5rem 1rem;
   border-radius: 10px;
@@ -330,7 +320,7 @@ i.bi.bi {
 .consolidateTextThree {
   position: absolute;
   top: 37%;
-  left: 48%;
+  left: 42%;
   background-color: var(--whiteColor);
   color: #000;
   padding: 0.5rem 1rem;
@@ -408,7 +398,7 @@ i.bi.bi {
 }
 .riskManagementTextFour {
   position: absolute;
-  top: 56%; 
+  top: 56%;
   border-radius: 10px;
   right: 1rem;
   z-index: 41;
@@ -444,4 +434,761 @@ i.bi.bi {
   display: flex;
   align-items: center;
   font-family: var(--defaultRegular);
+}
+@media only screen and (min-width: 280px) and (max-width: 426px) {
+  .closePageFirstContentTextFeild {
+    width: 90% !important;
+    text-align: center;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .closePageFirstContentTextFeildHeader {
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 700;
+  }
+  .homePageTransformYouWork {
+    background-color: var(--whiteColor);
+    color: var(--defaultColor);
+    padding-bottom: 12rem;
+    margin: 1rem !important;
+    padding: 0rem !important;
+  }
+  .homePageTransformYouWorkText {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .homePageTransformYouWorkFirstCart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 1rem;
+  }
+  .homePageTransformYouWorkFirstCartcontent {
+    margin: 1rem !important;
+    width: 90%;
+    font-family: var(--defaultRegular);
+  }
+  .homePageTransformYouWorkFirstCartcontentContent {
+    color: var(--defaultColor);
+    font-size: var(--content);
+    font-weight: 700;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .homePageTransformYouWorkFirstCartImage {
+    width: 95%;
+  }
+  .bookcloseTextOne {
+    background-color: rgb(201, 219, 236);
+    top: 45%;
+    width: 87%;
+    font-size: 12px;
+    border-radius: 10px;
+    left: 1%;
+  }
+  .bookcloseTextTwo {
+    position: absolute;
+    background-color: rgb(201, 219, 236);
+    top: 56%;
+    right: 1%;
+    width: 90%;
+    font-size: 12px;
+  }
+  .bookcloseTextThree {
+    top: 78%;
+    background-color: rgb(201, 219, 236);
+    font-size: 12px !important;
+    width: 87%;
+    padding: 0.2rem !important;
+    display: flex;
+    justify-content: space-evenly;
+    left: 12%;
+  }
+  .bookcloseTextFour {
+    top: 68%;
+    background-color: rgb(201, 219, 236);
+    font-size: 14px !important;
+    left: 1%;
+    padding: 0.2rem;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .bookcloseTextFive {
+    top: 88% !important;
+    background-color: rgb(201, 219, 236);
+    right: 6rem !important;
+    padding: 0.2rem !important;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 12px !important;
+    width: 80%;
+    left: 1%;
+  }
+  .homePageTransformYouWorkSecondCart {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 2rem;
+    margin-bottom: -8rem;
+  }
+  .homePageTransformYouWorkSecondCartcontent {
+    margin: 1rem;
+    width: 90%;
+    font-family: var(--defaultRegular);
+  }
+  .homePageTransformYouWorkSecondCartcontentContent {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .reportingTextFour {
+    top: 83%;
+    right: 1%;
+    font-size: 14px;
+    padding: 0.5rem;
+    background-color: rgb(201, 219, 236);
+  }
+  .reportingTextThree {
+    top: 71%;
+    font-size: 13px;
+    width: 96%;
+    left: 1%;
+    padding: 0.5rem;
+    background-color: rgb(201, 219, 236);
+  }
+  .reportingTextOne {
+    top: 59%;
+    left: 10% !important;
+    width: 89%;
+    font-size: 14px;
+    padding: 0.5rem;
+    background-color: rgb(201, 219, 236);
+  }
+  .reportingTextTwo {
+    position: absolute;
+    top: 46%;
+    left: 1%;
+    width: 89%;
+    font-size: 14px;
+    padding: 0.5rem;
+    background-color: rgb(201, 219, 236);
+  }
+  .homePageTransformYouWorkThirdCart {
+    display: flex;
+    top: 2rem;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .consolidateTextFive {
+    top: 85%;
+    right: 1%;
+    font-size: 14px;
+    padding: 0.5rem;
+    background-color: rgb(201, 219, 236);
+  }
+  .consolidateTextThree {
+    top: 74%;
+    left: 6%;
+    font-size: 14px;
+    width: 93%;
+    padding: 0.5rem;
+    background-color: rgb(201, 219, 236);
+  }
+  .consolidateTextTwo {
+    top: 63%;
+    right: 4%;
+    width: 95%;
+    font-size: 14px;
+    padding: 0.5rem;
+    background-color: rgb(201, 219, 236);
+  }
+  .consolidateTextFour {
+    top: 51%;
+    right: 1%;
+    font-size: 14px;
+    width: 90%;
+    padding: 0.5rem;
+    background-color: rgb(201, 219, 236);
+  }
+  .consolidateTextOne {
+    top: 38%;
+    width: 90%;
+    left: 1%;
+    font-size: 14px;
+    padding: 0.5rem;
+    background-color: rgb(201, 219, 236);
+  }
+  .homePageTransformYouWorkFourCart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .homePageTransformYouWorkFoutCartcontentContent {
+    font-size: var(--content);
+    font-weight: 700;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .riskManagementTextSix {
+    top: 86%;
+    width: 90%;
+    font-size: 12px;
+    right: 1%;
+    padding: 0.5rem;
+    background-color: rgb(201, 219, 236);
+  }
+  .riskManagementTextFive {
+    top: 75%;
+    width: 90%;
+    font-size: 12px;
+    left: 1%;
+    padding: 0.5rem;
+    background-color: rgb(201, 219, 236);
+  }
+  .riskManagementTextFour {
+    top: 64%;
+    width: 80%;
+    font-size: 12px;
+    right: 1%;
+    padding: 0.5rem;
+    background-color: rgb(201, 219, 236);
+  }
+  .riskManagementTextThree {
+    top: 53%;
+    width: 78%;
+    left: 1%;
+    font-size: 12px;
+    padding: 0.5rem;
+    background-color: rgb(201, 219, 236);
+  }
+  .riskManagementTextTwo {
+    top: 42%;
+    right: 1%;
+    font-size: 12px;
+    width: 65%;
+    padding: 0.5rem;
+    background-color: rgb(201, 219, 236);
+  }
+  .riskManagementTextOne {
+    top: 31%;
+    left: 1%;
+    font-size: 12px;
+    padding: 0.5rem;
+    background-color: rgb(201, 219, 236);
+  }
+}
+@media only screen and (min-width: 427px) and (max-width: 600px) {
+  .closePageFirstContentTextFeild {
+    width: 90% !important;
+    text-align: center;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .closePageFirstContentTextFeildHeader {
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 700;
+  }
+  .homePageTransformYouWork {
+    background-color: var(--whiteColor);
+    color: var(--defaultColor);
+    padding-bottom: 12rem;
+    margin: 1rem !important;
+    padding: 0rem !important;
+  }
+  .homePageTransformYouWorkText {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .homePageTransformYouWorkFirstCart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: -12rem;
+  }
+  .homePageTransformYouWorkFirstCartcontent {
+    margin: 1rem !important;
+    width: 90%;
+    font-family: var(--defaultRegular);
+  }
+  .homePageTransformYouWorkFirstCartcontentContent {
+    color: var(--defaultColor);
+    font-size: var(--content);
+    font-weight: 700;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .homePageTransformYouWorkFirstCartImage {
+    width: 95%;
+  }
+  .bookcloseTextOne {
+    background-color: rgb(201, 219, 236);
+    top: 55%;
+    width: 60%;
+    font-size: 1rem;
+    border-radius: 10px;
+    left: 1%;
+  }
+  .bookcloseTextTwo {
+    position: absolute;
+    background-color: rgb(201, 219, 236);
+    top: 63%;
+    right: 1%;
+    width: 54%;
+    font-size: 1rem;
+  }
+  .bookcloseTextThree {
+    top: 81%;
+    background-color: rgb(201, 219, 236);
+    font-size: 1rem !important;
+    width: 50%;
+    padding: 0.2rem !important;
+    display: flex;
+    justify-content: space-evenly;
+    left: 48%;
+  }
+  .bookcloseTextFour {
+    top: 74%;
+    width: 40%;
+    background-color: rgb(201, 219, 236);
+    font-size: 1rem !important;
+    left: 1%;
+    padding: 0.2rem;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .bookcloseTextFive {
+    top: 88% !important;
+    background-color: rgb(201, 219, 236);
+    right: 6rem !important;
+    padding: 0.2rem !important;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1rem !important;
+    width: 45%;
+    left: 1%;
+  }
+  .homePageTransformYouWorkSecondCart {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: -3rem;
+    margin-bottom: -8rem;
+  }
+  .homePageTransformYouWorkSecondCartcontent {
+    margin: 1rem;
+    width: 90%;
+    font-family: var(--defaultRegular);
+  }
+  .homePageTransformYouWorkSecondCartcontentContent {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .reportingTextFour {
+    top: 86%;
+    right: 1%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    background-color: rgb(201, 219, 236);
+  }
+  .reportingTextThree {
+    top: 75%;
+    font-size: 1rem;
+    width: 58%;
+    left: 1%;
+    padding: 0.5rem;
+    background-color: rgb(201, 219, 236);
+  }
+  .reportingTextOne {
+    top: 64%;
+    left: 49% !important;
+    width: 50%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    background-color: rgb(201, 219, 236);
+  }
+  .reportingTextTwo {
+    position: absolute;
+    top: 53%;
+    left: 1%;
+    width: 60%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    background-color: rgb(201, 219, 236);
+  }
+  .homePageTransformYouWorkThirdCart {
+    display: flex;
+    top: -2rem;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .consolidateTextFive {
+    top: 85%;
+    right: 1%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    background-color: rgb(201, 219, 236);
+  }
+  .consolidateTextThree {
+    top: 75%;
+    left: 1%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    background-color: rgb(201, 219, 236);
+  }
+  .consolidateTextTwo {
+    top: 65%;
+    right: 1%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    background-color: rgb(201, 219, 236);
+  }
+  .consolidateTextFour {
+    top: 52%;
+    right: 43%;
+    font-size: 1rem;
+    width: 56%;
+    padding: 0.5rem;
+    background-color: rgb(201, 219, 236);
+  }
+  .consolidateTextOne {
+    top: 41%;
+    width: 70%;
+    left: 29%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    background-color: rgb(201, 219, 236);
+  }
+  .homePageTransformYouWorkFourCart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .homePageTransformYouWorkFoutCartcontentContent {
+    font-size: var(--content);
+    font-weight: 700;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .riskManagementTextSix {
+    top: 86%;
+    font-size: 1rem;
+    right: 1%;
+    padding: 0.5rem;
+    background-color: rgb(201, 219, 236);
+  }
+  .riskManagementTextFive {
+    top: 75%;
+    font-size: 1rem;
+    left: 1%;
+    padding: 0.5rem;
+    background-color: rgb(201, 219, 236);
+  }
+  .riskManagementTextFour {
+    top: 64%;
+    font-size: 1rem;
+    right: 1%;
+    padding: 0.5rem;
+    background-color: rgb(201, 219, 236);
+  }
+  .riskManagementTextThree {
+    top: 53%;
+    left: 1%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    background-color: rgb(201, 219, 236);
+  }
+  .riskManagementTextTwo {
+    top: 42%;
+    right: 1%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    background-color: rgb(201, 219, 236);
+  }
+  .riskManagementTextOne {
+    top: 33%;
+    left: 1%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    background-color: rgb(201, 219, 236);
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+  .closePageFirstContentTextFeild {
+    width: 100%;
+    padding: 1rem;
+  }
+  .closePageFirstContentTextFeildHeader {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .homePageTransformYouWorkText {
+    font-size: 2rem;
+  }
+  .homePageTransformYouWork {
+    padding: 2rem;
+    margin: 0rem;
+  }
+  .homePageTransformYouWorkFirstCart {
+    top: 2rem;
+  }
+  .homePageTransformYouWorkFirstCartcontentContent {
+    margin-top: 8rem;
+  }
+  .bookcloseTextFive {
+    top: 79%;
+  }
+  .bookcloseTextFour {
+    top: 67%;
+    right: 1rem;
+  }
+  .bookcloseTextThree {
+    top: 55%;
+    left: 38%;
+  }
+  .bookcloseTextTwo {
+    top: 43%;
+    right: 0%;
+  }
+  .homePageTransformYouWorkSecondCart {
+    top: 3rem;
+  }
+  .reportingTextFour {
+    top: 70%;
+    right: 1rem;
+  }
+  .reportingTextThree {
+    top: 58%;
+    right: 3rem;
+  }
+  .reportingTextOne {
+    top: 46%;
+    left: 55%;
+  }
+  .reportingTextTwo {
+    top: 34%;
+    right: 3rem;
+  }
+  .homePageTransformYouWorkThirdCart {
+    top: 6rem;
+  }
+  .consolidateTextFive {
+    top: 73%;
+    right: 6rem;
+  }
+  .consolidateTextTwo {
+    top: 61%;
+    right: 1rem;
+  }
+  .consolidateTextFour {
+    top: 49%;
+    right: 7rem;
+  }
+  .consolidateTextThree {
+    top: 37%;
+    left: 56%;
+  }
+  .consolidateTextOne {
+    top: 25%;
+    left: 30%;
+  }
+  .riskManagementTextSix {
+    top: 86%;
+    right: 7rem;
+  }
+  .riskManagementTextFive {
+    top: 74%;
+    left: 51%;
+  }
+  .riskManagementTextFour {
+    top: 62%;
+    right: 6rem;
+  }
+  .riskManagementTextThree {
+    top: 50%;
+    left: 58%;
+  }
+  .riskManagementTextTwo {
+    top: 38%;
+    right: 10rem;
+  }
+  .riskManagementTextOne {
+    top: 26%;
+    left: 59%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+  .closePageFirstContentTextFeild {
+    width: 100%;
+  }
+  .closePageFirstContentTextFeildHeader {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .homePageTransformYouWorkText {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  .homePageTransformYouWork {
+    background-color: var(--whiteColor);
+    color: var(--defaultColor);
+    padding: 2rem;
+    padding-bottom: 12rem;
+    margin: 0rem;
+  }
+  .homePageTransformYouWorkFirstCart {
+    top: 5rem;
+  }
+  .bookcloseTextFive {
+    top: 74%;
+    right: 12rem;
+  }
+  .bookcloseTextFour {
+    top: 63%;
+    right: 1rem;
+  }
+  .bookcloseTextThree {
+    left: 44%;
+  }
+  .bookcloseTextTwo {
+    top: 41%;
+  }
+  .homePageTransformYouWorkSecondCart {
+    top: 9rem;
+  }
+  .reportingTextFour {
+    top: 60%;
+    right: 10rem;
+  }
+  .reportingTextThree {
+    top: 48%;
+    right: 1rem;
+  }
+  .reportingTextOne {
+    top: 36%;
+    left: 44%;
+  }
+  .reportingTextTwo {
+    top: 24%;
+  }
+  .homePageTransformYouWorkThirdCart {
+    top: 10rem;
+  }
+  .consolidateTextFive {
+    top: 60%;
+    right: 7rem;
+  }
+  .consolidateTextTwo {
+    top: 49%;
+    right: 1rem;
+  }
+  .consolidateTextFour {
+    top: 25%;
+    right: 1rem;
+  }
+  .consolidateTextOne {
+    position: absolute;
+    top: 12%;
+    left: 39%;
+  }
+  .riskManagementTextSix {
+    right: 7rem;
+  }
+  .riskManagementTextFive {
+    left: 56%;
+  }
+  .riskManagementTextFour {
+    top: 58%;
+    right: 10rem;
+  }
+  .riskManagementTextThree {
+    top: 46%;
+    left: 62%;
+  }
+  .riskManagementTextTwo {
+    top: 34%;
+    right: 14rem;
+  }
+  .riskManagementTextOne {
+    top: 22%;
+    left: 63%;
+  }
+}
+@media only screen and (min-width: 1001px) and (max-width: 1200px) {
+  .homePageTransformYouWorkFirstCart {
+    top: 8rem;
+  }
+  .homePageTransformYouWorkFirstCartcontentContent {
+    margin-top: 9rem;
+  }
+  .bookcloseTextFive {
+    top: 66%;
+  }
+  .bookcloseTextFour {
+    top: 64%;
+  }
+  .homePageTransformYouWorkSecondCart {
+    top: 7rem;
+  }
+  .reportingTextFour {
+    top: 66%;
+    right: 16rem;
+  }
+  .homePageTransformYouWorkThirdCart {
+    top: 8rem;
+  }
+  .consolidateTextTwo {
+    top: 54%;
+    right: 1rem;
+  }
+  .consolidateTextFive {
+    top: 65%;
+    right: 10rem;
+  }
+  .consolidateTextFour {
+    top: 30%;
+  }
+  .consolidateTextThree {
+    top: 42%;
+  }
+  .consolidateTextOne {
+    top: 18%;
+    left: 42%;
+  }
+  .tab {
+    width: 100% !important;
+  }
+  .tab button {
+    font-size: 1.3rem !important;
+  }
+  .aboutUsTabPanelContentText {
+    width: 100%;
+}
+.newsPapperClippesHeading {
+  font-size: 2.5rem !important;
+  font-weight: 700 !important;
+}
+.newsPapperClippesHeading {
+  font-size: 2.5rem !important;
+  font-weight: 700 !important;
+}
+.newsPapperClippesCart{
+  height: 75vh !important;
+}
+#overlay{
+  height: 75vh !important;
+}
+.overlay.One {
+  height: 75vh !important;
+}.overlay.Two {
+  height: 75vh !important;
+}
+.overlay.Three {
+  height: 75vh !important;
+}
 }

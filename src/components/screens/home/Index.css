@@ -6,10 +6,7 @@
   width: 100%;
   background-color: var(--defaultColor);
   display: flex;
-  /* background-image: url("../../themes/images/footerBackgroungImage.png");
-  background-position: 95% 70%;
-  background-size: 40%;
-  background-repeat: no-repeat; */
+  height: 135vh;
 }
 .homePageFirstContentTextFeild {
   width: 50%;
@@ -54,7 +51,11 @@ a.buttonLink {
   text-decoration: none;
 }
 .homePageBannerButton {
-  background: linear-gradient(to right, var(--primaryColor) 50%, var(--whiteColor) 50%);
+  background: linear-gradient(
+    to right,
+    var(--primaryColor) 50%,
+    var(--whiteColor) 50%
+  );
   background-size: 200% 100%;
   background-position: right bottom;
   transition: all 0.5s ease-out;
@@ -102,7 +103,7 @@ a.buttonLink {
   position: absolute;
   font-size: var(--content);
   font-weight: 700;
-  top: 14rem;
+  top: 11rem;
   left: 55%;
   border: 1px solid var(--whiteColor);
   padding: 0.5rem 1.5rem;
@@ -120,7 +121,7 @@ a.buttonLink {
   position: absolute;
   font-size: var(--content);
   font-weight: 700;
-  top: 87%;
+  top: 120%;
   left: 56%;
   border: 1px solid var(--whiteColor);
   padding: 0.5rem 1.5rem;
@@ -139,7 +140,7 @@ a.buttonLink {
   font-weight: 700;
   position: absolute;
   right: 3rem;
-  top: 14.5rem;
+  top: 11rem;
   border: 1px solid var(--whiteColor);
   padding: 0.5rem 1.5rem;
   border-radius: 10px;
@@ -157,7 +158,7 @@ a.buttonLink {
   font-weight: 700;
   position: absolute;
   right: 1.5rem;
-  top: 87%;
+  top: 120%;
   border: 1px solid var(--whiteColor);
   padding: 0.5rem 1.5rem;
   border-radius: 10px;
@@ -183,11 +184,11 @@ a.buttonLink {
 #more-arrows {
   width: 75px;
   transform: rotate(138deg);
-  height: 65px;
+  height: 64px;
   position: absolute;
   z-index: 25;
-  top: 39%;
-  left: 64%;
+  top: 41%;
+  left: 61%;
 }
 #more-arrows:hover polygon {
   fill: var(--primaryColor);
@@ -215,8 +216,8 @@ polygon.arrow-top {
   height: 65px;
   position: absolute;
   z-index: 25;
-  top: 88%;
-  left: 62%;
+  top: 103%;
+    left: 61%;
 }
 
 .arrowTwo:hover polygon {
@@ -242,11 +243,11 @@ polygon.arrow-top.Two {
 .arrowThree {
   width: 75px;
   transform: rotate(322deg);
-  height: 65px;
+  height: 63px;
   position: absolute;
   z-index: 25;
-  top: 89%;
-  right: 12rem;
+  top: 103%;
+    right: 9rem;
 }
 
 .arrowThree:hover polygon {
@@ -275,8 +276,8 @@ polygon.arrow-top.Three {
   height: 65px;
   position: absolute;
   z-index: 25;
-  top: 37%;
-  right: 14rem;
+  top: 40%;
+  right: 10rem;
 }
 
 .arrowFour:hover polygon {
@@ -326,7 +327,7 @@ polygon.arrow-top.Four {
 }
 .aboutUsOurModuleCartText {
   text-align: center;
-  font-size:var(--content);
+  font-size: var(--content);
   font-weight: 700;
   color: var(--whiteColor);
   padding-top: 1rem;
@@ -335,7 +336,6 @@ polygon.arrow-top.Four {
 .aboutUsOurModuleCartTextImage {
   width: 50%;
 }
-
 
 @media only screen and (min-width: 280px) and (max-width: 426px) {
   .homePageFirstContent {
@@ -352,7 +352,8 @@ polygon.arrow-top.Four {
   .homePageFirstContentTextFeild {
     width: 100%;
   }
-  .homePageFirstContentTextFeildHeader {
+  .homePageFirstContentTextFeildHeader{
+    margin-top: 8rem;
     font-size: 2rem;
   }
   .buttonLink {
@@ -364,11 +365,11 @@ polygon.arrow-top.Four {
     margin: 3rem 0rem;
   }
   .bannerImageContentTextOne {
-    font-size:var(--content) !important;
-    top: 85% !important;
-    left: 8% !important;
+    font-size: 1rem!important;
+    top: 70%;
+    left: 5% !important;
     padding: 0.5rem 1rem !important;
-  }
+}
   #more-arrows {
     display: none !important;
   }
@@ -382,23 +383,27 @@ polygon.arrow-top.Four {
     display: none;
   }
   .bannerImageContentTextTwo {
-    font-size:var(--content) !important;
-    top: 118% !important;
-    left: 8% !important;
+    font-size: 1rem !important;
+    top: 111% !important;
+    left: 2% !important;
     padding: 0.5rem 1.5rem;
-  }
-  .bannerImageContentTextFour {
-    font-size: var(--content);
-    right: 1rem;
-    top: 118%;
-    padding: 0.5rem 1rem;
-  }
+}
+.bannerImageContentTextFour {
+  font-size: 1rem;
+  right: 1rem;
+  top: 111%;
+  padding: 0.5rem 1rem;
+}
   .bannerImageContentTextThree {
-    font-size: var(--content);
+    font-size: 1rem;
     right: 1rem;
-    top: 85%;
+    top: 70%;
     padding: 0.5rem 1rem;
-  }
+}
+  .homePageFirstContentButton {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
   .aboutUsOurModuleContent {
     padding: 0rem !important;
     width: 100% !important;
@@ -425,7 +430,8 @@ polygon.arrow-top.Four {
     background-repeat: no-repeat;
     flex-direction: column;
     align-items: center;
-  }
+    height: 148vh;
+}
   .homePageFirstContentTextFeild {
     width: 100%;
   }
@@ -442,9 +448,10 @@ polygon.arrow-top.Four {
   }
   .bannerImageContentTextOne {
     font-size: var(--content) !important;
-    top: 85% !important;
+    top: 75% !important;
     left: 10% !important;
     padding: 0.5rem 1rem !important;
+    z-index: 20;
   }
   #more-arrows {
     display: none !important;
@@ -459,22 +466,23 @@ polygon.arrow-top.Four {
     display: none;
   }
   .bannerImageContentTextTwo {
-    font-size:var(--content) !important;
-    top: 125% !important;
+    font-size: var(--content) !important;
+    top: 131% !important;
     left: 10% !important;
     padding: 0.5rem 1.5rem;
   }
   .bannerImageContentTextFour {
-    font-size:var(--content);
+    font-size: var(--content);
     right: 1.5rem;
-    top: 125%;
+    top: 131%;
     padding: 0.5rem 1rem;
   }
   .bannerImageContentTextThree {
     font-size: var(--content);
     right: 1.5rem;
-    top: 85%;
+    top: 75% !important;
     padding: 0.5rem 1rem;
+    z-index: 20;
   }
   .aboutUsOurModuleContent {
     padding: 2rem;
@@ -490,6 +498,9 @@ polygon.arrow-top.Four {
   }
 }
 @media only screen and (min-width: 601px) and (max-width: 767px) {
+  .homePageFirstContent {
+    height: 111vh;
+  }
   .homePageFirstContentTextFeildHeader {
     font-size: 2rem;
   }
@@ -510,35 +521,51 @@ polygon.arrow-top.Four {
     display: none;
   }
   .bannerImageContentTextOne {
-    font-size: var(--content);
-    top: 10rem;
+    font-size: 1rem;
+    top: 11rem;
     left: 40%;
-  }
+    z-index: 20;
+}
   .bannerImageContentTextThree {
-    font-size: var(--content);
+    font-size: 1rem;
+    top:11rem;
     right: 1rem;
-    top: 10rem;
+    z-index: 20;
   }
   .bannerImageContentTextTwo {
-    font-size: var(--content);
+    font-size: 1rem;
     font-weight: 700;
-    top: 95%;
-    left: 41%;
-  }
+    top: 97%;
+    left: 38%;
+    z-index: 20;
+}
   .bannerImageContentTextFour {
-    font-size: var(--content);
+    font-size: 1rem;
     right: 1rem;
-    top: 95%;
+    top: 97%;
+    z-index: 20;
   }
   .homePageFirstContentTextFeild {
     width: 43% !important;
     padding: 1rem !important;
   }
+  .aboutUsOurModuleContent {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
-@media only screen and (min-width: 767px) and (max-width: 1000px) {
+.aboutUsOurModuleCart {
+  width: 45%;
+  margin: 0.5rem;}
+}
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
   .homePageFirstContentTextFeildHeader {
     font-size: 3rem;
   }
+  .homePageFirstContent {
+    height: 127vh
+}
   .homePageFirstContentDesktopImage {
     width: 80% !important;
     margin-top: 9rem;
@@ -569,22 +596,22 @@ polygon.arrow-top.Four {
     right: 5rem;
   }
   .bannerImageContentTextTwo {
-    font-size:var(--content);
-    top: 102%;
+    font-size: var(--content);
+    top: 115%;
     left: 37%;
   }
   .bannerImageContentTextFour {
-    font-size:var(--content);
+    font-size: var(--content);
     right: 1rem;
-    top: 102%;
+    top: 115%;
   }
   .arrowThree {
-    top: 87%;
+    top: 100%;
     right: 5rem;
     transform: rotate(313deg);
   }
   .arrowTwo {
-    top: 87%;
+    top: 100%;
     left: 49%;
   }
   .aboutUsOurModuleContent {
@@ -597,7 +624,10 @@ polygon.arrow-top.Four {
     width: 22%;
   }
 }
-@media only screen and (min-width: 1001px) and (max-width: 1076px) {
+@media only screen and (min-width: 1001px) and (max-width: 1200px) {
+  .homePageFirstContent {
+    height: 150vh;
+}
   .homePageFirstContentDesktopImage {
     width: 100%;
     margin-top: 6rem;
@@ -615,7 +645,7 @@ polygon.arrow-top.Four {
     left: 58% !important;
   }
   .bannerImageContentTextThree {
-    font-size:var(--content);
+    font-size: var(--content);
     right: 2rem;
     top: 10rem;
   }
@@ -651,58 +681,155 @@ polygon.arrow-top.Four {
     width: 22%;
   }
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1201px) {
+  .homePageFirstContentButton {
+    padding: 1rem 2rem;
+    font-size: var(--content);
+    margin-top: 2rem;
+    font-weight: 700;
+    color: var(--defaultColor) !important;
+    font-family: var(--defaultRegular);
+    border: none;
+    transition: all 0.6s ease-out;
+    display: block;
+    background: transparent;
+  }
+  .homePageFirstContentButton:hover,
+  .homePageFirstContentButton:active,
+  .homePageFirstContentButton:focus {
+    color: var(--whiteColor);
+    text-decoration: none;
+    outline: none;
+  }
+  a.buttonLink {
+    text-decoration: none;
+  }
+  .homePageBannerButton {
+    background: linear-gradient(
+      to right,
+      var(--primaryColor) 50%,
+      var(--whiteColor) 50%
+    );
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.5s ease-out;
+    border-radius: 50px;
+  }
+  .homePageBannerButton:hover {
+    background-position: left bottom;
+    text-decoration: none;
+  }
+  
+  .homePageFirstContentsubFeild {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+    padding: 2rem;
+  }
+  .homePageFirstContentsubFeildText {
+    color: rgb(149, 148, 148);
+    font-size: 1.2rem;
+    display: flex;
+  }
+  .homePageFirstContentsubFeildImages {
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+  }
+  .homePageFirstContentsubContainer {
+    width: 100%;
+  }
+  .homePageFirstContentsubRatingContent {
+    display: flex;
+    width: 15%;
+    justify-content: space-evenly;
+    margin: 0rem 3rem;
+    align-items: center;
+  }
+  .homePageFirstContentsubRatingContentText {
+    color: rgb(149, 148, 148);
+    font-size: 1.2rem;
+    margin: 0rem;
+  }
+  .bannerImageContentTextOne {
+    color: var(--primaryColor);
+    position: absolute;
+    font-size: var(--content);
+    font-weight: 700;
+    top: 11rem;
+    left: 55%;
+    border: 1px solid var(--whiteColor);
+    padding: 0.5rem 1.5rem;
+    border-radius: 10px;
+    transition: transform 1.5s;
+    font-family: var(--defaultRegular);
+  }
+  .bannerImageContentTextOne:hover,
+  .bannerImageContentTextOne:active,
+  .bannerImageContentTextOne:focus {
+    transform: scale(1.2);
+  }
+  .bannerImageContentTextTwo {
+
+    top: 120%;
+  
+  }
+  .bannerImageContentTextTwo:hover,
+  .bannerImageContentTextTwo:active,
+  .bannerImageContentTextTwo:focus {
+    transform: scale(1.2);
+  }
+  .bannerImageContentTextThree {
+    color: var(--primaryColor);
+    font-size: var(--content);
+    font-weight: 700;
+    position: absolute;
+    right: 3rem;
+    top: 11rem;
+    border: 1px solid var(--whiteColor);
+    padding: 0.5rem 1.5rem;
+    border-radius: 10px;
+    transition: transform 1.5s;
+    font-family: var(--defaultRegular);
+  }
+  .bannerImageContentTextThree:hover,
+  .bannerImageContentTextThree:active,
+  .bannerImageContentTextThree:focus {
+    transform: scale(1.2);
+  }
+  .bannerImageContentTextFour {
+   
+    top: 120%;
+  
+  }
+  .bannerImageContentTextFour:hover,
+  .bannerImageContentTextFour:active,
+  .bannerImageContentTextFour:focus {
+    transform: scale(1.2);
+  }
+  .bannerImageContent {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
   .homePageFirstContentDesktopImage {
     width: 63%;
     margin-top: 6rem;
     position: relative;
   }
-  .bannerImageContentTextOne {
-    font-size:var(--content);
-    font-weight: 700;
-    top: 14rem;
-    left: 56%;
-  }
   #more-arrows {
-    transform: rotate(143deg) !important;
-    top: 39% !important;
-    left: 63% !important;
-  }
-  .bannerImageContentTextThree {
-    font-size:var(--content);
-    right: 5rem;
-    top: 14.5rem;
-  }
-  .arrowFour {
-    transform: rotate(221deg);
-    top: 39.5%;
-    right: 13rem;
-  }
-  .bannerImageContentTextTwo {
-    font-size: var(--content);
-    top: 100%;
-    left: 55%;
-  }
-  .bannerImageContentTextFour {
-    font-size: var(--content);
-    right: 1.5rem;
-    top: 100%;
+    top: 45%;
+}
+  .arrowTwo {
+    top: 103%;
   }
   .arrowThree {
-    transform: rotate(318deg);
-    top: 89%;
-    right: 12rem;
+
+    top: 103%;  
   }
-  .arrowTwo {
-    transform: rotate(40deg);
-    top: 88%;
-    left: 62%;
+  .arrowFour {
+    top: 45%;
   }
-  .aboutUsOurModuleContent {
-    padding: 4rem;
-  }
-  .aboutUsOurModuleCart {
-    width: 20%;
-    justify-content: center;
-  }
+  
 }
