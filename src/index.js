@@ -23,6 +23,7 @@ root.render(
         <Route path="/blog" element={<Blog />} />
         <Route path="/about" element={<AboutUs />} /> */}
        <Route path="/scheduledemo" element={<ScheduleDemo />} />
+       
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

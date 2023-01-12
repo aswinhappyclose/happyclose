@@ -2,11 +2,11 @@
   width: 100%;
 }
 .homePageFirstContent {
-  padding: 10% 0%;
   width: 100%;
   background-color: var(--defaultColor);
   display: flex;
-  height: 135vh;
+  height: 167vh;
+  padding-top: 8rem !important;
 }
 .homePageFirstContentTextFeild {
   width: 50%;
@@ -19,7 +19,7 @@
 .homePageFirstContentTextFeildHeader {
   font-size: var(--heading);
   line-height: 1.2;
-  margin-top: 10rem;
+  margin-top: 15rem;
   font-weight: 500;
   color: var(--whiteColor);
   font-family: var(--headerFontFamily);
@@ -98,13 +98,24 @@ a.buttonLink {
   font-size: 1.2rem;
   margin: 0rem;
 }
+.bookcloseAndReporting {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0rem 1rem;
+}
+.ReportAndRiskmanagement{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0rem 1rem;
+  margin-top: 2rem;
+}
 .bannerImageContentTextOne {
   color: var(--primaryColor);
-  position: absolute;
+  width: 25%;
   font-size: var(--content);
   font-weight: 700;
-  top: 11rem;
-  left: 55%;
   border: 1px solid var(--whiteColor);
   padding: 0.5rem 1.5rem;
   border-radius: 10px;
@@ -118,11 +129,8 @@ a.buttonLink {
 }
 .bannerImageContentTextTwo {
   color: var(--primaryColor);
-  position: absolute;
   font-size: var(--content);
   font-weight: 700;
-  top: 120%;
-  left: 56%;
   border: 1px solid var(--whiteColor);
   padding: 0.5rem 1.5rem;
   border-radius: 10px;
@@ -135,12 +143,10 @@ a.buttonLink {
   transform: scale(1.2);
 }
 .bannerImageContentTextThree {
+  width: 30%;
   color: var(--primaryColor);
   font-size: var(--content);
   font-weight: 700;
-  position: absolute;
-  right: 3rem;
-  top: 11rem;
   border: 1px solid var(--whiteColor);
   padding: 0.5rem 1.5rem;
   border-radius: 10px;
@@ -156,9 +162,6 @@ a.buttonLink {
   color: var(--primaryColor);
   font-size: var(--content);
   font-weight: 700;
-  position: absolute;
-  right: 1.5rem;
-  top: 120%;
   border: 1px solid var(--whiteColor);
   padding: 0.5rem 1.5rem;
   border-radius: 10px;
@@ -173,22 +176,34 @@ a.buttonLink {
 .bannerImageContent {
   width: 50%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 .homePageFirstContentDesktopImage {
-  width: 63%;
-  margin-top: 6rem;
-  position: relative;
+  width: 50%;
+ 
+}
+.bookcloseAndReportingArrows{
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  padding: 0rem 2rem;
+  margin-top: 2rem;
+}
+.ReportAndRiskmanagementArrows{
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  padding: 0rem 2rem;
+  margin-top: 2rem;
 }
 /* Arrow & Hover Animation */
 #more-arrows {
   width: 75px;
   transform: rotate(138deg);
   height: 64px;
-  position: absolute;
-  z-index: 25;
-  top: 41%;
-  left: 61%;
+ 
 }
 #more-arrows:hover polygon {
   fill: var(--primaryColor);
@@ -214,10 +229,7 @@ polygon.arrow-top {
   width: 75px;
   transform: rotate(43deg);
   height: 65px;
-  position: absolute;
-  z-index: 25;
-  top: 103%;
-    left: 61%;
+  
 }
 
 .arrowTwo:hover polygon {
@@ -244,10 +256,7 @@ polygon.arrow-top.Two {
   width: 75px;
   transform: rotate(322deg);
   height: 63px;
-  position: absolute;
-  z-index: 25;
-  top: 103%;
-    right: 9rem;
+ 
 }
 
 .arrowThree:hover polygon {
@@ -274,10 +283,7 @@ polygon.arrow-top.Three {
   width: 75px;
   transform: rotate(222deg);
   height: 65px;
-  position: absolute;
-  z-index: 25;
-  top: 40%;
-  right: 10rem;
+ 
 }
 
 .arrowFour:hover polygon {
@@ -353,7 +359,7 @@ polygon.arrow-top.Four {
     width: 100%;
   }
   .homePageFirstContentTextFeildHeader{
-    margin-top: 8rem;
+    margin-top: 4rem;
     font-size: 2rem;
     height: 23vh;
   }
@@ -362,44 +368,39 @@ polygon.arrow-top.Four {
     margin-top: -2.5rem !important;
   }
   .homePageFirstContentDesktopImage {
-    width: 50%;
-    margin: 3rem 0rem;
+    width: 100%;
+    margin: -1rem 0rem;
+}
+  .bannerImageContent {
+    width: 100%;
+  }
+  .bookcloseAndReportingArrows{
+    display: none;
+  }
+  .ReportAndRiskmanagementArrows{
+    display: none;
   }
   .bannerImageContentTextOne {
-    font-size: 1rem!important;
-    top: 70%;
-    left: 5% !important;
-    padding: 0.5rem 1rem !important;
+    width: 44%;
+    font-size: 1rem;
+  }
+  .bannerImageContentTextThree {
+    width: 47%;
+    font-size: 1rem;
+  }
+  .ReportAndRiskmanagement {
+    margin-top: -1rem;
 }
-  #more-arrows {
-    display: none !important;
-  }
-  .arrowTwo {
-    display: none;
-  }
-  .arrowThree {
-    display: none;
-  }
-  .arrowFour {
-    display: none;
-  }
-  .bannerImageContentTextTwo {
-    font-size: 1rem !important;
-    top: 111% !important;
-    left: 2% !important;
-    padding: 0.5rem 1.5rem;
+.bannerImageContentTextTwo {
+  font-size: 1rem;
+  width: 44%;
+  display: flex;
+  align-items: center;
 }
 .bannerImageContentTextFour {
-  font-size: 1rem;
-  right: 1rem;
-  top: 111%;
-  padding: 0.5rem 1rem;
-}
-  .bannerImageContentTextThree {
-    font-size: 1rem;
-    right: 1rem;
-    top: 70%;
-    padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  width: 50%;
+  
 }
   .homePageFirstContentButton {
     padding: 0.5rem 1rem;
@@ -431,83 +432,93 @@ polygon.arrow-top.Four {
     background-repeat: no-repeat;
     flex-direction: column;
     align-items: center;
-    height: 148vh;
-}
+    height: 170vh;
+  }
   .homePageFirstContentTextFeild {
     width: 100%;
   }
-  .homePageFirstContentTextFeildHeader {
+  .homePageFirstContentTextFeildHeader{
+    margin-top: 4rem;
     font-size: 2rem;
+    height: 23vh;
   }
   .buttonLink {
     text-decoration: none;
     margin-top: -2.5rem !important;
   }
   .homePageFirstContentDesktopImage {
+    width: 68%;
+    margin: -1rem 0rem;
+}
+  .bannerImageContent {
     width: 100%;
-    margin: 3rem 0rem;
+  }
+  .bookcloseAndReportingArrows{
+    display: none;
+  }
+  .ReportAndRiskmanagementArrows{
+    display: none;
   }
   .bannerImageContentTextOne {
-    font-size: var(--content) !important;
-    top: 75% !important;
-    left: 10% !important;
-    padding: 0.5rem 1rem !important;
-    z-index: 20;
-  }
-  #more-arrows {
-    display: none !important;
-  }
-  .arrowTwo {
-    display: none;
-  }
-  .arrowThree {
-    display: none;
-  }
-  .arrowFour {
-    display: none;
-  }
-  .bannerImageContentTextTwo {
-    font-size: var(--content) !important;
-    top: 131% !important;
-    left: 5% !important;
-    padding: 0.5rem 1.5rem;
-  }
-  .bannerImageContentTextFour {
-    font-size: var(--content);
-    right: 1rem;
-    top: 131%;
-    padding: 0.5rem 1rem;
+    text-align: center;
+    width: 44%;
+    font-size: 1rem;
   }
   .bannerImageContentTextThree {
-    font-size: var(--content);
-    right: 1.5rem;
-    top: 75% !important;
-    padding: 0.5rem 1rem;
-    z-index: 20;
+    text-align: center;
+    width: 47%;
+    font-size: 1rem;
   }
+  .ReportAndRiskmanagement {
+    margin-top: -1rem;
+}
+.bannerImageContentTextTwo {
+  font-size: 1rem;
+  width: 44%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bannerImageContentTextFour {
+  text-align: center;
+  font-size: 0.9rem;
+  width: 50%;
+  
+}
+  .homePageFirstContentButton {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
   .aboutUsOurModuleContent {
-    padding: 2rem;
+    padding: 0rem !important;
+    width: 100% !important;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
   }
   .aboutUsOurModuleCart {
     border: none;
-    width: 47% !important;
-    margin-top: 1rem;
-    padding: 1rem;
+    width: 70% !important;
+    margin: 1rem 0rem;
+    justify-content: center !important;
   }
 }
 @media screen and (min-width: 601px) and (max-width: 767px) {
   .homePageFirstContent {
-    height: 111vh;
+    height: 131vh;
   }
   .homePageFirstContentTextFeildHeader {
     font-size: 2rem;
+    margin-top: 5rem;
   }
   .homePageFirstContentDesktopImage {
     width: 100% !important;
-    margin-top: 6rem !important;
+    margin-top: -3rem !important;
+  }
+  .bookcloseAndReporting {
+    margin-top: 0rem;
+    padding: 0rem;
   }
   #more-arrows {
     display: none !important;
@@ -523,28 +534,27 @@ polygon.arrow-top.Four {
   }
   .bannerImageContentTextOne {
     font-size: 1rem;
-    top: 11rem;
-    left: 40%;
-    z-index: 20;
+    width: 47%;
 }
   .bannerImageContentTextThree {
     font-size: 1rem;
-    top:11rem;
-    right: 1rem;
-    z-index: 20;
+    width: 49%;
   }
   .bannerImageContentTextTwo {
     font-size: 1rem;
     font-weight: 700;
-    top: 97%;
-    left: 38%;
-    z-index: 20;
+   
+}
+.ReportAndRiskmanagement {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0rem;
+  margin-top: -4rem;
 }
   .bannerImageContentTextFour {
     font-size: 1rem;
-    right: 1rem;
-    top: 97%;
-    z-index: 20;
+   
   }
   .homePageFirstContentTextFeild {
     width: 43% !important;
@@ -563,29 +573,49 @@ polygon.arrow-top.Four {
 @media screen and (min-width: 768px){
   .homePageFirstContentTextFeildHeader {
     font-size: 3rem;
+    margin-top: 10rem;
   }
-  .homePageFirstContent {
-    height: 127vh
-}
+
   .homePageFirstContentDesktopImage {
-    width: 80% !important;
-    margin-top: 9rem;
+    width: 70% !important;
   }
   .homePageFirstContentTextFeild {
     width: 45% !important;
     padding: 1rem !important;
   }
+  .bannerImageContent{
+    margin-top: 1rem;
+  }
   .bannerImageContentTextOne {
-    font-size: var(--content);
-    top: 10rem;
-    left: 43%;
-    padding: 0.5rem 1.5rem;
-  }
-  .bannerImageContentTextThree {
-    font-size: var(--content);
-    right: 1rem;
-    top: 10rem;
-  }
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    text-align: center;
+}
+.bannerImageContentTextThree {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.bookcloseAndReporting{
+  margin-top: -4rem;
+}
+.bookcloseAndReportingArrows {
+  width: 80%;
+  margin-top: 0rem;
+}
+.ReportAndRiskmanagementArrows{
+  width: 80%;
+  margin-top: 0rem;
+}
+.ReportAndRiskmanagement {
+  padding: 0rem;
+  margin-top: 1rem;
+}
   #more-arrows {
     transform: rotate(136deg);
     top: 42%;
@@ -628,29 +658,44 @@ polygon.arrow-top.Four {
 @media screen and (min-width: 864px){
   .homePageFirstContentTextFeildHeader {
     font-size: 3rem;
+    margin-top: 10rem;
   }
-  .homePageFirstContent {
-    height: 127vh
-}
+
   .homePageFirstContentDesktopImage {
-    width: 80% !important;
-    margin-top: 9rem;
+    width: 70% !important;
   }
   .homePageFirstContentTextFeild {
     width: 45% !important;
     padding: 1rem !important;
   }
+  .bannerImageContent{
+    margin-top: 1rem;
+  }
   .bannerImageContentTextOne {
     font-size: var(--content);
-    top: 10rem;
-    left: 43%;
-    padding: 0.5rem 1.5rem;
-  }
-  .bannerImageContentTextThree {
-    font-size: var(--content);
-    right: 1rem;
-    top: 10rem;
-  }
+    padding: 0.5rem;
+    text-align: center;
+}
+.bannerImageContentTextThree {
+  font-size: var(--content);
+  text-align: center;
+}
+.bookcloseAndReporting{
+  margin-top: -4rem;
+  padding: 0rem;
+}
+.bookcloseAndReportingArrows {
+  width: 80%;
+  margin-top: 0rem;
+}
+.ReportAndRiskmanagementArrows{
+  width: 80%;
+  margin-top: 0rem;
+}
+.ReportAndRiskmanagement {
+  padding: 0rem;
+  margin-top: 1rem;
+}
   #more-arrows {
     transform: rotate(136deg);
     top: 42%;
@@ -693,39 +738,54 @@ polygon.arrow-top.Four {
 @media screen and (min-width: 944px){
   .homePageFirstContentTextFeildHeader {
     font-size: 3rem;
+    margin-top: 10rem;
   }
-  .homePageFirstContent {
-    height: 127vh
-}
+
   .homePageFirstContentDesktopImage {
-    width: 50% !important;
-    margin-top: 9rem;
+    width: 70% !important;
   }
   .homePageFirstContentTextFeild {
     width: 45% !important;
     padding: 1rem !important;
   }
+  .bannerImageContent{
+    margin-top: 1rem;
+  }
   .bannerImageContentTextOne {
     font-size: var(--content);
-    top: 10rem;
-    left: 43%;
-    padding: 0.5rem 1.5rem;
-  }
-  .bannerImageContentTextThree {
-    font-size: var(--content);
-    right: 1rem;
-    top: 10rem;
-  }
+    padding: 0.5rem;
+    text-align: center;
+}
+.bannerImageContentTextThree {
+  font-size: var(--content);
+  text-align: center;
+}
+.bookcloseAndReporting{
+  margin-top: -4rem;
+  padding: 0rem;
+}
+.bookcloseAndReportingArrows {
+  width: 80%;
+  margin-top: 0rem;
+}
+.ReportAndRiskmanagementArrows{
+  width: 80%;
+  margin-top: 0rem;
+}
+.ReportAndRiskmanagement {
+  padding: 0rem;
+  margin-top: 1rem;
+}
   #more-arrows {
     transform: rotate(136deg);
     top: 42%;
     left: 50%;
   }
   .arrowFour {
-    transform: rotate(226deg);
+    transform: rotate(222deg);
     top: 42%;
-    right: 7rem;
-}
+    right: 5rem;
+  }
   .bannerImageContentTextTwo {
     font-size: var(--content);
     top: 115%;
@@ -738,9 +798,9 @@ polygon.arrow-top.Four {
   }
   .arrowThree {
     top: 100%;
-    right: 6rem;
+    right: 5rem;
     transform: rotate(313deg);
-}
+  }
   .arrowTwo {
     top: 100%;
     left: 49%;
@@ -758,62 +818,73 @@ polygon.arrow-top.Four {
 @media screen and (min-width: 994px) and (max-width : 1300px){
   .homePageFirstContentTextFeildHeader {
     font-size: 3rem;
+    margin-top: 15rem;
   }
-  .homePageFirstContent {
-    height: 127vh
-}
-.homePageFirstContentButton {
-  padding: 1rem 2.5rem !important;
-  font-size: 1rem;
-}
+
   .homePageFirstContentDesktopImage {
     width: 70% !important;
-    margin-top: 9rem;
   }
   .homePageFirstContentTextFeild {
     width: 45% !important;
     padding: 1rem !important;
   }
+  .bannerImageContent{
+    margin-top: 1rem;
+  }
   .bannerImageContentTextOne {
     font-size: var(--content);
-    top: 11rem;
-    left: 45%;
-    padding: 0.5rem 1.5rem;
+    padding: 0.5rem;
+    text-align: center;
 }
 .bannerImageContentTextThree {
   font-size: var(--content);
-  right: 4rem;
-  top: 11rem;
+  text-align: center;
+}
+.bookcloseAndReporting{
+  margin-top: 3rem;
+  padding: 0rem;
+}
+.bookcloseAndReportingArrows {
+  width: 80%;
+  margin-top: 0rem;
+}
+.ReportAndRiskmanagementArrows{
+  width: 80%;
+  margin-top: 0rem;
+}
+.ReportAndRiskmanagement {
+  padding: 0rem;
+  margin-top: 1rem;
 }
   #more-arrows {
     transform: rotate(136deg);
-    top: 45%;
-    left: 53%;
-}
-.arrowFour {
-  transform: rotate(226deg);
-  top: 45%;
-  right: 11rem;
-}
-.bannerImageContentTextTwo {
-  font-size: var(--content);
-  top: 115%;
-  left: 45%;
-}
-.bannerImageContentTextFour {
-  font-size: var(--content);
-  right: 2rem;
-  top: 115%;
-}
+    top: 42%;
+    left: 50%;
+  }
+  .arrowFour {
+    transform: rotate(222deg);
+    top: 42%;
+    right: 5rem;
+  }
+  .bannerImageContentTextTwo {
+    font-size: var(--content);
+    top: 115%;
+    left: 37%;
+  }
+  .bannerImageContentTextFour {
+    font-size: var(--content);
+    right: 1rem;
+    top: 115%;
+  }
   .arrowThree {
     top: 100%;
-    right: 9rem;
-    transform: rotate(318deg);
-}
-.arrowTwo {
-  top: 100%;
-  left: 53%;
-}
+    right: 5rem;
+    transform: rotate(313deg);
+  }
+  .arrowTwo {
+    top: 100%;
+    left: 49%;
+  }
   .aboutUsOurModuleContent {
     padding: 2rem;
     display: flex;
@@ -824,65 +895,76 @@ polygon.arrow-top.Four {
     width: 22%;
   }
 }
-@media screen and (min-width: 1300px){
+@media screen and (min-width: 1301px){
   .homePageFirstContentTextFeildHeader {
     font-size: 3rem;
+    margin-top: 15rem;
   }
-  .homePageFirstContent {
-    height: 127vh
-}
-.homePageFirstContentButton {
-  padding: 1rem 2.5rem !important;
-  font-size: 1rem;
-}
-.homePageFirstContentDesktopImage {
-  width: 50% !important;
-  margin-top: 9rem;
-}
+
+  .homePageFirstContentDesktopImage {
+    width: 70% !important;
+  }
   .homePageFirstContentTextFeild {
     width: 45% !important;
     padding: 1rem !important;
   }
+  .bannerImageContent{
+    margin-top: 1rem;
+  }
   .bannerImageContentTextOne {
     font-size: var(--content);
-    top: 12rem;
-    left: 49%;
-    padding: 0.5rem 1.5rem;
+    padding: 0.5rem;
+    text-align: center;
 }
 .bannerImageContentTextThree {
   font-size: var(--content);
-  right: 4rem;
-  top: 12rem;
+  text-align: center;
+}
+.bookcloseAndReporting{
+  margin-top: 3rem;
+  padding: 0rem;
+}
+.bookcloseAndReportingArrows {
+  width: 80%;
+  margin-top: 0rem;
+}
+.ReportAndRiskmanagementArrows{
+  width: 80%;
+  margin-top: 0rem;
+}
+.ReportAndRiskmanagement {
+  padding: 0rem;
+  margin-top: 1rem;
 }
   #more-arrows {
     transform: rotate(136deg);
-    top: 47%;
-    left: 56%;
-}
-.arrowFour {
-  transform: rotate(226deg);
-  top: 47%;
-  right: 12.5rem;
-}
-.bannerImageContentTextTwo {
-  font-size: var(--content);
-  top: 115%;
-  left: 50%;
-}
-.bannerImageContentTextFour {
-  font-size: var(--content);
-  right: 3rem;
-  top: 115%;
-}
+    top: 42%;
+    left: 50%;
+  }
+  .arrowFour {
+    transform: rotate(222deg);
+    top: 42%;
+    right: 5rem;
+  }
+  .bannerImageContentTextTwo {
+    font-size: var(--content);
+    top: 115%;
+    left: 37%;
+  }
+  .bannerImageContentTextFour {
+    font-size: var(--content);
+    right: 1rem;
+    top: 115%;
+  }
   .arrowThree {
-    top: 98%;
-    right: 12rem;
+    top: 100%;
+    right: 5rem;
     transform: rotate(313deg);
   }
-.arrowTwo {
-  top: 98%;
-  left: 56%;
-}
+  .arrowTwo {
+    top: 100%;
+    left: 49%;
+  }
   .aboutUsOurModuleContent {
     padding: 2rem;
     display: flex;
