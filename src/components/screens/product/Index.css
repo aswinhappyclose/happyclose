@@ -1445,7 +1445,7 @@ i.bi.bi {
   .homePageTransformYouWork {
     background-color: var(--whiteColor);
     color: var(--defaultColor);
-    padding: 2rem;
+    padding: 6rem;
     padding-bottom: 12rem;
     margin: 0rem;
   }

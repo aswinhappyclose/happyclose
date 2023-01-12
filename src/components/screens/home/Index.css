@@ -5,7 +5,6 @@
   width: 100%;
   background-color: var(--defaultColor);
   display: flex;
-  height: 167vh;
   padding-top: 8rem !important;
 }
 .homePageFirstContentTextFeild {
@@ -432,7 +431,6 @@ polygon.arrow-top.Four {
     background-repeat: no-repeat;
     flex-direction: column;
     align-items: center;
-    height: 170vh;
   }
   .homePageFirstContentTextFeild {
     width: 100%;
@@ -440,7 +438,6 @@ polygon.arrow-top.Four {
   .homePageFirstContentTextFeildHeader{
     margin-top: 4rem;
     font-size: 2rem;
-    height: 23vh;
   }
   .buttonLink {
     text-decoration: none;
@@ -453,6 +450,10 @@ polygon.arrow-top.Four {
   .bannerImageContent {
     width: 100%;
   }
+  /* .bookcloseAndReporting {
+    margin-top: 4rem;
+    padding: 0rem;
+  } */
   .bookcloseAndReportingArrows{
     display: none;
   }
@@ -505,9 +506,7 @@ polygon.arrow-top.Four {
   }
 }
 @media screen and (min-width: 601px) and (max-width: 767px) {
-  .homePageFirstContent {
-    height: 131vh;
-  }
+
   .homePageFirstContentTextFeildHeader {
     font-size: 2rem;
     margin-top: 5rem;
@@ -517,7 +516,7 @@ polygon.arrow-top.Four {
     margin-top: -3rem !important;
   }
   .bookcloseAndReporting {
-    margin-top: 0rem;
+    margin-top: 1rem;
     padding: 0rem;
   }
   #more-arrows {
@@ -602,7 +601,7 @@ polygon.arrow-top.Four {
   text-align: center;
 }
 .bookcloseAndReporting{
-  margin-top: -4rem;
+  margin-top: 1rem;
 }
 .bookcloseAndReportingArrows {
   width: 80%;
@@ -681,7 +680,7 @@ polygon.arrow-top.Four {
   text-align: center;
 }
 .bookcloseAndReporting{
-  margin-top: -4rem;
+  margin-top: 1rem;
   padding: 0rem;
 }
 .bookcloseAndReportingArrows {
