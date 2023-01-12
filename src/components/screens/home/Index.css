@@ -337,7 +337,7 @@ polygon.arrow-top.Four {
   width: 50%;
 }
 
-@media only screen and (min-width: 280px) and (max-width: 426px) {
+@media screen and (min-width: 280px) and (max-width: 374px) {
   .homePageFirstContent {
     padding: 10% 0%;
     width: 100%;
@@ -355,13 +355,14 @@ polygon.arrow-top.Four {
   .homePageFirstContentTextFeildHeader{
     margin-top: 8rem;
     font-size: 2rem;
+    height: 23vh;
   }
   .buttonLink {
     text-decoration: none;
     margin-top: -2.5rem !important;
   }
   .homePageFirstContentDesktopImage {
-    width: 100%;
+    width: 50%;
     margin: 3rem 0rem;
   }
   .bannerImageContentTextOne {
@@ -419,7 +420,7 @@ polygon.arrow-top.Four {
     justify-content: center !important;
   }
 }
-@media only screen and (min-width: 427px) and (max-width: 600px) {
+@media  screen and (min-width: 375px) and (max-width: 600px) {
   .homePageFirstContent {
     padding: 10% 0%;
     width: 100%;
@@ -468,12 +469,12 @@ polygon.arrow-top.Four {
   .bannerImageContentTextTwo {
     font-size: var(--content) !important;
     top: 131% !important;
-    left: 10% !important;
+    left: 5% !important;
     padding: 0.5rem 1.5rem;
   }
   .bannerImageContentTextFour {
     font-size: var(--content);
-    right: 1.5rem;
+    right: 1rem;
     top: 131%;
     padding: 0.5rem 1rem;
   }
@@ -497,7 +498,7 @@ polygon.arrow-top.Four {
     padding: 1rem;
   }
 }
-@media only screen and (min-width: 601px) and (max-width: 767px) {
+@media screen and (min-width: 601px) and (max-width: 767px) {
   .homePageFirstContent {
     height: 111vh;
   }
@@ -559,7 +560,7 @@ polygon.arrow-top.Four {
   width: 45%;
   margin: 0.5rem;}
 }
-@media only screen and (min-width: 768px) and (max-width: 1000px) {
+@media screen and (min-width: 768px){
   .homePageFirstContentTextFeildHeader {
     font-size: 3rem;
   }
@@ -624,212 +625,271 @@ polygon.arrow-top.Four {
     width: 22%;
   }
 }
-@media only screen and (min-width: 1001px) and (max-width: 1200px) {
+@media screen and (min-width: 864px){
+  .homePageFirstContentTextFeildHeader {
+    font-size: 3rem;
+  }
   .homePageFirstContent {
-    height: 150vh;
+    height: 127vh
 }
   .homePageFirstContentDesktopImage {
-    width: 100%;
-    margin-top: 6rem;
-    position: relative;
+    width: 80% !important;
+    margin-top: 9rem;
+  }
+  .homePageFirstContentTextFeild {
+    width: 45% !important;
+    padding: 1rem !important;
   }
   .bannerImageContentTextOne {
     font-size: var(--content);
-    font-weight: 700;
     top: 10rem;
-    left: 50%;
-  }
-  #more-arrows {
-    transform: rotate(143deg) !important;
-    top: 42% !important;
-    left: 58% !important;
+    left: 43%;
+    padding: 0.5rem 1.5rem;
   }
   .bannerImageContentTextThree {
     font-size: var(--content);
-    right: 2rem;
+    right: 1rem;
     top: 10rem;
   }
+  #more-arrows {
+    transform: rotate(136deg);
+    top: 42%;
+    left: 50%;
+  }
   .arrowFour {
-    transform: rotate(217deg);
+    transform: rotate(222deg);
     top: 42%;
     right: 5rem;
   }
   .bannerImageContentTextTwo {
     font-size: var(--content);
-    top: 135%;
-    left: 50%;
+    top: 115%;
+    left: 37%;
   }
   .bannerImageContentTextFour {
     font-size: var(--content);
-    right: 1.5rem;
-    top: 135%;
+    right: 1rem;
+    top: 115%;
   }
   .arrowThree {
-    transform: rotate(318deg);
-    top: 117%;
+    top: 100%;
     right: 5rem;
+    transform: rotate(313deg);
   }
   .arrowTwo {
-    transform: rotate(43deg);
-    top: 117%;
-    left: 57%;
+    top: 100%;
+    left: 49%;
   }
   .aboutUsOurModuleContent {
     padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
   .aboutUsOurModuleCart {
     width: 22%;
   }
 }
-@media only screen and (min-width: 1201px) {
-  .homePageFirstContentButton {
-    padding: 1rem 2rem;
-    font-size: var(--content);
-    margin-top: 2rem;
-    font-weight: 700;
-    color: var(--defaultColor) !important;
-    font-family: var(--defaultRegular);
-    border: none;
-    transition: all 0.6s ease-out;
-    display: block;
-    background: transparent;
+@media screen and (min-width: 944px){
+  .homePageFirstContentTextFeildHeader {
+    font-size: 3rem;
   }
-  .homePageFirstContentButton:hover,
-  .homePageFirstContentButton:active,
-  .homePageFirstContentButton:focus {
-    color: var(--whiteColor);
-    text-decoration: none;
-    outline: none;
+  .homePageFirstContent {
+    height: 127vh
+}
+  .homePageFirstContentDesktopImage {
+    width: 50% !important;
+    margin-top: 9rem;
   }
-  a.buttonLink {
-    text-decoration: none;
-  }
-  .homePageBannerButton {
-    background: linear-gradient(
-      to right,
-      var(--primaryColor) 50%,
-      var(--whiteColor) 50%
-    );
-    background-size: 200% 100%;
-    background-position: right bottom;
-    transition: all 0.5s ease-out;
-    border-radius: 50px;
-  }
-  .homePageBannerButton:hover {
-    background-position: left bottom;
-    text-decoration: none;
-  }
-  
-  .homePageFirstContentsubFeild {
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly;
-    margin-top: 4rem;
-    padding: 2rem;
-  }
-  .homePageFirstContentsubFeildText {
-    color: rgb(149, 148, 148);
-    font-size: 1.2rem;
-    display: flex;
-  }
-  .homePageFirstContentsubFeildImages {
-    display: flex;
-    width: 80%;
-    justify-content: space-evenly;
-  }
-  .homePageFirstContentsubContainer {
-    width: 100%;
-  }
-  .homePageFirstContentsubRatingContent {
-    display: flex;
-    width: 15%;
-    justify-content: space-evenly;
-    margin: 0rem 3rem;
-    align-items: center;
-  }
-  .homePageFirstContentsubRatingContentText {
-    color: rgb(149, 148, 148);
-    font-size: 1.2rem;
-    margin: 0rem;
+  .homePageFirstContentTextFeild {
+    width: 45% !important;
+    padding: 1rem !important;
   }
   .bannerImageContentTextOne {
-    color: var(--primaryColor);
-    position: absolute;
     font-size: var(--content);
-    font-weight: 700;
-    top: 11rem;
-    left: 55%;
-    border: 1px solid var(--whiteColor);
+    top: 10rem;
+    left: 43%;
     padding: 0.5rem 1.5rem;
-    border-radius: 10px;
-    transition: transform 1.5s;
-    font-family: var(--defaultRegular);
-  }
-  .bannerImageContentTextOne:hover,
-  .bannerImageContentTextOne:active,
-  .bannerImageContentTextOne:focus {
-    transform: scale(1.2);
-  }
-  .bannerImageContentTextTwo {
-
-    top: 120%;
-  
-  }
-  .bannerImageContentTextTwo:hover,
-  .bannerImageContentTextTwo:active,
-  .bannerImageContentTextTwo:focus {
-    transform: scale(1.2);
   }
   .bannerImageContentTextThree {
-    color: var(--primaryColor);
     font-size: var(--content);
-    font-weight: 700;
-    position: absolute;
-    right: 3rem;
-    top: 11rem;
-    border: 1px solid var(--whiteColor);
-    padding: 0.5rem 1.5rem;
-    border-radius: 10px;
-    transition: transform 1.5s;
-    font-family: var(--defaultRegular);
-  }
-  .bannerImageContentTextThree:hover,
-  .bannerImageContentTextThree:active,
-  .bannerImageContentTextThree:focus {
-    transform: scale(1.2);
-  }
-  .bannerImageContentTextFour {
-   
-    top: 120%;
-  
-  }
-  .bannerImageContentTextFour:hover,
-  .bannerImageContentTextFour:active,
-  .bannerImageContentTextFour:focus {
-    transform: scale(1.2);
-  }
-  .bannerImageContent {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-  }
-  .homePageFirstContentDesktopImage {
-    width: 63%;
-    margin-top: 6rem;
-    position: relative;
+    right: 1rem;
+    top: 10rem;
   }
   #more-arrows {
-    top: 45%;
-}
-  .arrowTwo {
-    top: 103%;
-  }
-  .arrowThree {
-
-    top: 103%;  
+    transform: rotate(136deg);
+    top: 42%;
+    left: 50%;
   }
   .arrowFour {
-    top: 45%;
+    transform: rotate(226deg);
+    top: 42%;
+    right: 7rem;
+}
+  .bannerImageContentTextTwo {
+    font-size: var(--content);
+    top: 115%;
+    left: 37%;
   }
-  
+  .bannerImageContentTextFour {
+    font-size: var(--content);
+    right: 1rem;
+    top: 115%;
+  }
+  .arrowThree {
+    top: 100%;
+    right: 6rem;
+    transform: rotate(313deg);
+}
+  .arrowTwo {
+    top: 100%;
+    left: 49%;
+  }
+  .aboutUsOurModuleContent {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .aboutUsOurModuleCart {
+    width: 22%;
+  }
+}
+@media screen and (min-width: 994px) and (max-width : 1300px){
+  .homePageFirstContentTextFeildHeader {
+    font-size: 3rem;
+  }
+  .homePageFirstContent {
+    height: 127vh
+}
+.homePageFirstContentButton {
+  padding: 1rem 2.5rem !important;
+  font-size: 1rem;
+}
+  .homePageFirstContentDesktopImage {
+    width: 70% !important;
+    margin-top: 9rem;
+  }
+  .homePageFirstContentTextFeild {
+    width: 45% !important;
+    padding: 1rem !important;
+  }
+  .bannerImageContentTextOne {
+    font-size: var(--content);
+    top: 11rem;
+    left: 45%;
+    padding: 0.5rem 1.5rem;
+}
+.bannerImageContentTextThree {
+  font-size: var(--content);
+  right: 4rem;
+  top: 11rem;
+}
+  #more-arrows {
+    transform: rotate(136deg);
+    top: 45%;
+    left: 53%;
+}
+.arrowFour {
+  transform: rotate(226deg);
+  top: 45%;
+  right: 11rem;
+}
+.bannerImageContentTextTwo {
+  font-size: var(--content);
+  top: 115%;
+  left: 45%;
+}
+.bannerImageContentTextFour {
+  font-size: var(--content);
+  right: 2rem;
+  top: 115%;
+}
+  .arrowThree {
+    top: 100%;
+    right: 9rem;
+    transform: rotate(318deg);
+}
+.arrowTwo {
+  top: 100%;
+  left: 53%;
+}
+  .aboutUsOurModuleContent {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .aboutUsOurModuleCart {
+    width: 22%;
+  }
+}
+@media screen and (min-width: 1300px){
+  .homePageFirstContentTextFeildHeader {
+    font-size: 3rem;
+  }
+  .homePageFirstContent {
+    height: 127vh
+}
+.homePageFirstContentButton {
+  padding: 1rem 2.5rem !important;
+  font-size: 1rem;
+}
+.homePageFirstContentDesktopImage {
+  width: 50% !important;
+  margin-top: 9rem;
+}
+  .homePageFirstContentTextFeild {
+    width: 45% !important;
+    padding: 1rem !important;
+  }
+  .bannerImageContentTextOne {
+    font-size: var(--content);
+    top: 12rem;
+    left: 49%;
+    padding: 0.5rem 1.5rem;
+}
+.bannerImageContentTextThree {
+  font-size: var(--content);
+  right: 4rem;
+  top: 12rem;
+}
+  #more-arrows {
+    transform: rotate(136deg);
+    top: 47%;
+    left: 56%;
+}
+.arrowFour {
+  transform: rotate(226deg);
+  top: 47%;
+  right: 12.5rem;
+}
+.bannerImageContentTextTwo {
+  font-size: var(--content);
+  top: 115%;
+  left: 50%;
+}
+.bannerImageContentTextFour {
+  font-size: var(--content);
+  right: 3rem;
+  top: 115%;
+}
+  .arrowThree {
+    top: 98%;
+    right: 12rem;
+    transform: rotate(313deg);
+  }
+.arrowTwo {
+  top: 98%;
+  left: 56%;
+}
+  .aboutUsOurModuleContent {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .aboutUsOurModuleCart {
+    width: 22%;
+  }
 }
