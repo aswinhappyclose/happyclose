@@ -194,7 +194,7 @@ const AboutUs = () => {
               className="newsPapperClippesCartImage"
             />
             <p className="newsPapperClippesCartText">
-              Remote / Hybrid working is here <br />
+              Remote / Hybrid working is here
               to stay
             </p>
           </div>

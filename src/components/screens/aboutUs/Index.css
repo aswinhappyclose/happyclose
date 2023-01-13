@@ -66,16 +66,23 @@ i.bi.bi-linkedin.LinkedIn {
   background-image: url("../../themes/images/cardsBackgroundNew.png");
   background-repeat: no-repeat;
   width: 23%;
-  height: 65.5vh;
   background-size: 659px;
   background-position-y: -47px;
   border: 1px solid var(--defaultColor);
   border-radius: 10px;
   cursor: pointer;
 }
+.newsPapperClippesCartImage {
+  width: 100%;
+}
+.newsPapperClippesCartImageTwo {
+  width: 100%;
+}
+.newsPapperClippesCartImageFour {
+  width: 100%;
+}
 .newsPapperClippesCartText {
   font-size: var(--content);
-  margin-top: 3rem;
   color: var(--whiteColor);
   font-family: var(--defaultRegular);
 }
@@ -83,10 +90,13 @@ i.bi.bi-linkedin.LinkedIn {
   background-color: var(--overlayColor);
   overflow: hidden;
   width: 100%;
+  height: 100%;
+  display: flex;
   text-align: center;
-  height: 65.5vh;
-  padding-top: 4rem;
-  border-radius: 15px;
+  border-radius: 10px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 #overlay:hover,
 #overlay:focus,
@@ -97,10 +107,13 @@ i.bi.bi-linkedin.LinkedIn {
   background-color: var(--overlayColor);
   overflow: hidden;
   width: 100%;
+  height: 100%;
+  display: flex;
   text-align: center;
-  height: 65.5vh;
-  padding-top: 4rem;
-  border-radius: 15px;
+  border-radius: 10px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 .overlay.One:hover,
 .overlay.One:focus,
@@ -111,10 +124,13 @@ i.bi.bi-linkedin.LinkedIn {
   background-color: var(--overlayColor);
   overflow: hidden;
   width: 100%;
+  height: 100%;
+  display: flex;
   text-align: center;
-  height: 65.5vh;
-  padding-top: 4rem;
-  border-radius: 15px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .overlay.Two:hover,
 .overlay.Two:focus,
@@ -125,10 +141,13 @@ i.bi.bi-linkedin.LinkedIn {
   background-color: var(--overlayColor);
   overflow: hidden;
   width: 100%;
+  height: 100%;
+  display: flex;
   text-align: center;
-  height: 65.5vh;
-  padding-top: 4rem;
-  border-radius: 15px;
+  align-items: center;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 .overlay.Three:hover,
 .overlay.Three:focus,
@@ -165,7 +184,6 @@ i.bi.bi-linkedin.LinkedIn {
   padding: 3rem !important;
   box-shadow: 2px 2px 10px 2px #d3d1d1;
   border-radius: 2rem;
-  height: 66vh;
   align-items: center;
   display: flex;
   background-color: #deeaf5;
@@ -299,7 +317,6 @@ i.bi.bi-linkedin.LinkedIn {
   .aboutUsTabPanelContent {
     display: flex;
     flex-direction: column;
-    height: 95vh;
   }
   .aboutUsTabPanelContentText {
     width: 100%;
@@ -325,35 +342,7 @@ i.bi.bi-linkedin.LinkedIn {
 .aboutUsTabPanelContentImageJuly {
   width: 95%;
 }
-  .newsPapperClippes {
-    padding: 2rem;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-  }
-  .newsPapperClippesHeading {
-    font-size: 2rem;
-    text-align: center;
-    line-height: 1.2;
-    padding-left: 0rem !important;
-  }
-  .newsPapperClippesCart {
-    width: 100%;
-    height: 85vh;
-    margin: 0.5rem 0rem;
-  }
-  #overlay {
-    height: 85vh;
-  }
-  .overlay.One {
-    height: 85vh;
-  }
-  .overlay.Two {
-    height: 85vh;
-  }
-  .overlay.Three {
-    height: 85vh;
-  }
+ 
   .aboutUsMainContainer {
     display: flex;
     flex-direction: column;
@@ -363,6 +352,22 @@ i.bi.bi-linkedin.LinkedIn {
     width: 95%;
     margin: 0.5rem 0rem;
   }
+  .newsPapperClippesHeading {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center; 
+    padding: 1rem;
+  }
+.newsPapperClippes {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.newsPapperClippesCart {
+  width: 100%;
+  margin: 1rem 0rem;
+}
 }
 @media screen and (min-width: 375px) and (max-width: 600px) {
   .aboutHappyCloseHistoryContent {
@@ -398,7 +403,6 @@ i.bi.bi-linkedin.LinkedIn {
   .aboutUsTabPanelContent {
     display: flex;
     flex-direction: column;
-    height: 95vh;
   }
   .aboutUsTabPanelContentText {
     width: 100%;
@@ -409,7 +413,7 @@ i.bi.bi-linkedin.LinkedIn {
   .aboutUsTabPanelContent {
     padding: 1rem !important;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .aboutUsTabPanelContentImage {
   width: 55%;
@@ -424,35 +428,7 @@ i.bi.bi-linkedin.LinkedIn {
 .aboutUsTabPanelContentImageJuly {
   width: 55%;
 }
-  .newsPapperClippes {
-    padding: 2rem;
-    display: flex;
-    justify-content: space-evenly;
-   flex-wrap: wrap;
-  }
-  .newsPapperClippesHeading {
-    font-size: 2rem;
-    text-align: center;
-    line-height: 1.2;
-    padding-left: 0rem !important;
-  }
-  .newsPapperClippesCart {
-    width: 48%;
-    height: 85vh;
-    margin: 0.5rem 0rem;
-  }
-  #overlay {
-    height: 85vh;
-  }
-  .overlay.One {
-    height: 85vh;
-  }
-  .overlay.Two {
-    height: 85vh;
-  }
-  .overlay.Three {
-    height: 85vh;
-  }
+  
   .aboutUsMainContainer {
     display: flex;
     padding: 1rem;
@@ -467,6 +443,22 @@ i.bi.bi-linkedin.LinkedIn {
   .aboutUsBannerCantainerText{
       font-size: 1rem;
   }
+  .newsPapperClippesHeading {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center; 
+    padding: 1rem;
+  }
+.newsPapperClippes {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.newsPapperClippesCart {
+  width: 100%;
+  margin: 1rem 0rem;
+}
 }
 @media screen and (min-width: 601px) and (max-width: 767px) {
   .aboutHappyCloseHistory {
@@ -483,6 +475,10 @@ i.bi.bi-linkedin.LinkedIn {
 .tab button {
   font-size: 1rem;
 }
+.aboutUsTabPanelContent{
+  display: flex;
+  justify-content: space-evenly;
+}
 .aboutUsTabPanelContentText {
   width: 160%;
 }
@@ -490,33 +486,28 @@ i.bi.bi-linkedin.LinkedIn {
   font-size: 2rem;
   font-weight: 700;
 }
-.newsPapperClippes {
-    padding: 2rem;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-.newsPapperClippesCart {
-   width: 47%;
-   height: 80vh;
-   margin: 0.5rem 0rem;
-}
-#overlay {
-  height: 80vh;
-}
-.overlay.One{
-  height: 80vh;
-}
-.overlay.Two{
-  height: 80vh;
-}.overlay.Three{
-  height: 80vh;
-}
+
 .aboutUsBannerCantainer {
   width: 45%;
 }
 .aboutUsNovContentImageOne {
   margin-top: -1rem;
+}
+.newsPapperClippesHeading {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center; 
+  padding: 1rem;
+}
+.newsPapperClippes {
+padding: 2rem;
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+.newsPapperClippesCart {
+width: 48%;
+margin: 1rem 0rem;
 }
 }
 @media screen and (min-width: 768px) {
@@ -533,6 +524,10 @@ i.bi.bi-linkedin.LinkedIn {
 .tab button.active{
   width: 20%;
 }
+.aboutUsTabPanelContent{
+  justify-content: space-evenly;
+  display: flex;
+}
 .aboutUsTabPanelContentText {
   width: 145%;
 }
@@ -542,29 +537,20 @@ i.bi.bi-linkedin.LinkedIn {
 .newsPapperClippesHeading {
   font-size: 2rem;
   font-weight: 700;
+  text-align: center; 
+  padding: 1rem;
 }
 .newsPapperClippes {
-  padding: 2rem;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+padding: 2rem;
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
 }
 .newsPapperClippesCart {
-  width: 45%;
-  height: 90vh;
-  margin: 1rem 0rem;
+width: 40%;
+margin: 1rem 0rem;
 }
-#overlay {
-  height: 90vh;
-}
-.overlay.One{
-  height: 90vh;
-}
-.overlay.Two{
-  height: 90vh;
-}.overlay.Three{
-  height: 90vh;
-}
+
 }
 @media screen and (min-width: 864px){
   .aboutHappyCloseHistoryHeading {
@@ -577,6 +563,10 @@ i.bi.bi-linkedin.LinkedIn {
 .tab button {
     font-size: 1rem;
 }
+.aboutUsTabPanelContent{
+  display: flex;
+  justify-content: space-evenly;
+}
 .aboutUsTabPanelContentText {
   width: 145%;
 }
@@ -586,29 +576,20 @@ i.bi.bi-linkedin.LinkedIn {
 .newsPapperClippesHeading {
   font-size: 2rem;
   font-weight: 700;
+  text-align: center; 
+  padding: 1rem;
 }
 .newsPapperClippes {
-  padding: 2rem;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+padding: 2rem;
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
 }
 .newsPapperClippesCart {
-  width: 45%;
-  height: 90vh;
-  margin: 1rem 0rem;
+width: 45%;
+margin: 1rem 0rem;
 }
-#overlay {
-  height: 90vh;
-}
-.overlay.One{
-  height: 90vh;
-}
-.overlay.Two{
-  height: 90vh;
-}.overlay.Three{
-  height: 90vh;
-}
+
 }
 @media screen and (min-width: 944px){
   .aboutHappyCloseHistoryHeading {
@@ -630,78 +611,28 @@ i.bi.bi-linkedin.LinkedIn {
 .newsPapperClippesHeading {
   font-size: 2rem;
   font-weight: 700;
+  text-align: center; 
+  padding: 1rem;
 }
 .newsPapperClippes {
-  padding: 2rem;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+padding: 2rem;
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
 }
 .newsPapperClippesCart {
-  width: 45%;
-  height: 90vh;
-  margin: 1rem 0rem;
+width: 23%;
+margin: 1rem 0rem;
 }
-#overlay {
-  height: 90vh;
-}
-.overlay.One{
-  height: 90vh;
-}
-.overlay.Two{
-  height: 90vh;
-}.overlay.Three{
-  height: 90vh;
-}
+
 }
 @media screen and (min-width: 994px){
   .aboutHappyCloseHistoryHeading {
     font-size: 2rem;
     font-weight: 700;
 }
-.tab {
-   width: 100%;
-}
-.tab button {
-    font-size: 1rem;
-}
-.aboutUsTabPanelContentText {
-  width: 145%;
-}
-.aboutUsNovContentImageOne {
-  margin-top: -2rem;
-}
-.newsPapperClippesHeading {
-  font-size: 2rem;
-  font-weight: 700;
-}
-.newsPapperClippes {
-  padding: 2rem;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-.newsPapperClippesCart {
-  width: 45%;
-  height: 90vh;
-  margin: 1rem 0rem;
-}
-#overlay {
-  height: 90vh;
-}
-.overlay.One{
-  height: 90vh;
-}
-.overlay.Two{
-  height: 90vh;
-}.overlay.Three{
-  height: 90vh;
-}
-}
-/* @media only screen and (min-width: 768px) and (max-width: 1000px) {
-  .aboutHappyCloseHistoryHeading {
-    font-size: 2rem;
-    font-weight: 700;
+.aboutHappyCloseHistory{
+  padding: 2rem 6rem;
 }
 .tab {
    width: 100%;
@@ -718,27 +649,18 @@ i.bi.bi-linkedin.LinkedIn {
 .newsPapperClippesHeading {
   font-size: 2rem;
   font-weight: 700;
+  text-align: center; 
+  padding: 1rem;
 }
 .newsPapperClippes {
-  padding: 2rem;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+padding: 2rem;
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
 }
 .newsPapperClippesCart {
-  width: 45%;
-  height: 90vh;
-  margin: 1rem 0rem;
+width: 23%;
+margin: 1rem 0rem;
 }
-#overlay {
-  height: 90vh;
+
 }
-.overlay.One{
-  height: 90vh;
-}
-.overlay.Two{
-  height: 90vh;
-}.overlay.Three{
-  height: 90vh;
-}
-} */

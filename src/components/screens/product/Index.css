@@ -136,7 +136,7 @@
   overflow: hidden;
   z-index: 40;
   min-height: 31rem;
-  margin-top: 30rem;
+  margin-top: 8rem;
   margin-bottom: -18rem;
 }
 .homePageTransformYouWorkcartContainer {
@@ -723,6 +723,7 @@ i.bi.bi {
     margin-top: 1rem;
     text-align: center;
   }
+  
   .homePageTransformYouWorkFirstCartImage {
     width: 95%;
   }
@@ -860,6 +861,7 @@ i.bi.bi {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 30rem;
   }
   .homePageTransformYouWorkFoutCartcontentContent {
     font-size: var(--content);
