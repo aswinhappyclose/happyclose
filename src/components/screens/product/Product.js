@@ -6,8 +6,6 @@ import Consolidate from "../../themes/images/Consolidate.png";
 import RiskManagement from "../../themes/images/RiskManagement.png";
 
 const Close = () => {
-
-  
   return (
     <>
       <div className="mainContainer">
@@ -15,14 +13,20 @@ const Close = () => {
           <div className="closePageFirstContent">
             <div className="closePageFirstContentTextFeild">
               <p className="closePageFirstContentTextFeildHeader">
-                Reporting Reimagined...</p>
+                Reporting Reimagined...
+              </p>
               <p className="closePageFirstContentText">
-              Happy close is built to be a one stop solution for managing your book close and reporting .  Happy close helps you manage your book close across various jurisdictions, consolidate at multiple levels and enables.
-              collaborative reporting. And because its all built on one platform never worry about your data integrity. Happy close platform will ensure data consistency for effortless and seamless reporting.
+                Happy close is built to be a one stop solution for managing your
+                book close and reporting . Happy close helps you manage your
+                book close across various jurisdictions, consolidate at multiple
+                levels and enables. collaborative reporting. And because its all
+                built on one platform never worry about your data integrity.
+                Happy close platform will ensure data consistency for effortless
+                and seamless reporting.
               </p>
             </div>
           </div>
-          <div className="homePageTransformYouWork" >
+          <div className="homePageTransformYouWork">
             <h2 className="homePageTransformYouWorkText">Our Modules</h2>
             <div className="homePageTransformYouWorkcartContainer">
               <div className="homePageTransformYouWorkFirstCart">
@@ -40,7 +44,7 @@ const Close = () => {
                   className="homePageTransformYouWorkFirstCartImage"
                   alt=""
                 />
-                <p className="bookcloseTextOne">
+                {/* <p className="bookcloseTextOne">
                   <i class="bi bi-journal-bookmark" />
                   Every task created results in an action
                   <i class="bi bi-check2-circle" />
@@ -64,7 +68,7 @@ const Close = () => {
                   <i class="bi bi-geo-fill" />
                   Automates reconciliation
                   <i class="bi bi-check2-circle" />
-                </p>
+                </p> */}
               </div>
               <div className="homePageTransformYouWorkSecondCart">
                 <div className="homePageTransformYouWorkSecondCartcontent">
@@ -81,7 +85,7 @@ const Close = () => {
                   className="homePageTransformYouWorkFirstCartImage"
                   alt=""
                 />
-                <p className="reportingTextOne">
+                {/* <p className="reportingTextOne">
                   <i class="bi bi-file-earmark-text" />
                   Manage multi GAAP reporting
                   <i class="bi bi-check2-circle" />
@@ -100,7 +104,7 @@ const Close = () => {
                   <i class="bi bi-bezier2" />
                   Create approval workflows
                   <i class="bi bi-check2-circle" />
-                </p>
+                </p> */}
               </div>
               <div className="homePageTransformYouWorkThirdCart">
                 <div className="homePageTransformYouWorkSecondCartcontent">
@@ -117,9 +121,9 @@ const Close = () => {
                   className="homePageTransformYouWorkFirstCartImage"
                   alt=""
                 />
-                <p className="consolidateTextOne">
+                {/* <p className="consolidateTextOne">
                   <i class="bi bi-link-45deg" />
-                  US GAAP/ IFRS  compliant consolidation engine
+                  US GAAP/ IFRS compliant consolidation engine
                   <i class="bi bi-check2-circle" />
                 </p>
                 <p className="consolidateTextTwo">
@@ -141,7 +145,7 @@ const Close = () => {
                   <i class="bi bi-buildings-fill" />
                   Set up and manage group reporting policies
                   <i class="bi bi-check2-circle" />
-                </p>
+                </p> */}
               </div>
               <div className="homePageTransformYouWorkFourCart">
                 <div className="homePageTransformYouWorkSecondCartcontent">
@@ -158,9 +162,9 @@ const Close = () => {
                   className="homePageTransformYouWorkFirstCartImage"
                   alt=""
                 />
-                <p className="riskManagementTextOne">
+                {/* <p className="riskManagementTextOne">
                   <i class="bi bi-chevron-bar-contract" />
-                   US GAAP/ IFRS compliant 
+                  US GAAP/ IFRS compliant
                   <i class="bi bi-check2-circle" />
                 </p>
                 <p className="riskManagementTextTwo">
@@ -187,13 +191,12 @@ const Close = () => {
                   <i class="bi bi-clipboard-minus-fill" />
                   Set up and manage group reporting policies
                   <i class="bi bi-check2-circle" />
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
         </div>
       </div>
-      
     </>
   );
 };

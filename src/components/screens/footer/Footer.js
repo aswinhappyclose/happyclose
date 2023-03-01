@@ -11,7 +11,11 @@ const Footer = () => {
       <div className="HomePageFooterContent">
         <div className="homePageFooter">
           <div className="homePageFooterTextContainer">
-            <img src={BannerImageFooter} alt="" className="FooterLogoImageContent"/>
+            <img
+              src={BannerImageFooter}
+              alt=""
+              className="FooterLogoImageContent"
+            />
             <div className="homePageFooterTextContent">
               <div className="homePageFooterTextContentCart">
                 <p className="homePageFooterTextContentHeading">Product</p>
@@ -41,11 +45,6 @@ const Footer = () => {
                 <p className="homePageFooterTextContentfeild">
                   <Link to="/about" className="LinkItems">
                     About Us
-                  </Link>
-                </p>
-                <p className="homePageFooterTextContentfeild">
-                  <Link to="/blog" className="LinkItems">
-                    Blog
                   </Link>
                 </p>
               </div>

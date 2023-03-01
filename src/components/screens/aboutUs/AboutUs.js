@@ -1,42 +1,41 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./Index.css";
 import homePageCartOne from "../../themes/images/homePageCartOne.png";
 import homePageCartTwo from "../../themes/images/homePageCartTwo.png";
 import homePageCartThree from "../../themes/images/homePageCartThree.png";
 import homePageCartFour from "../../themes/images/homePageCartFour.png";
-import SepImage from "../../themes/images/Sep-2022.png";
-import OctImage from "../../themes/images/Oct-2022.png";
-import NovImageOne from "../../themes/images/Nov-2022-1.png";
-import NovImageTwo from "../../themes/images/Nov-2022-2.png";
-import ClosingBook from "../../themes/images/ClosingBook.png";
-import Reporting from "../../themes/images/Reporting.png";
-import BannerImage1 from "../../themes/images/BannerImage1.png";
-import ZFLogo from "../../themes/images/ZFLogo.jpg";
-import Consolidate from "../../themes/images/Consolidate.png";
+// import SepImage from "../../themes/images/Sep-2022.png";
+// import OctImage from "../../themes/images/Oct-2022.png";
+// import NovImageOne from "../../themes/images/Nov-2022-1.png";
+// import NovImageTwo from "../../themes/images/Nov-2022-2.png";
+// import ClosingBook from "../../themes/images/ClosingBook.png";
+// import Reporting from "../../themes/images/Reporting.png";
+// import BannerImage1 from "../../themes/images/BannerImage1.png";
+// import ZFLogo from "../../themes/images/ZFLogo.jpg";
+// import Consolidate from "../../themes/images/Consolidate.png";
 
 const AboutUs = () => {
+  // useEffect(() => {
+  //   document.getElementById("defaultOpen").click();
+  // });
 
-  useEffect(() => {
-    document.getElementById("defaultOpen").click();
-  });
-
-  const openCity = (evt, cityName) => {
-    var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-      tabcontent[i].style.display = "none";
-    }
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-      tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-    document.getElementById(cityName).style.display = "block";
-    evt.currentTarget.className += " active";
-  };
+  // const openCity = (evt, cityName) => {
+  //   var i, tabcontent, tablinks;
+  //   tabcontent = document.getElementsByClassName("tabcontent");
+  //   for (i = 0; i < tabcontent.length; i++) {
+  //     tabcontent[i].style.display = "none";
+  //   }
+  //   tablinks = document.getElementsByClassName("tablinks");
+  //   for (i = 0; i < tablinks.length; i++) {
+  //     tablinks[i].className = tablinks[i].className.replace(" active", "");
+  //   }
+  //   document.getElementById(cityName).style.display = "block";
+  //   evt.currentTarget.className += " active";
+  // };
 
   return (
     <>
-      <div className="aboutHappyCloseHistory">
+      {/* <div className="aboutHappyCloseHistory">
         <h1 className="aboutHappyCloseHistoryHeading">
           Seamless book close to reporting process by accountants for
           accountants…
@@ -181,7 +180,7 @@ const AboutUs = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <p className="newsPapperClippesHeading">
         Factors that led to the birth of happy close
       </p>
@@ -194,8 +193,7 @@ const AboutUs = () => {
               className="newsPapperClippesCartImage"
             />
             <p className="newsPapperClippesCartText">
-              Remote / Hybrid working is here
-              to stay
+              Remote / Hybrid working is here to stay
             </p>
           </div>
         </div>

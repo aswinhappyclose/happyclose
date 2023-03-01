@@ -1,6 +1,6 @@
 import React from "react";
 import "./Index.css";
-import BlogImage from "../../themes/images/blogImage.png";
+import BlogImage from "../../themes/images/BannerImage.png";
 
 const Blog = () => {
   return (
@@ -10,16 +10,8 @@ const Blog = () => {
           <p className="blogPageContentTextFeildDate">
             November 9, 2022 - 2 Min Read
           </p>
-          <h1 className="blogPageContentTextFeildHeading">
-            Velocity is now
-            <br /> Numeric!
-          </h1>
-          <p className="blogPageContentFeildText">
-            Velocity has changed its name to Numeric
-          </p>
-          <div className="blogPageParkerContent">
-            <p className="blogPageParkerName">Parker Gilbert</p>
-          </div>
+          <h1 className="blogPageContentTextFeildHeading">Happyclose</h1>
+          <p className="blogPageContentFeildText">Happyclose It's Begin !!!</p>
         </div>
         <img src={BlogImage} alt="" className="blogPageContentImage" />
       </div>

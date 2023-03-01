@@ -27,7 +27,6 @@ const ScheduleDemo = () => {
     } else toast.success("Scheduled Demo Successfully!!!");
   };
 
-
   return (
     <>
       <Header />
@@ -47,16 +46,26 @@ const ScheduleDemo = () => {
           <div className="scheduleDemoContectUs">
             <p className="scheduleDemoText">Email:</p>
             <p className="scheduleDemoText">
+                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new">
               <span className="happycloseFoundersMail">
                 arjun@happyclose.net
-              </span>{" "}
+              </span> </a>{" "}
               or{" "}
-              <span className="happycloseFoundersMail">rjn@happyclose.net</span>
+              <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new">
+              <span className="happycloseFoundersMail">rjn@happyclose.net</span></a>
             </p>
           </div>
+          <p className="scheduleDemoText">
+            Happy Close <br />
+            6th, main road,
+            <br />
+            Raja Annamalai Puram,Govinthasamy Nagar,
+            <br />
+            chennai -28
+          </p>
         </div>
         <div className="scheduleDemoContent">
-          <p className="scheduleDemoContentText">Let's connect for a demo</p>
+          <p className="scheduleDemoContentText">Let's Talk</p>
           <div className="scheduleDemoContentTextInputFeild">
             <input
               type="text"
@@ -88,7 +97,7 @@ const ScheduleDemo = () => {
               required
             />
           </div>{" "}
-          <div className="scheduleDemoContentTextInputFeild">
+          {/* <div className="scheduleDemoContentTextInputFeild">
             <input
               type="text"
               className="scheduleDemoContentTextInput"
@@ -117,7 +126,7 @@ const ScheduleDemo = () => {
                 })
               }
             />
-          </div>
+          </div> */}
           <div className="scheduleDemoContentTextInputFeild">
             <textarea
               type="text"

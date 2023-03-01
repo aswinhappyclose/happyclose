@@ -13,6 +13,7 @@
   padding: 1rem 2rem;
   background-color: var(--defaultColor);
   width: 100%;
+  box-shadow: 0px 1px 1px 0px var(--lightAshColor);
 }
 
 .headerLinkItems {
@@ -47,7 +48,21 @@
 .headerTexContainertagsContnents:hover {
   color: var(--primaryColor);
 }
-.headerTreadingHeadilines {
+.headerMainContainerContentHeaderText {
+  color: var(--whiteColor);
+  font-size: 2rem;
+  padding: 0.5rem 1.5rem;
+  margin-top: 1rem;
+  font-family: var(--headerFontFamily);
+  border-top: 2px solid var(--whiteColor);
+  border-bottom: 2px solid var(--primaryColor);
+  border-left: 2px solid var(--whiteColor);
+  border-right: 2px solid var(--primaryColor);
+}
+.headerMainContainerContentHeaderTextHappy {
+  color: var(--primaryColor);
+}
+/* .headerTreadingHeadilines {
   padding: 0.5rem;
   text-align: center;
   background-color: var(--whiteColor);
@@ -56,46 +71,45 @@
   font-size: var(--content);
   font-weight: 700;
   font-family: var(--defaultRegular);
-}
-.HeaderLogo {
-  width: 7%;
-}
+} */
+
 @media only screen and (min-width: 280px) and (max-width: 426px) {
-  .headerTreadingHeadilines {
+  /* .headerTreadingHeadilines {
     font-size: 1rem;
-  }
+  } */
   .headerTextContainer {
-    width: 75% !important;
+    width: 65% !important;
     margin-right: 0rem !important;
+    margin-top: 0rem !important;
   }
-  .HeaderLogo {
-    width: 22% !important;
-}
+  .headerMainContainerContentHeaderText {
+    font-size: 1rem !important;
+    padding: 0.5rem !important;
+  }
   .headerMainContainerContent {
     padding: 0.5rem !important;
   }
   .headerTexContainertagsContnents {
-    font-size: 1rem!important;
+    font-size: 1rem !important;
   }
-
-
 }
 @media only screen and (min-width: 427px) and (max-width: 1000px) {
-  .headerTreadingHeadilines {
+  /* .headerTreadingHeadilines {
     font-size:var(--content);
-  }
+  } */
   .headerTextContainer {
-    width: 65% !important;
+    width: 45% !important;
     margin-right: 0rem !important;
   }
-  .HeaderLogo {
-    width: 10% !important;
+  .headerMainContainerContentHeaderText {
+    font-size: 1.2rem;
+    margin-top: 2rem;
   }
   .headerMainContainerContent {
     padding: 0.5rem 1.5rem !important;
   }
   .headerTexContainertagsContnents {
-    font-size:var(--content)!important;
+    font-size: var(--content) !important;
   }
   .homePageFirstContentButton {
     padding: 0.5rem 2.5rem;

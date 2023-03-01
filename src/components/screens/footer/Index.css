@@ -179,7 +179,7 @@
   color: hsla(0, 0%, 100%, 0.75);
   text-decoration: none;
 }
-.FooterLogoImageContent{
+.FooterLogoImageContent {
   width: 15%;
   margin-top: -14rem;
 }
@@ -192,7 +192,7 @@
   .FooterLogoImageContent {
     width: 70%;
     margin-top: -3rem;
-}
+  }
   .homePageFooterTextContentFinalFeild {
     display: flex;
     flex-direction: column !important;
@@ -240,8 +240,8 @@
   .homePageFooter {
     padding-left: 0rem;
     padding-right: 0rem;
-}
-.homePageFooterTextContent {
-  width: 67%;
-}
+  }
+  .homePageFooterTextContent {
+    width: 67%;
+  }
 }

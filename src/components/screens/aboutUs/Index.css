@@ -283,7 +283,7 @@ i.bi.bi-linkedin.LinkedIn {
   align-items: center;
   width: 100%;
 }
-@media screen and (min-width: 280px) and (max-width: 374px){
+@media screen and (min-width: 280px) and (max-width: 374px) {
   .aboutHappyCloseHistory {
     padding: 0.5rem !important;
     margin-top: 19rem;
@@ -328,21 +328,21 @@ i.bi.bi-linkedin.LinkedIn {
     padding: 1rem !important;
     display: flex;
     justify-content: center;
-}
-.aboutUsTabPanelContentImage {
-  width: 95%;
-}
-.aboutUsNovContentImageOne {
-  width: 15%;
-  margin-top: -1.5rem;
-}
-.aboutUsTabPanelContentImageHappyClose {
-  width: 80%;
-}
-.aboutUsTabPanelContentImageJuly {
-  width: 95%;
-}
- 
+  }
+  .aboutUsTabPanelContentImage {
+    width: 95%;
+  }
+  .aboutUsNovContentImageOne {
+    width: 15%;
+    margin-top: -1.5rem;
+  }
+  .aboutUsTabPanelContentImageHappyClose {
+    width: 80%;
+  }
+  .aboutUsTabPanelContentImageJuly {
+    width: 95%;
+  }
+
   .aboutUsMainContainer {
     display: flex;
     flex-direction: column;
@@ -355,26 +355,25 @@ i.bi.bi-linkedin.LinkedIn {
   .newsPapperClippesHeading {
     font-size: 2rem;
     font-weight: 700;
-    text-align: center; 
+    text-align: center;
     padding: 1rem;
   }
-.newsPapperClippes {
-  padding: 2rem;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-.newsPapperClippesCart {
-  width: 100%;
-  margin: 1rem 0rem;
-}
+  .newsPapperClippes {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .newsPapperClippesCart {
+    width: 100%;
+    margin: 1rem 0rem;
+  }
 }
 @media screen and (min-width: 375px) and (max-width: 600px) {
   .aboutHappyCloseHistoryContent {
     margin: 2rem 0rem;
-}
+  }
   .aboutHappyCloseHistory {
-    
     padding: 0.5rem !important;
     margin-top: 19rem;
   }
@@ -389,7 +388,7 @@ i.bi.bi-linkedin.LinkedIn {
     font-size: 1rem;
     padding: 10px;
     font-weight: 700 !important;
-}
+  }
   .tab {
     width: 100%;
     background-color: #e5e5e5;
@@ -414,21 +413,21 @@ i.bi.bi-linkedin.LinkedIn {
     padding: 1rem !important;
     display: flex;
     justify-content: space-evenly;
-}
-.aboutUsTabPanelContentImage {
-  width: 55%;
-}
-.aboutUsNovContentImageOne {
-  width: 15%;
-  margin-top: -1.5rem;
-}
-.aboutUsTabPanelContentImageHappyClose {
-  width: 50%;
-}
-.aboutUsTabPanelContentImageJuly {
-  width: 55%;
-}
-  
+  }
+  .aboutUsTabPanelContentImage {
+    width: 55%;
+  }
+  .aboutUsNovContentImageOne {
+    width: 15%;
+    margin-top: -1.5rem;
+  }
+  .aboutUsTabPanelContentImageHappyClose {
+    width: 50%;
+  }
+  .aboutUsTabPanelContentImageJuly {
+    width: 55%;
+  }
+
   .aboutUsMainContainer {
     display: flex;
     padding: 1rem;
@@ -437,230 +436,226 @@ i.bi.bi-linkedin.LinkedIn {
     width: 45%;
     margin: 0.5rem 0rem;
   }
-  .aboutUsBannerCantainerHeading{
+  .aboutUsBannerCantainerHeading {
     font-size: 1.5rem;
   }
-  .aboutUsBannerCantainerText{
-      font-size: 1rem;
+  .aboutUsBannerCantainerText {
+    font-size: 1rem;
   }
   .newsPapperClippesHeading {
     font-size: 2rem;
     font-weight: 700;
-    text-align: center; 
+    text-align: center;
     padding: 1rem;
   }
-.newsPapperClippes {
-  padding: 2rem;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-.newsPapperClippesCart {
-  width: 100%;
-  margin: 1rem 0rem;
-}
+  .newsPapperClippes {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .newsPapperClippesCart {
+    width: 100%;
+    margin: 1rem 0rem;
+  }
 }
 @media screen and (min-width: 601px) and (max-width: 767px) {
   .aboutHappyCloseHistory {
     padding: 2rem;
     margin-top: 9rem;
-}
-.aboutHappyCloseHistoryHeading {
-  font-size: 2rem;
-  font-weight: 700;
-}
-.tab {
-  width: 100%;
-}
-.tab button {
-  font-size: 1rem;
-}
-.aboutUsTabPanelContent{
-  display: flex;
-  justify-content: space-evenly;
-}
-.aboutUsTabPanelContentText {
-  width: 160%;
-}
-.newsPapperClippesHeading {
-  font-size: 2rem;
-  font-weight: 700;
-}
+  }
+  .aboutHappyCloseHistoryHeading {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .tab {
+    width: 100%;
+  }
+  .tab button {
+    font-size: 1rem;
+  }
+  .aboutUsTabPanelContent {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .aboutUsTabPanelContentText {
+    width: 160%;
+  }
+  .newsPapperClippesHeading {
+    font-size: 2rem;
+    font-weight: 700;
+  }
 
-.aboutUsBannerCantainer {
-  width: 45%;
-}
-.aboutUsNovContentImageOne {
-  margin-top: -1rem;
-}
-.newsPapperClippesHeading {
-  font-size: 2rem;
-  font-weight: 700;
-  text-align: center; 
-  padding: 1rem;
-}
-.newsPapperClippes {
-padding: 2rem;
-display: flex;
-justify-content: space-evenly;
-flex-wrap: wrap;
-}
-.newsPapperClippesCart {
-width: 48%;
-margin: 1rem 0rem;
-}
+  .aboutUsBannerCantainer {
+    width: 45%;
+  }
+  .aboutUsNovContentImageOne {
+    margin-top: -1rem;
+  }
+  .newsPapperClippesHeading {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 1rem;
+  }
+  .newsPapperClippes {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .newsPapperClippesCart {
+    width: 48%;
+    margin: 1rem 0rem;
+  }
 }
 @media screen and (min-width: 768px) {
   .aboutHappyCloseHistoryHeading {
     font-size: 2rem;
     font-weight: 700;
-}
-.tab {
-   width: 100%;
-}
-.tab button {
+  }
+  .tab {
+    width: 100%;
+  }
+  .tab button {
     font-size: 1rem;
+  }
+  .tab button.active {
+    width: 20%;
+  }
+  .aboutUsTabPanelContent {
+    justify-content: space-evenly;
+    display: flex;
+  }
+  .aboutUsTabPanelContentText {
+    width: 145%;
+  }
+  .aboutUsNovContentImageOne {
+    margin-top: -2rem;
+  }
+  .newsPapperClippesHeading {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 1rem;
+  }
+  .newsPapperClippes {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .newsPapperClippesCart {
+    width: 40%;
+    margin: 1rem 0rem;
+  }
 }
-.tab button.active{
-  width: 20%;
-}
-.aboutUsTabPanelContent{
-  justify-content: space-evenly;
-  display: flex;
-}
-.aboutUsTabPanelContentText {
-  width: 145%;
-}
-.aboutUsNovContentImageOne {
-  margin-top: -2rem;
-}
-.newsPapperClippesHeading {
-  font-size: 2rem;
-  font-weight: 700;
-  text-align: center; 
-  padding: 1rem;
-}
-.newsPapperClippes {
-padding: 2rem;
-display: flex;
-justify-content: space-evenly;
-flex-wrap: wrap;
-}
-.newsPapperClippesCart {
-width: 40%;
-margin: 1rem 0rem;
-}
-
-}
-@media screen and (min-width: 864px){
+@media screen and (min-width: 864px) {
   .aboutHappyCloseHistoryHeading {
     font-size: 2rem;
     font-weight: 700;
-}
-.tab {
-   width: 100%;
-}
-.tab button {
+  }
+  .tab {
+    width: 100%;
+  }
+  .tab button {
     font-size: 1rem;
+  }
+  .aboutUsTabPanelContent {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .aboutUsTabPanelContentText {
+    width: 145%;
+  }
+  .aboutUsNovContentImageOne {
+    margin-top: -2rem;
+  }
+  .newsPapperClippesHeading {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 1rem;
+  }
+  .newsPapperClippes {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .newsPapperClippesCart {
+    width: 45%;
+    margin: 1rem 0rem;
+  }
 }
-.aboutUsTabPanelContent{
-  display: flex;
-  justify-content: space-evenly;
-}
-.aboutUsTabPanelContentText {
-  width: 145%;
-}
-.aboutUsNovContentImageOne {
-  margin-top: -2rem;
-}
-.newsPapperClippesHeading {
-  font-size: 2rem;
-  font-weight: 700;
-  text-align: center; 
-  padding: 1rem;
-}
-.newsPapperClippes {
-padding: 2rem;
-display: flex;
-justify-content: space-evenly;
-flex-wrap: wrap;
-}
-.newsPapperClippesCart {
-width: 45%;
-margin: 1rem 0rem;
-}
-
-}
-@media screen and (min-width: 944px){
+@media screen and (min-width: 944px) {
   .aboutHappyCloseHistoryHeading {
     font-size: 2rem;
     font-weight: 700;
-}
-.tab {
-   width: 100%;
-}
-.tab button {
+  }
+  .tab {
+    width: 100%;
+  }
+  .tab button {
     font-size: 1rem;
+  }
+  .aboutUsTabPanelContentText {
+    width: 145%;
+  }
+  .aboutUsNovContentImageOne {
+    margin-top: -2rem;
+  }
+  .newsPapperClippesHeading {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 1rem;
+  }
+  .newsPapperClippes {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .newsPapperClippesCart {
+    width: 23%;
+    margin: 1rem 0rem;
+  }
 }
-.aboutUsTabPanelContentText {
-  width: 145%;
-}
-.aboutUsNovContentImageOne {
-  margin-top: -2rem;
-}
-.newsPapperClippesHeading {
-  font-size: 2rem;
-  font-weight: 700;
-  text-align: center; 
-  padding: 1rem;
-}
-.newsPapperClippes {
-padding: 2rem;
-display: flex;
-justify-content: space-evenly;
-flex-wrap: wrap;
-}
-.newsPapperClippesCart {
-width: 23%;
-margin: 1rem 0rem;
-}
-
-}
-@media screen and (min-width: 994px){
+@media screen and (min-width: 994px) {
   .aboutHappyCloseHistoryHeading {
     font-size: 2rem;
     font-weight: 700;
-}
-.aboutHappyCloseHistory{
-  padding: 2rem 6rem;
-}
-.tab {
-   width: 100%;
-}
-.tab button {
+  }
+  .aboutHappyCloseHistory {
+    padding: 2rem 6rem;
+  }
+  .tab {
+    width: 100%;
+  }
+  .tab button {
     font-size: 1rem;
-}
-.aboutUsTabPanelContentText {
-  width: 145%;
-}
-.aboutUsNovContentImageOne {
-  margin-top: -2rem;
-}
-.newsPapperClippesHeading {
-  font-size: 2rem;
-  font-weight: 700;
-  text-align: center; 
-  padding: 1rem;
-}
-.newsPapperClippes {
-padding: 2rem;
-display: flex;
-justify-content: space-evenly;
-flex-wrap: wrap;
-}
-.newsPapperClippesCart {
-width: 23%;
-margin: 1rem 0rem;
-}
-
+  }
+  .aboutUsTabPanelContentText {
+    width: 145%;
+  }
+  .aboutUsNovContentImageOne {
+    margin-top: -2rem;
+  }
+  .newsPapperClippesHeading {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 1rem;
+  }
+  .newsPapperClippes {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .newsPapperClippesCart {
+    width: 23%;
+    margin: 1rem 0rem;
+  }
 }

@@ -1,28 +1,26 @@
 :root {
-        /*Colors  */
-          --primaryColor: #ff6b00;
-          --defaultColor: #001a4d;
-          --whiteColor: #fff;
-          --blueColor: #0b0bf3;
-          --lightGreyColor: #eeebe4;
-          --lightYellowColor: #e5c981;
-          --overlayColor: rgba(55, 55, 55, 0.8);
-          --overlayHoverColor: rgba(55, 55, 55, 0);
-          --greenColor: rgb(10, 62, 10);
-          --darkColor: #000000;
+  /*Colors  */
+  --primaryColor: #ff6b00;
+  --defaultColor: #001a4d;
+  --whiteColor: #fff;
+  --blueColor: #0b0bf3;
+  --lightGreyColor: #eeebe4;
+  --lightAshColor: #9a9896;
+  --lightYellowColor: #e5c981;
+  --overlayColor: rgba(55, 55, 55, 0.8);
+  --overlayHoverColor: rgba(55, 55, 55, 0);
+  --greenColor: rgb(10, 62, 10);
+  --darkColor: #000000;
 
+  /* Font-Family */
+  --headerFontFamily: "playfair bold";
+  --defaultRegular: "playfair regular";
 
-        /* Font-Family */
-        --headerFontFamily:"playfair bold";
-          --defaultRegular: "playfair regular";
-            
-        /* Font-Size */
-          --content: 1.3rem;
-          --heading: 3rem;
-          --title: 2rem;
-
+  /* Font-Size */
+  --content: 1.3rem;
+  --heading: 3rem;
+  --title: 2rem;
 }
-
 
 html {
   scroll-behavior: smooth;
