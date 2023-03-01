@@ -1,16 +1,16 @@
 import React from "react";
 import "./Index.css";
 import { Link } from "react-router-dom";
-import Logo from "../../themes/images/BannerImage.png";
+// import Logo from "../../themes/images/BannerImage.png";
 
 const Index = () => {
   const Product = () => {
-    window.scrollBy(0, 1020);
+    window.scrollBy(0, 700);
   };
   const AboutUs = () => {
     var a = window.scrollBy(0, 1020);
     if (a === window.scrollBy(0, 1020)) {
-      window.scrollBy(0, 3400);
+      window.scrollBy(0, 4300);
     } else {
       alert("come");
       window.scrollBy(0, 4400);

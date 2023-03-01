@@ -1,16 +1,16 @@
 import React from "react";
 import "./Index.css";
-import BannerImageFooter from "../../themes/images/BannerImageFooter.png";
-import Twitter from "../../themes/images/twitter.jpg";
-import LinkedIn from "../../themes/images/linkedIn.png";
-import { Link } from "react-router-dom";
+// import BannerImageFooter from "../../themes/images/BannerImageFooter.png";
+// import Twitter from "../../themes/images/twitter.jpg";
+// import LinkedIn from "../../themes/images/linkedIn.png";
+// import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <>
       <div className="HomePageFooterContent">
-        <div className="homePageFooter">
-          <div className="homePageFooterTextContainer">
+        
+          {/* <div className="homePageFooterTextContainer">
             <img
               src={BannerImageFooter}
               alt=""
@@ -62,17 +62,17 @@ const Footer = () => {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="homePageFooterTextContentFinalFeild">
             <p className="homePageFooterTextContentFinaltextfeild">
-              © 2022 happyclose.io All right reserved.
+              © 2022 happyclose.net All right reserved.
             </p>
             <p className="homePageFooterTextContentFinaltextfeild">
               Privacy Policy
               <span className="homePageTermsOfServices">Terms of Service</span>
             </p>
           </div>
-        </div>
+        
       </div>
     </>
   );

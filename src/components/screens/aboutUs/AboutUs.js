@@ -1,41 +1,41 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Index.css";
 import homePageCartOne from "../../themes/images/homePageCartOne.png";
 import homePageCartTwo from "../../themes/images/homePageCartTwo.png";
 import homePageCartThree from "../../themes/images/homePageCartThree.png";
 import homePageCartFour from "../../themes/images/homePageCartFour.png";
-// import SepImage from "../../themes/images/Sep-2022.png";
-// import OctImage from "../../themes/images/Oct-2022.png";
-// import NovImageOne from "../../themes/images/Nov-2022-1.png";
-// import NovImageTwo from "../../themes/images/Nov-2022-2.png";
-// import ClosingBook from "../../themes/images/ClosingBook.png";
-// import Reporting from "../../themes/images/Reporting.png";
-// import BannerImage1 from "../../themes/images/BannerImage1.png";
-// import ZFLogo from "../../themes/images/ZFLogo.jpg";
-// import Consolidate from "../../themes/images/Consolidate.png";
+import SepImage from "../../themes/images/Sep-2022.png";
+import OctImage from "../../themes/images/Oct-2022.png";
+import NovImageOne from "../../themes/images/Nov-2022-1.png";
+import NovImageTwo from "../../themes/images/Nov-2022-2.png";
+import ClosingBook from "../../themes/images/ClosingBook.png";
+import Reporting from "../../themes/images/Reporting.png";
+import BannerImage1 from "../../themes/images/BannerImage1.png";
+import ZFLogo from "../../themes/images/ZFLogo.jpg";
+import Consolidate from "../../themes/images/Consolidate.png";
 
 const AboutUs = () => {
-  // useEffect(() => {
-  //   document.getElementById("defaultOpen").click();
-  // });
+  useEffect(() => {
+    document.getElementById("defaultOpen").click();
+  });
 
-  // const openCity = (evt, cityName) => {
-  //   var i, tabcontent, tablinks;
-  //   tabcontent = document.getElementsByClassName("tabcontent");
-  //   for (i = 0; i < tabcontent.length; i++) {
-  //     tabcontent[i].style.display = "none";
-  //   }
-  //   tablinks = document.getElementsByClassName("tablinks");
-  //   for (i = 0; i < tablinks.length; i++) {
-  //     tablinks[i].className = tablinks[i].className.replace(" active", "");
-  //   }
-  //   document.getElementById(cityName).style.display = "block";
-  //   evt.currentTarget.className += " active";
-  // };
+  const openCity = (evt, cityName) => {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+  };
 
   return (
     <>
-      {/* <div className="aboutHappyCloseHistory">
+      <div className="aboutHappyCloseHistory">
         <h1 className="aboutHappyCloseHistoryHeading">
           Seamless book close to reporting process by accountants for
           accountants…
@@ -180,7 +180,7 @@ const AboutUs = () => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
       <p className="newsPapperClippesHeading">
         Factors that led to the birth of happy close
       </p>
@@ -242,12 +242,26 @@ const AboutUs = () => {
           <h1 className="aboutUsBannerCantainerHeading">Arjun Parthasarathy</h1>
           <p className="aboutUsBannerCantainerText">CO-FOUNDER</p>
           <p className="aboutUsBannerCantainerText">
-            CHARTERED ACCOUNTANT | DATA SCIENTIST ‍EX-EY
+            CHARTERED ACCOUNTANT | Ex Freshworks Ex - EY
           </p>
           <p className="aboutUsBannerCantainerText">
-            Jay is a thinker and problem-solver. He enjoys reading & learning
-            across a wide span of topics. His current interests are Scrabble,
-            visual design, and video games.
+            Arjun has more than 18 years of experience in close to report
+            domain. Arjun has spent more than 15 years with EY as Audit director
+            auditing and advising large multi-national companies and he also led
+            the financial reporting vertical for EY in Chennai. He was also
+            instrumental in setting up the Revenue reporting function for
+            Freshworks for their IPO
+          </p>
+          <p className="aboutUsBannerCantainerText">
+            Over the last 18 years as auditor, consultant & controller 
+            Arjun has dealt with problems of book close, consolidation
+            and reporting, he believes that high quality & cost accessible
+            tools needs to be made available to larger cross section of 
+            finance professionals. Corporate controllers and finance 
+            controllers perform a thankless and crucial role in managin 
+            reporting to internal and external stoften ignored and thankless
+            reporting function need tools to make their work more seamless 
+            and efficient
           </p>
           <div className="aboutUsPageSocialMediaContent">
             <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new">

@@ -1,5 +1,8 @@
 .MainContainer {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .homePageFirstContent {
   width: 100%;
@@ -349,7 +352,50 @@ polygon.arrow-top.Four {
 .hoemMainContainerContentHeaderTextHappy {
   color: var(--primaryColor);
 }
-
+.closePageFirstContentTextFeild {
+    width: 80%;
+    text-align: center;
+    padding: 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .closePageFirstContentTextFeildHeader {
+    font-size: var(--heading);
+    line-height: 1.2;
+    font-weight: 500;
+    font-family: var(--headerFontFamily) !important;
+  }
+  .closePageFirstContentText {
+    margin-top: 1.5rem;
+    font-size: var(--content);
+    line-height: 1.2;
+    font-weight: 500;
+    font-family: var(--defaultRegular);
+  }
+  .OurModulesCartContainerField{
+    display: flex;
+    width: 85%;
+    margin: 1rem;
+    justify-content: space-evenly;
+  }
+  .OurModulesCartContainerFieldCart{
+    width: 30%;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px 2px  #d5d4d4;
+  }
+  .OurModulesCartContainerFieldCartText{
+    color: var(--primaryColor);
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: var(--headerFontFamily);
+  }
+  .OurModulesCartContainerFieldCartTextFeild{
+    color: var(--defaultColor);
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: var(--defaultRegular);
+  }
 @media screen and (min-width: 280px) and (max-width: 374px) {
   .homePageFirstContent {
     padding: 10% 0%;
@@ -435,6 +481,14 @@ polygon.arrow-top.Four {
   .homeMainContainerContentHeaderText {
     font-size: 1rem !important;
     padding: 0.5rem !important;
+  }
+  .OurModulesCartContainerField{
+    display: flex;
+    flex-direction: column;
+  }
+  .OurModulesCartContainerFieldCart{
+    width: 100%;
+    margin:  1rem 0rem;
   }
 }
 @media screen and (min-width: 375px) and (max-width: 600px) {
@@ -524,6 +578,14 @@ polygon.arrow-top.Four {
     margin: 1rem 0rem;
     justify-content: center !important;
   }
+  .OurModulesCartContainerField{
+    display: flex;
+    flex-direction: column;
+  }
+  .OurModulesCartContainerFieldCart{
+    width: 100%;
+    margin:  1rem 0rem;
+  }
 }
 @media screen and (min-width: 601px) and (max-width: 766px) {
   .homePageFirstContentTextFeildHeader {
@@ -588,6 +650,14 @@ polygon.arrow-top.Four {
   .aboutUsOurModuleCart {
     width: 45%;
     margin: 0.5rem;
+  }
+  .OurModulesCartContainerField{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .OurModulesCartContainerFieldCart{
+    width: 45%;
+    margin:  1rem 0rem;
   }
 }
 @media screen and (min-width: 767px) {
@@ -677,6 +747,14 @@ polygon.arrow-top.Four {
   }
   .aboutUsOurModuleCart {
     width: 22%;
+  }
+  .OurModulesCartContainerField{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .OurModulesCartContainerFieldCart{
+    width: 30%;
+    margin:  1rem 0rem;
   }
 }
 @media screen and (min-width: 864px) {

@@ -10,7 +10,7 @@ import HomePageConsolidateCartImage from "../../themes/images/Consolidate.png";
 import { Link } from "react-router-dom";
 import Close from "../product/Product";
 import AboutUs from "../aboutUs/AboutUs";
-import Blog from "../blog/Blog";
+// import Blog from "../blog/Blog";
 
 const Home = () => {
   const Product = () => {
@@ -113,6 +113,23 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <div className="closePageFirstContent">
+            <div className="closePageFirstContentTextFeild">
+              <p className="closePageFirstContentTextFeildHeader">
+                Reporting Reimagined...
+              </p>
+              <p className="closePageFirstContentText">
+                Happy close is built to be a one stop solution for managing your
+                book close and reporting . Happy close helps you manage your
+                book close across various jurisdictions, consolidate at multiple
+                levels and enables collaborative reporting and because its all
+                built on one platform never worry about your data integrity.
+                Happy close platform will ensure data consistency for effortless
+                and seamless reporting.
+              </p>
+            </div>
+          </div>
+          
       <div className="aboutUsOurModuleContent">
         <Link className="aboutUsOurModuleCart" onClick={Product}>
           <div>
@@ -124,16 +141,7 @@ const Home = () => {
             <p className="aboutUsOurModuleCartText">Book Close</p>
           </div>
         </Link>
-        <Link className="aboutUsOurModuleCart" onClick={Product}>
-          <div>
-            <img
-              src={HomePageConsolidateCartImage}
-              alt=""
-              className="aboutUsOurModuleCartTextImage"
-            />
-            <p className="aboutUsOurModuleCartText">Consolidation</p>
-          </div>
-        </Link>
+       
         <Link className="aboutUsOurModuleCart" onClick={Product}>
           <div>
             <img
@@ -142,6 +150,16 @@ const Home = () => {
               className="aboutUsOurModuleCartTextImage"
             />
             <p className="aboutUsOurModuleCartText">Reporting</p>
+          </div>
+        </Link>
+         <Link className="aboutUsOurModuleCart" onClick={Product}>
+          <div>
+            <img
+              src={HomePageConsolidateCartImage}
+              alt=""
+              className="aboutUsOurModuleCartTextImage"
+            />
+            <p className="aboutUsOurModuleCartText">Consolidation</p>
           </div>
         </Link>
         {/* <Link  className="aboutUsOurModuleCart" onClick={Product}>
@@ -155,9 +173,34 @@ const Home = () => {
           </div>
         </Link> */}
       </div>
+      <div className="OurModulesCartContainerField">
+            <div className="OurModulesCartContainerFieldCart">
+                <b className="OurModulesCartContainerFieldCartText">Book Close</b>
+                <p className="OurModulesCartContainerFieldCartTextFeild"><i class="bi bi-check2-circle" /> Every task created results in an action</p>
+                <p className="OurModulesCartContainerFieldCartTextFeild"><i class="bi bi-check2-circle" /> Control tower to ensure timely preparation and review</p>
+                <p className="OurModulesCartContainerFieldCartTextFeild"><i class="bi bi-check2-circle" /> Integrated book close analytics</p>
+                <p className="OurModulesCartContainerFieldCartTextFeild"><i class="bi bi-check2-circle" /> ERP agnostic solution</p>
+                <p className="OurModulesCartContainerFieldCartTextFeild"><i class="bi bi-check2-circle" /> Automates reconciliation</p>
+            </div>
+            <div className="OurModulesCartContainerFieldCart">
+                <b className="OurModulesCartContainerFieldCartText"> Reporting</b>
+                <p className="OurModulesCartContainerFieldCartTextFeild"><i class="bi bi-check2-circle" /> Manage multi GAAP reporting</p>
+                <p className="OurModulesCartContainerFieldCartTextFeild"><i class="bi bi-check2-circle" /> One source of data - connected platform</p>
+                <p className="OurModulesCartContainerFieldCartTextFeild"><i class="bi bi-check2-circle" /> Collaborate and work on deliverables</p>
+                <p className="OurModulesCartContainerFieldCartTextFeild"><i class="bi bi-check2-circle" />Create approval workflows</p>
+            </div>
+            <div className="OurModulesCartContainerFieldCart">
+                <b className="OurModulesCartContainerFieldCartText">Consolidate</b>
+                <p className="OurModulesCartContainerFieldCartTextFeild"><i class="bi bi-check2-circle" /> US GAAP/ IFRS compliant consolidation engine</p>
+                <p className="OurModulesCartContainerFieldCartTextFeild"><i class="bi bi-check2-circle" /> Consolidate and multiple levels</p>
+                <p className="OurModulesCartContainerFieldCartTextFeild"><i class="bi bi-check2-circle" /> Automated ICO reconciliation</p>
+                <p className="OurModulesCartContainerFieldCartTextFeild"><i class="bi bi-check2-circle" /> Visibility on component close status</p>
+                <p className="OurModulesCartContainerFieldCartTextFeild"><i class="bi bi-check2-circle" /> Set up and manage group reporting policies</p>
+            </div>
+          </div>
       <Close />
       <AboutUs />
-      <Blog />
+      {/* <Blog /> */}
       <Footer />
     </div>
   );

@@ -3,14 +3,14 @@ import "./Index.css";
 import ClosingBook from "../../themes/images/ClosingBook.png";
 import Reporting from "../../themes/images/Reporting.png";
 import Consolidate from "../../themes/images/Consolidate.png";
-import RiskManagement from "../../themes/images/RiskManagement.png";
+// import RiskManagement from "../../themes/images/RiskManagement.png";
 
 const Close = () => {
   return (
     <>
       <div className="mainContainer">
         <div id="closePageMainContent" className="closePageMainContent">
-          <div className="closePageFirstContent">
+          {/* <div className="closePageFirstContent">
             <div className="closePageFirstContentTextFeild">
               <p className="closePageFirstContentTextFeildHeader">
                 Reporting Reimagined...
@@ -19,13 +19,13 @@ const Close = () => {
                 Happy close is built to be a one stop solution for managing your
                 book close and reporting . Happy close helps you manage your
                 book close across various jurisdictions, consolidate at multiple
-                levels and enables. collaborative reporting. And because its all
+                levels and enables collaborative reporting and because its all
                 built on one platform never worry about your data integrity.
                 Happy close platform will ensure data consistency for effortless
                 and seamless reporting.
               </p>
             </div>
-          </div>
+          </div> */}
           <div className="homePageTransformYouWork">
             <h2 className="homePageTransformYouWorkText">Our Modules</h2>
             <div className="homePageTransformYouWorkcartContainer">
@@ -147,7 +147,7 @@ const Close = () => {
                   <i class="bi bi-check2-circle" />
                 </p> */}
               </div>
-              <div className="homePageTransformYouWorkFourCart">
+              {/* <div className="homePageTransformYouWorkFourCart">
                 <div className="homePageTransformYouWorkSecondCartcontent">
                   <p className="homePageTransformYouWorkSecondCartcontentHeading">
                     RISK MANAGEMENT
@@ -162,7 +162,7 @@ const Close = () => {
                   className="homePageTransformYouWorkFirstCartImage"
                   alt=""
                 />
-                {/* <p className="riskManagementTextOne">
+                <p className="riskManagementTextOne">
                   <i class="bi bi-chevron-bar-contract" />
                   US GAAP/ IFRS compliant
                   <i class="bi bi-check2-circle" />
@@ -191,8 +191,8 @@ const Close = () => {
                   <i class="bi bi-clipboard-minus-fill" />
                   Set up and manage group reporting policies
                   <i class="bi bi-check2-circle" />
-                </p> */}
-              </div>
+                </p>
+              </div> */}
             </div>
           </div>
         </div>

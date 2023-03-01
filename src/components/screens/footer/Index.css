@@ -1,10 +1,10 @@
 .HomePageFooterContent {
   display: flex;
   flex-direction: column;
+  width: 100%;
   align-items: center;
   background-color: var(--defaultColor);
   color: var(--whiteColor);
-  padding-top: 2rem;
 }
 .HomePageFooterContentCart {
   width: 100%;
@@ -120,10 +120,7 @@
 .homePageFooter {
   display: flex;
   flex-direction: column;
-  margin: 1rem;
-  padding-top: 4rem;
-  padding-left: 7rem;
-  padding-right: 7rem;
+  
 }
 .homePageFooterTextContainer {
   display: flex;
@@ -142,7 +139,7 @@
   font-family: var(--defaultRegular);
 }
 .homePageFooterTextContentfeild {
-  font-size: var(--content);
+  font-size: 1rem;
   margin-top: 2rem;
   font-weight: 700;
   font-family: var(--defaultRegular);
@@ -150,14 +147,16 @@
 .homePageFooterTextContentFinalFeild {
   display: flex;
   width: 100%;
-  padding-top: 4rem;
+  margin-top: 0.5rem;
+  padding: 0rem 1rem;
   justify-content: space-between;
   font-family: var(--defaultRegular);
 }
 .homePageFooterTextContentFinaltextfeild {
   font-size: var(--content);
-  font-weight: 700;
+  font-weight: 500;
   color: hsla(0, 0%, 100%, 0.75);
+  margin-bottom: 0rem !important;
 }
 .homePageTermsOfServices {
   margin-left: 3rem;
