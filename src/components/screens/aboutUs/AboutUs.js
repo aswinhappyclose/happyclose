@@ -253,15 +253,14 @@ const AboutUs = () => {
             Freshworks for their IPO
           </p>
           <p className="aboutUsBannerCantainerText">
-            Over the last 18 years as auditor, consultant & controller 
-            Arjun has dealt with problems of book close, consolidation
-            and reporting, he believes that high quality & cost accessible
-            tools needs to be made available to larger cross section of 
-            finance professionals. Corporate controllers and finance 
-            controllers perform a thankless and crucial role in managin 
-            reporting to internal and external stoften ignored and thankless
-            reporting function need tools to make their work more seamless 
-            and efficient
+            Over the last 18 years as auditor, consultant & controller Arjun has
+            dealt with problems of book close, consolidation and reporting, he
+            believes that high quality & cost accessible tools needs to be made
+            available to larger cross section of finance professionals.
+            Corporate controllers and finance controllers perform a thankless
+            and crucial role in managin reporting to internal and external
+            stoften ignored and thankless reporting function need tools to make
+            their work more seamless and efficient
           </p>
           <div className="aboutUsPageSocialMediaContent">
             <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new">
@@ -279,9 +278,12 @@ const AboutUs = () => {
             CHARTERED ACCOUNTANT | DATA SCIENTIST ‍EX-EY
           </p>
           <p className="aboutUsBannerCantainerText">
-            Sri is heart-led and instinctive. A sports enthusiast and a die-hard
-            Liverpool FC fan. He likes to live a full life – playing badminton,
-            long drives, moonlight treks, or wildlife safaris – he loves it all.
+            RJ Narayanan (RJN) has more than 15 years (post qualification)
+            experience in the accounting and reporting domain. A Big-4 alumni
+            having served several large & high-profile business conglomerates in
+            India (Chennai & Delhi). Led the controllership function of a listed
+            (~500 mio) entity and was part of the core team that managed
+            post-merger integration.
           </p>
           <div className="aboutUsPageSocialMediaContent">
             <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new">
